@@ -454,6 +454,9 @@ ident(
   int_ref f' "range.ml" 15 339 375 "range.ml" 15 339 377
 )
 "range.ml" 16 394 412 "range.ml" 16 394 478
+call(
+  tail
+)
 type(
   string * (int * int) * 'a
 )
@@ -479,6 +482,9 @@ ident(
   int_ref s1 "range.ml" 15 339 359 "range.ml" 15 339 361
 )
 "range.ml" 18 486 495 "range.ml" 18 486 509
+call(
+  stack
+)
 type(
   bool
 )
@@ -515,6 +521,9 @@ ident(
   int_ref s2 "range.ml" 15 339 378 "range.ml" 15 339 380
 )
 "range.ml" 19 523 532 "range.ml" 19 523 546
+call(
+  stack
+)
 type(
   bool
 )
@@ -565,6 +574,9 @@ ident(
   int_ref s2 "range.ml" 15 339 378 "range.ml" 15 339 380
 )
 "range.ml" 20 560 573 "range.ml" 20 560 584
+call(
+  stack
+)
 type(
   int * int
 )
@@ -590,10 +602,16 @@ ident(
   int_ref e2 "range.ml" 15 339 381 "range.ml" 15 339 383
 )
 "range.ml" 20 560 585 "range.ml" 20 560 596
+call(
+  stack
+)
 type(
   'a
 )
 "range.ml" 20 560 562 "range.ml" 20 560 596
+call(
+  tail
+)
 type(
   string * (int * int) * 'a
 )
@@ -711,6 +729,9 @@ ident(
   int_ref ec "range.ml" 22 598 633 "range.ml" 22 598 635
 )
 "range.ml" 23 640 642 "range.ml" 23 640 689
+call(
+  tail
+)
 type(
   string
 )

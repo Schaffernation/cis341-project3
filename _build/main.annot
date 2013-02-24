@@ -115,9 +115,6 @@ ident(
   ext_ref Platform.path_sep
 )
 "main.ml" 18 418 442 "main.ml" 18 418 479
-call(
-  stack
-)
 type(
   Str.regexp
 )
@@ -129,9 +126,6 @@ ident(
   int_ref path "main.ml" 16 319 344 "main.ml" 16 319 348
 )
 "main.ml" 18 418 432 "main.ml" 18 418 484
-call(
-  stack
-)
 type(
   string list
 )
@@ -154,9 +148,6 @@ ident(
   int_ref paths "main.ml" 18 418 424 "main.ml" 18 418 429
 )
 "main.ml" 19 488 501 "main.ml" 19 488 520
-call(
-  stack
-)
 type(
   int
 )
@@ -187,9 +178,6 @@ type(
   string
 )
 "main.ml" 19 488 530 "main.ml" 19 488 549
-call(
-  stack
-)
 type(
   unit
 )
@@ -227,16 +215,10 @@ ident(
   int_ref paths "main.ml" 18 418 424 "main.ml" 18 418 429
 )
 "main.ml" 20 561 586 "main.ml" 20 561 602
-call(
-  stack
-)
 type(
   string list
 )
 "main.ml" 20 561 578 "main.ml" 20 561 602
-call(
-  stack
-)
 type(
   string
 )
@@ -335,9 +317,6 @@ ident(
   int_ref elen "main.ml" 22 644 650 "main.ml" 22 644 654
 )
 "main.ml" 23 688 700 "main.ml" 23 688 737
-call(
-  stack
-)
 type(
   string
 )
@@ -410,9 +389,6 @@ type(
   int
 )
 "main.ml" 25 774 780 "main.ml" 25 774 814
-call(
-  tail
-)
 type(
   string
 )
@@ -428,9 +404,6 @@ type(
   string
 )
 "main.ml" 27 825 831 "main.ml" 27 825 874
-call(
-  tail
-)
 type(
   string
 )
@@ -520,16 +493,10 @@ type(
   string
 )
 "main.ml" 30 910 935 "main.ml" 30 910 946
-call(
-  stack
-)
 type(
   string
 )
 "main.ml" 30 910 912 "main.ml" 30 910 946
-call(
-  tail
-)
 type(
   string
 )
@@ -591,16 +558,10 @@ type(
   string
 )
 "main.ml" 33 982 1007 "main.ml" 33 982 1018
-call(
-  stack
-)
 type(
   string
 )
 "main.ml" 33 982 984 "main.ml" 33 982 1018
-call(
-  tail
-)
 type(
   string
 )
@@ -644,9 +605,6 @@ ident(
   int_ref dot_s "main.ml" 35 1020 1058 "main.ml" 35 1020 1063
 )
 "main.ml" 36 1081 1094 "main.ml" 36 1081 1108
-call(
-  stack
-)
 type(
   out_channel
 )
@@ -672,9 +630,6 @@ ident(
   int_ref fout "main.ml" 36 1081 1087 "main.ml" 36 1081 1091
 )
 "main.ml" 37 1112 1116 "main.ml" 37 1112 1142
-call(
-  stack
-)
 type(
   unit
 )
@@ -693,9 +648,6 @@ ident(
   int_ref fout "main.ml" 36 1081 1087 "main.ml" 36 1081 1091
 )
 "main.ml" 38 1144 1148 "main.ml" 38 1144 1162
-call(
-  tail
-)
 type(
   unit
 )
@@ -747,9 +699,6 @@ ident(
   int_ref path "main.ml" 40 1164 1181 "main.ml" 40 1164 1185
 )
 "main.ml" 41 1203 1213 "main.ml" 41 1203 1250
-call(
-  stack
-)
 type(
   unit
 )
@@ -772,9 +721,6 @@ ident(
   int_ref path "main.ml" 40 1164 1181 "main.ml" 40 1164 1185
 )
 "main.ml" 42 1254 1267 "main.ml" 42 1254 1291
-call(
-  stack
-)
 type(
   string
 )
@@ -819,9 +765,6 @@ ident(
   int_ref root "main.ml" 42 1254 1260 "main.ml" 42 1254 1264
 )
 "main.ml" 43 1295 1334 "main.ml" 43 1295 1370
-call(
-  stack
-)
 type(
   unit
 )
@@ -855,9 +798,6 @@ ident(
   int_ref path "main.ml" 40 1164 1181 "main.ml" 40 1164 1185
 )
 "main.ml" 47 1412 1427 "main.ml" 47 1412 1439
-call(
-  stack
-)
 type(
   in_channel
 )
@@ -897,9 +837,6 @@ ident(
   int_ref lang_file_exn "main.ml" 14 291 295 "main.ml" 14 291 308
 )
 "main.ml" 48 1443 1469 "main.ml" 48 1443 1491
-call(
-  stack
-)
 type(
   string
 )
@@ -918,16 +855,10 @@ ident(
   int_ref buffer "main.ml" 47 1412 1418 "main.ml" 47 1412 1424
 )
 "main.ml" 48 1443 1492 "main.ml" 48 1443 1520
-call(
-  stack
-)
 type(
   Lexing.lexbuf
 )
 "main.ml" 48 1443 1456 "main.ml" 48 1443 1520
-call(
-  stack
-)
 type(
   Ast.prog
 )
@@ -950,9 +881,6 @@ ident(
   int_ref buffer "main.ml" 47 1412 1418 "main.ml" 47 1412 1424
 )
 "main.ml" 49 1524 1534 "main.ml" 49 1524 1549
-call(
-  stack
-)
 type(
   unit
 )
@@ -993,9 +921,6 @@ ident(
   int_ref prog "main.ml" 48 1443 1449 "main.ml" 48 1443 1453
 )
 "main.ml" 50 1553 1581 "main.ml" 50 1553 1600
-call(
-  stack
-)
 type(
   unit
 )
@@ -1029,9 +954,6 @@ ident(
   int_ref prog "main.ml" 48 1443 1449 "main.ml" 48 1443 1453
 )
 "main.ml" 53 1644 1660 "main.ml" 53 1644 1684
-call(
-  stack
-)
 type(
   Ll.prog
 )
@@ -1083,16 +1005,10 @@ ident(
   int_ref prog_ll "main.ml" 53 1644 1650 "main.ml" 53 1644 1657
 )
 "main.ml" 54 1688 1736 "main.ml" 54 1688 1763
-call(
-  stack
-)
 type(
   string
 )
 "main.ml" 54 1688 1715 "main.ml" 54 1688 1763
-call(
-  stack
-)
 type(
   unit
 )
@@ -1152,9 +1068,6 @@ ident(
   int_ref root "main.ml" 42 1254 1260 "main.ml" 42 1254 1264
 )
 "main.ml" 61 1972 1986 "main.ml" 61 1972 2004
-call(
-  stack
-)
 type(
   string
 )
@@ -1180,9 +1093,6 @@ ident(
   int_ref prog_ll "main.ml" 53 1644 1650 "main.ml" 53 1644 1657
 )
 "main.ml" 62 2008 2019 "main.ml" 62 2008 2042
-call(
-  stack
-)
 type(
   Backend.cunit
 )
@@ -1208,9 +1118,6 @@ ident(
   int_ref dot_s "main.ml" 61 1972 1978 "main.ml" 61 1972 1983
 )
 "main.ml" 63 2046 2059 "main.ml" 63 2046 2073
-call(
-  stack
-)
 type(
   out_channel
 )
@@ -1236,9 +1143,6 @@ ident(
   int_ref cu "main.ml" 62 2008 2014 "main.ml" 62 2008 2016
 )
 "main.ml" 64 2077 2079 "main.ml" 64 2077 2100
-call(
-  stack
-)
 type(
   unit
 )
@@ -1257,9 +1161,6 @@ ident(
   int_ref fout "main.ml" 63 2046 2052 "main.ml" 63 2046 2056
 )
 "main.ml" 65 2102 2104 "main.ml" 65 2102 2118
-call(
-  stack
-)
 type(
   unit
 )
@@ -1304,9 +1205,6 @@ ident(
   int_ref root "main.ml" 42 1254 1260 "main.ml" 42 1254 1264
 )
 "main.ml" 69 2191 2207 "main.ml" 69 2191 2225
-call(
-  stack
-)
 type(
   string
 )
@@ -1332,9 +1230,6 @@ ident(
   int_ref dot_o "main.ml" 69 2191 2199 "main.ml" 69 2191 2204
 )
 "main.ml" 70 2229 2233 "main.ml" 70 2229 2262
-call(
-  stack
-)
 type(
   unit
 )
@@ -1424,9 +1319,6 @@ ident(
   int_ref f "main.ml" 72 2270 2280 "main.ml" 72 2270 2281
 )
 "main.ml" 72 2270 2285 "main.ml" 72 2270 2313
-call(
-  tail
-)
 type(
   unit
 )
@@ -1475,9 +1367,6 @@ ident(
   int_ref r "main.ml" 73 2315 2336 "main.ml" 73 2315 2337
 )
 "main.ml" 73 2315 2382 "main.ml" 73 2315 2407
-call(
-  stack
-)
 type(
   string
 )
@@ -1489,9 +1378,6 @@ ident(
   int_ref m "main.ml" 73 2315 2338 "main.ml" 73 2315 2339
 )
 "main.ml" 73 2315 2344 "main.ml" 73 2315 2409
-call(
-  tail
-)
 type(
   unit
 )
@@ -1555,9 +1441,6 @@ type(
   unit
 )
 "main.ml" 78 2467 2480 "main.ml" 78 2467 2492
-call(
-  stack
-)
 type(
   string
 )
@@ -1594,16 +1477,10 @@ ident(
   int_ref st "main.ml" 78 2467 2475 "main.ml" 78 2467 2477
 )
 "main.ml" 80 2511 2549 "main.ml" 80 2511 2572
-call(
-  stack
-)
 type(
   Lexing.lexbuf
 )
 "main.ml" 80 2511 2528 "main.ml" 80 2511 2572
-call(
-  stack
-)
 type(
   Ast.prog
 )
@@ -1622,9 +1499,6 @@ ident(
   int_ref prog "main.ml" 80 2511 2521 "main.ml" 80 2511 2525
 )
 "main.ml" 81 2576 2582 "main.ml" 81 2576 2601
-call(
-  stack
-)
 type(
   unit
 )
@@ -1670,9 +1544,6 @@ ident(
   int_ref f "main.ml" 83 2615 2625 "main.ml" 83 2615 2626
 )
 "main.ml" 83 2615 2630 "main.ml" 83 2615 2658
-call(
-  stack
-)
 type(
   unit
 )
@@ -1721,9 +1592,6 @@ ident(
   int_ref r "main.ml" 84 2660 2681 "main.ml" 84 2660 2682
 )
 "main.ml" 84 2660 2727 "main.ml" 84 2660 2752
-call(
-  stack
-)
 type(
   string
 )
@@ -1735,9 +1603,6 @@ ident(
   int_ref m "main.ml" 84 2660 2683 "main.ml" 84 2660 2684
 )
 "main.ml" 84 2660 2689 "main.ml" 84 2660 2754
-call(
-  stack
-)
 type(
   unit
 )
@@ -1775,9 +1640,6 @@ type(
   int
 )
 "main.ml" 86 2759 2768 "main.ml" 86 2759 2778
-call(
-  tail
-)
 type(
   'b
 )
@@ -1801,9 +1663,6 @@ type(
   int
 )
 "main.ml" 88 2784 2788 "main.ml" 88 2784 2794
-call(
-  tail
-)
 type(
   'a
 )
@@ -1869,9 +1728,6 @@ ident(
   ext_ref Gradedtests.graded_tests
 )
 "main.ml" 96 2842 2858 "main.ml" 96 2842 2915
-call(
-  stack
-)
 type(
   Assert.suite
 )
@@ -1920,9 +1776,6 @@ type(
   Assert.suite
 )
 "main.ml" 99 2937 2947 "main.ml" 99 2937 2963
-call(
-  stack
-)
 type(
   Assert.outcome
 )
@@ -1952,16 +1805,10 @@ ident(
   int_ref o "main.ml" 99 2937 2943 "main.ml" 99 2937 2944
 )
 "main.ml" 100 2967 2990 "main.ml" 100 2967 3011
-call(
-  stack
-)
 type(
   string
 )
 "main.ml" 100 2967 2969 "main.ml" 100 2967 3011
-call(
-  stack
-)
 type(
   unit
 )
@@ -2473,9 +2320,6 @@ type(
   Arg.usage_msg
 )
 "main.ml" 127 4490 4494 "main.ml" 128 4550 4587
-call(
-  stack
-)
 type(
   unit
 )
@@ -2513,9 +2357,6 @@ type(
   string
 )
 "main.ml" 130 4614 4626 "main.ml" 130 4614 4657
-call(
-  stack
-)
 type(
   unit
 )
@@ -2556,9 +2397,6 @@ type(
   string list
 )
 "main.ml" 132 4694 4698 "main.ml" 132 4694 4729
-call(
-  stack
-)
 type(
   unit
 )
@@ -2624,16 +2462,10 @@ ident(
   int_ref p "main.ml" 136 4808 4846 "main.ml" 136 4808 4847
 )
 "main.ml" 136 4808 4865 "main.ml" 136 4808 4888
-call(
-  stack
-)
 type(
   string
 )
 "main.ml" 136 4808 4851 "main.ml" 136 4808 4888
-call(
-  tail
-)
 type(
   string
 )
@@ -2660,9 +2492,6 @@ type(
   string list
 )
 "main.ml" 136 4808 4832 "main.ml" 136 4808 4899
-call(
-  stack
-)
 type(
   string list
 )
@@ -2699,9 +2528,6 @@ type(
   string
 )
 "main.ml" 137 4903 4911 "main.ml" 137 4903 4962
-call(
-  stack
-)
 type(
   unit
 )

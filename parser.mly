@@ -153,7 +153,7 @@ stmt_noIF:
 	
 /* Unmatched If*/
 stmt_uIF:
-	| IF LPAREN exp RPAREN stmt { IF($3, $5, None) }
+	| IF LPAREN exp RPAREN stmt { If ($3, $5, None) }
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_uIF { If ($3, $5, Some ($7)) }
 
 /*Matched If*/
