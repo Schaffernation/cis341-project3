@@ -1,0 +1,1664 @@
+"lexer.mll" 8 107 113 "lexer.mll" 8 107 126
+type(
+  Lexing.position -> Range.pos
+)
+ident(
+  def pos_of_lexpos "lexer.mll" 11 209 211 --
+)
+"lexer.mll" 8 107 128 "lexer.mll" 8 107 129
+type(
+  Lexing.position
+)
+ident(
+  def p "lexer.mll" 8 107 147 "lexer.mll" 9 155 203
+)
+"lexer.mll" 9 155 159 "lexer.mll" 9 155 165
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"lexer.mll" 9 155 167 "lexer.mll" 9 155 168
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "lexer.mll" 8 107 128 "lexer.mll" 8 107 129
+)
+"lexer.mll" 9 155 166 "lexer.mll" 9 155 178
+type(
+  int
+)
+"lexer.mll" 9 155 180 "lexer.mll" 9 155 181
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "lexer.mll" 8 107 128 "lexer.mll" 8 107 129
+)
+"lexer.mll" 9 155 180 "lexer.mll" 9 155 190
+type(
+  int
+)
+"lexer.mll" 9 155 191 "lexer.mll" 9 155 192
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"lexer.mll" 9 155 193 "lexer.mll" 9 155 194
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "lexer.mll" 8 107 128 "lexer.mll" 8 107 129
+)
+"lexer.mll" 9 155 193 "lexer.mll" 9 155 202
+type(
+  int
+)
+"lexer.mll" 9 155 179 "lexer.mll" 9 155 203
+type(
+  int
+)
+"lexer.mll" 9 155 159 "lexer.mll" 9 155 203
+type(
+  Range.pos
+)
+type(
+  Range.pos
+)
+"lexer.mll" 11 209 215 "lexer.mll" 11 209 227
+type(
+  Lexing.position -> Lexing.position -> Range.t
+)
+ident(
+  def mk_lex_range "lexer.mll" 14 347 349 --
+)
+"lexer.mll" 11 209 229 "lexer.mll" 11 209 231
+type(
+  Lexing.position
+)
+ident(
+  def p1 "lexer.mll" 11 209 249 "lexer.mll" 12 282 345
+)
+"lexer.mll" 11 209 250 "lexer.mll" 11 209 252
+type(
+  Lexing.position
+)
+ident(
+  def p2 "lexer.mll" 11 209 270 "lexer.mll" 12 282 345
+)
+"lexer.mll" 12 282 286 "lexer.mll" 12 282 294
+type(
+  string -> Range.pos -> Range.pos -> Range.t
+)
+ident(
+  ext_ref Range.mk_range
+)
+"lexer.mll" 12 282 295 "lexer.mll" 12 282 297
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "lexer.mll" 11 209 229 "lexer.mll" 11 209 231
+)
+"lexer.mll" 12 282 295 "lexer.mll" 12 282 307
+type(
+  string
+)
+"lexer.mll" 12 282 309 "lexer.mll" 12 282 322
+type(
+  Lexing.position -> Range.pos
+)
+ident(
+  int_ref pos_of_lexpos "lexer.mll" 8 107 113 "lexer.mll" 8 107 126
+)
+"lexer.mll" 12 282 323 "lexer.mll" 12 282 325
+type(
+  Lexing.position
+)
+ident(
+  int_ref p1 "lexer.mll" 11 209 229 "lexer.mll" 11 209 231
+)
+"lexer.mll" 12 282 308 "lexer.mll" 12 282 326
+type(
+  Range.pos
+)
+"lexer.mll" 12 282 328 "lexer.mll" 12 282 341
+type(
+  Lexing.position -> Range.pos
+)
+ident(
+  int_ref pos_of_lexpos "lexer.mll" 8 107 113 "lexer.mll" 8 107 126
+)
+"lexer.mll" 12 282 342 "lexer.mll" 12 282 344
+type(
+  Lexing.position
+)
+ident(
+  int_ref p2 "lexer.mll" 11 209 250 "lexer.mll" 11 209 252
+)
+"lexer.mll" 12 282 327 "lexer.mll" 12 282 345
+type(
+  Range.pos
+)
+"lexer.mll" 12 282 286 "lexer.mll" 12 282 345
+type(
+  Range.t
+)
+type(
+  Range.t
+)
+"lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  def lex_range "lexer.mll" 17 448 450 --
+)
+"lexer.mll" 14 347 363 "lexer.mll" 14 347 369
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.mll" 14 347 370 "lexer.mll" 15 419 446
+)
+"lexer.mll" 14 347 382 "lexer.mll" 14 347 394
+type(
+  Lexing.position -> Lexing.position -> Range.t
+)
+ident(
+  int_ref mk_lex_range "lexer.mll" 11 209 215 "lexer.mll" 11 209 227
+)
+"lexer.mll" 14 347 396 "lexer.mll" 14 347 410
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"lexer.mll" 14 347 411 "lexer.mll" 14 347 417
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 14 347 363 "lexer.mll" 14 347 369
+)
+"lexer.mll" 14 347 395 "lexer.mll" 14 347 418
+type(
+  Lexing.position
+)
+"lexer.mll" 15 419 426 "lexer.mll" 15 419 438
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"lexer.mll" 15 419 439 "lexer.mll" 15 419 445
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 14 347 363 "lexer.mll" 14 347 369
+)
+"lexer.mll" 15 419 425 "lexer.mll" 15 419 446
+type(
+  Lexing.position
+)
+"lexer.mll" 14 347 382 "lexer.mll" 15 419 446
+type(
+  Range.t
+)
+type(
+  Range.t
+)
+"lexer.mll" 17 448 454 "lexer.mll" 17 448 466
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  def reset_lexbuf "lexer.mll" 25 622 624 --
+)
+"lexer.mll" 17 448 468 "lexer.mll" 17 448 476
+type(
+  string
+)
+ident(
+  def filename "lexer.mll" 17 448 485 "lexer.mll" 23 615 620
+)
+"lexer.mll" 17 448 485 "lexer.mll" 17 448 491
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.mll" 17 448 492 "lexer.mll" 23 615 620
+)
+"lexer.mll" 18 501 505 "lexer.mll" 18 501 511
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 17 448 485 "lexer.mll" 17 448 491
+)
+"lexer.mll" 19 528 546 "lexer.mll" 19 528 554
+type(
+  string
+)
+ident(
+  int_ref filename "lexer.mll" 17 448 468 "lexer.mll" 17 448 476
+)
+"lexer.mll" 20 556 573 "lexer.mll" 20 556 574
+type(
+  int
+)
+"lexer.mll" 21 576 592 "lexer.mll" 21 576 593
+type(
+  int
+)
+"lexer.mll" 22 595 612 "lexer.mll" 22 595 613
+type(
+  int
+)
+"lexer.mll" 18 501 526 "lexer.mll" 23 615 620
+type(
+  Lexing.position
+)
+"lexer.mll" 18 501 505 "lexer.mll" 23 615 620
+type(
+  unit
+)
+type(
+  unit
+)
+"lexer.mll" 25 622 628 "lexer.mll" 25 622 635
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def newline "lexer.mll" 31 857 859 --
+)
+"lexer.mll" 25 622 636 "lexer.mll" 25 622 642
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.mll" 26 645 649 "lexer.mll" 28 752 789
+)
+"lexer.mll" 26 645 649 "lexer.mll" 26 645 655
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
+)
+"lexer.mll" 26 645 673 "lexer.mll" 26 645 685
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"lexer.mll" 26 645 686 "lexer.mll" 26 645 692
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
+)
+"lexer.mll" 26 645 672 "lexer.mll" 26 645 693
+type(
+  Lexing.position
+)
+"lexer.mll" 27 699 717 "lexer.mll" 27 699 729
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"lexer.mll" 27 699 730 "lexer.mll" 27 699 736
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
+)
+"lexer.mll" 27 699 716 "lexer.mll" 27 699 737
+type(
+  Lexing.position
+)
+"lexer.mll" 27 699 716 "lexer.mll" 27 699 746
+type(
+  int
+)
+"lexer.mll" 27 699 747 "lexer.mll" 27 699 748
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lexer.mll" 27 699 749 "lexer.mll" 27 699 750
+type(
+  int
+)
+"lexer.mll" 27 699 716 "lexer.mll" 27 699 750
+type(
+  int
+)
+"lexer.mll" 28 752 769 "lexer.mll" 28 752 779
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"lexer.mll" 28 752 780 "lexer.mll" 28 752 786
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
+)
+"lexer.mll" 28 752 768 "lexer.mll" 28 752 787
+type(
+  int
+)
+"lexer.mll" 26 645 670 "lexer.mll" 28 752 789
+type(
+  Lexing.position
+)
+"lexer.mll" 26 645 649 "lexer.mll" 28 752 789
+type(
+  unit
+)
+"lexer.mll" 31 857 863 "lexer.mll" 31 857 878
+type(
+  Lexing.lexbuf -> char -> 'a
+)
+ident(
+  def unexpected_char "lexer.ml" 38 1018 1018 --
+)
+"lexer.mll" 31 857 879 "lexer.mll" 31 857 885
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.mll" 31 857 886 "lexer.mll" 33 944 999
+)
+"lexer.mll" 31 857 887 "lexer.mll" 31 857 888
+type(
+  char
+)
+ident(
+  def c "lexer.mll" 31 857 895 "lexer.mll" 33 944 999
+)
+"lexer.mll" 32 902 906 "lexer.mll" 32 902 911
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lexer.mll" 32 902 926 "lexer.mll" 32 902 935
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 32 902 936 "lexer.mll" 32 902 942
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.mll" 31 857 879 "lexer.mll" 31 857 885
+)
+"lexer.mll" 32 902 926 "lexer.mll" 32 902 942
+type(
+  Range.t
+)
+"lexer.mll" 33 944 952 "lexer.mll" 33 944 966
+type(
+  (char -> string, unit, string) format -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"lexer.mll" 33 944 967 "lexer.mll" 33 944 995
+type(
+  (char -> string, unit, string) format
+)
+"lexer.mll" 33 944 996 "lexer.mll" 33 944 997
+type(
+  char
+)
+ident(
+  int_ref c "lexer.mll" 31 857 887 "lexer.mll" 31 857 888
+)
+"lexer.mll" 33 944 952 "lexer.mll" 33 944 997
+type(
+  string
+)
+"lexer.mll" 32 902 912 "lexer.mll" 33 944 999
+type(
+  exn
+)
+"lexer.mll" 32 902 906 "lexer.mll" 33 944 999
+type(
+  'a
+)
+type(
+  'a
+)
+"lexer.ml" 38 1018 1022 "lexer.ml" 38 1018 1040
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "lexer.ml" 614 39999 39999 --
+)
+"lexer.ml" 40 1066 1069 "lexer.ml" 47 1556 1561
+type(
+  string
+)
+"lexer.ml" 49 1587 1590 "lexer.ml" 56 2077 2082
+type(
+  string
+)
+"lexer.ml" 58 2108 2111 "lexer.ml" 65 2598 2603
+type(
+  string
+)
+"lexer.ml" 67 2627 2630 "lexer.ml" 332 21177 21198
+type(
+  string
+)
+"lexer.ml" 334 21222 21225 "lexer.ml" 599 39772 39793
+type(
+  string
+)
+"lexer.ml" 601 39821 39824 "lexer.ml" 601 39821 39826
+type(
+  string
+)
+"lexer.ml" 603 39857 39860 "lexer.ml" 603 39857 39862
+type(
+  string
+)
+"lexer.ml" 605 39893 39896 "lexer.ml" 605 39893 39898
+type(
+  string
+)
+"lexer.ml" 607 39927 39930 "lexer.ml" 607 39927 39932
+type(
+  string
+)
+"lexer.ml" 609 39961 39964 "lexer.ml" 609 39961 39966
+type(
+  string
+)
+"lexer.ml" 611 39989 39992 "lexer.ml" 611 39989 39994
+type(
+  string
+)
+"lexer.ml" 38 1018 1043 "lexer.ml" 612 39996 39997
+type(
+  Lexing.lex_tables
+)
+"lexer.ml" 614 39999 40007 "lexer.ml" 614 39999 40012
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  def token "lexer.ml" 614 39999 39999 --
+)
+"lexer.ml" 614 39999 40013 "lexer.ml" 614 39999 40019
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 615 40022 40024 "lexer.ml" 615 40022 40054
+)
+"lexer.ml" 615 40022 40024 "lexer.ml" 615 40022 40045
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "lexer.ml" 616 40055 40059 "lexer.ml" 616 40055 40080
+)
+"lexer.ml" 615 40022 40046 "lexer.ml" 615 40022 40052
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 614 39999 40013 "lexer.ml" 614 39999 40019
+)
+"lexer.ml" 615 40022 40053 "lexer.ml" 615 40022 40054
+type(
+  int
+)
+"lexer.ml" 615 40022 40024 "lexer.ml" 615 40022 40054
+type(
+  Parser.token
+)
+"lexer.ml" 616 40055 40059 "lexer.ml" 616 40055 40080
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  def __ocaml_lex_token_rec "lexer.ml" 614 39999 39999 --
+)
+"lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 616 40055 40088 "lexer.ml" 798 43246 43351
+)
+"lexer.ml" 616 40055 40088 "lexer.ml" 616 40055 40105
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 617 40108 40110 "lexer.ml" 798 43246 43351
+)
+"lexer.ml" 617 40108 40116 "lexer.ml" 617 40108 40129
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexer.ml" 617 40108 40130 "lexer.ml" 617 40108 40148
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexer.ml" 38 1018 1022 "lexer.ml" 38 1018 1040
+)
+"lexer.ml" 617 40108 40149 "lexer.ml" 617 40108 40166
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 616 40055 40088 "lexer.ml" 616 40055 40105
+)
+"lexer.ml" 617 40108 40167 "lexer.ml" 617 40108 40173
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 617 40108 40116 "lexer.ml" 617 40108 40173
+type(
+  int
+)
+"lexer.ml" 618 40179 40187 "lexer.ml" 618 40179 40188
+type(
+  int
+)
+"lexer.mll" 47 40209 40217 "lexer.mll" 47 40209 40224
+type(
+  Parser.token
+)
+"lexer.ml" 623 40243 40247 "lexer.ml" 623 40243 40248
+type(
+  int
+)
+"lexer.mll" 48 40269 40284 "lexer.mll" 48 40269 40293
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 48 40269 40294 "lexer.mll" 48 40269 40300
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 48 40269 40283 "lexer.mll" 48 40269 40301
+type(
+  Range.t
+)
+"lexer.mll" 48 40269 40278 "lexer.mll" 48 40269 40303
+type(
+  Parser.token
+)
+"lexer.ml" 628 40322 40326 "lexer.ml" 628 40322 40327
+type(
+  int
+)
+"lexer.mll" 49 40348 40366 "lexer.mll" 49 40348 40375
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 49 40348 40376 "lexer.mll" 49 40348 40382
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 49 40348 40365 "lexer.mll" 49 40348 40383
+type(
+  Range.t
+)
+"lexer.mll" 49 40348 40358 "lexer.mll" 49 40348 40385
+type(
+  Parser.token
+)
+"lexer.ml" 633 40404 40408 "lexer.ml" 633 40404 40409
+type(
+  int
+)
+"lexer.mll" 50 40430 40449 "lexer.mll" 50 40430 40458
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 50 40430 40459 "lexer.mll" 50 40430 40465
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 50 40430 40448 "lexer.mll" 50 40430 40466
+type(
+  Range.t
+)
+"lexer.mll" 50 40430 40441 "lexer.mll" 50 40430 40468
+type(
+  Parser.token
+)
+"lexer.ml" 638 40487 40491 "lexer.ml" 638 40487 40492
+type(
+  int
+)
+"lexer.mll" 51 40513 40534 "lexer.mll" 51 40513 40543
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 51 40513 40544 "lexer.mll" 51 40513 40550
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 51 40513 40533 "lexer.mll" 51 40513 40551
+type(
+  Range.t
+)
+"lexer.mll" 51 40513 40525 "lexer.mll" 51 40513 40553
+type(
+  Parser.token
+)
+"lexer.ml" 643 40572 40576 "lexer.ml" 643 40572 40577
+type(
+  int
+)
+"lexer.mll" 52 40598 40615 "lexer.mll" 52 40598 40624
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 52 40598 40625 "lexer.mll" 52 40598 40631
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 52 40598 40614 "lexer.mll" 52 40598 40632
+type(
+  Range.t
+)
+"lexer.mll" 52 40598 40608 "lexer.mll" 52 40598 40634
+type(
+  Parser.token
+)
+"lexer.ml" 648 40653 40657 "lexer.ml" 648 40653 40658
+type(
+  int
+)
+"lexer.mll" 53 40679 40702 "lexer.mll" 53 40679 40711
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 53 40679 40712 "lexer.mll" 53 40679 40718
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 53 40679 40701 "lexer.mll" 53 40679 40719
+type(
+  Range.t
+)
+"lexer.mll" 53 40679 40692 "lexer.mll" 53 40679 40721
+type(
+  Parser.token
+)
+"lexer.ml" 653 40740 40744 "lexer.ml" 653 40740 40745
+type(
+  int
+)
+"lexer.mll" 54 40766 40816 "lexer.mll" 54 40766 40825
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 54 40766 40826 "lexer.mll" 54 40766 40832
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 54 40766 40816 "lexer.mll" 54 40766 40832
+type(
+  Range.t
+)
+"lexer.mll" 54 40766 40834 "lexer.mll" 54 40766 40840
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"lexer.mll" 54 40766 40841 "lexer.mll" 54 40766 40847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 54 40766 40834 "lexer.mll" 54 40766 40847
+type(
+  string
+)
+"lexer.mll" 54 40766 40815 "lexer.mll" 54 40766 40848
+type(
+  Range.t * string
+)
+"lexer.mll" 54 40766 40807 "lexer.mll" 54 40766 40850
+type(
+  Parser.token
+)
+"lexer.ml" 658 40869 40873 "lexer.ml" 658 40869 40874
+type(
+  int
+)
+"lexer.mll" 55 40895 40930 "lexer.mll" 55 40895 40939
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 55 40895 40940 "lexer.mll" 55 40895 40946
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 55 40895 40930 "lexer.mll" 55 40895 40946
+type(
+  Range.t
+)
+"lexer.mll" 55 40895 40949 "lexer.mll" 55 40895 40964
+type(
+  string -> int32
+)
+ident(
+  ext_ref Int32.of_string
+)
+"lexer.mll" 55 40895 40966 "lexer.mll" 55 40895 40972
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"lexer.mll" 55 40895 40973 "lexer.mll" 55 40895 40979
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 55 40895 40965 "lexer.mll" 55 40895 40980
+type(
+  string
+)
+"lexer.mll" 55 40895 40948 "lexer.mll" 55 40895 40981
+type(
+  int32
+)
+"lexer.mll" 55 40895 40929 "lexer.mll" 55 40895 40982
+type(
+  Range.t * int32
+)
+"lexer.mll" 55 40895 40923 "lexer.mll" 55 40895 40984
+type(
+  Parser.token
+)
+"lexer.ml" 663 41003 41007 "lexer.ml" 663 41003 41008
+type(
+  int
+)
+"lexer.mll" 56 41029 41047 "lexer.mll" 56 41029 41052
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref token "lexer.ml" 614 39999 40007 "lexer.ml" 614 39999 40012
+)
+"lexer.mll" 56 41029 41053 "lexer.mll" 56 41029 41059
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 56 41029 41045 "lexer.mll" 56 41029 41061
+type(
+  Parser.token
+)
+"lexer.ml" 668 41080 41084 "lexer.ml" 668 41080 41086
+type(
+  int
+)
+"lexer.mll" 57 41107 41121 "lexer.mll" 57 41107 41128
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref newline "lexer.mll" 25 622 628 "lexer.mll" 25 622 635
+)
+"lexer.mll" 57 41107 41129 "lexer.mll" 57 41107 41135
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 57 41107 41121 "lexer.mll" 57 41107 41135
+type(
+  unit
+)
+"lexer.mll" 57 41107 41137 "lexer.mll" 57 41107 41142
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref token "lexer.ml" 614 39999 40007 "lexer.ml" 614 39999 40012
+)
+"lexer.mll" 57 41107 41143 "lexer.mll" 57 41107 41149
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 57 41107 41137 "lexer.mll" 57 41107 41149
+type(
+  Parser.token
+)
+"lexer.mll" 57 41107 41119 "lexer.mll" 57 41107 41151
+type(
+  Parser.token
+)
+"lexer.ml" 673 41170 41174 "lexer.ml" 673 41170 41176
+type(
+  int
+)
+"lexer.mll" 59 41197 41213 "lexer.mll" 59 41197 41222
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 59 41197 41223 "lexer.mll" 59 41197 41229
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 59 41197 41212 "lexer.mll" 59 41197 41230
+type(
+  Range.t
+)
+"lexer.mll" 59 41197 41205 "lexer.mll" 59 41197 41232
+type(
+  Parser.token
+)
+"lexer.ml" 678 41251 41255 "lexer.ml" 678 41251 41257
+type(
+  int
+)
+"lexer.mll" 60 41278 41295 "lexer.mll" 60 41278 41304
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 60 41278 41305 "lexer.mll" 60 41278 41311
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 60 41278 41294 "lexer.mll" 60 41278 41312
+type(
+  Range.t
+)
+"lexer.mll" 60 41278 41286 "lexer.mll" 60 41278 41314
+type(
+  Parser.token
+)
+"lexer.ml" 683 41333 41337 "lexer.ml" 683 41333 41339
+type(
+  int
+)
+"lexer.mll" 61 41360 41378 "lexer.mll" 61 41360 41387
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 61 41360 41388 "lexer.mll" 61 41360 41394
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 61 41360 41377 "lexer.mll" 61 41360 41395
+type(
+  Range.t
+)
+"lexer.mll" 61 41360 41368 "lexer.mll" 61 41360 41397
+type(
+  Parser.token
+)
+"lexer.ml" 688 41416 41420 "lexer.ml" 688 41416 41422
+type(
+  int
+)
+"lexer.mll" 62 41443 41461 "lexer.mll" 62 41443 41470
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 62 41443 41471 "lexer.mll" 62 41443 41477
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 62 41443 41460 "lexer.mll" 62 41443 41478
+type(
+  Range.t
+)
+"lexer.mll" 62 41443 41451 "lexer.mll" 62 41443 41480
+type(
+  Parser.token
+)
+"lexer.ml" 693 41499 41503 "lexer.ml" 693 41499 41505
+type(
+  int
+)
+"lexer.mll" 63 41526 41542 "lexer.mll" 63 41526 41551
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 63 41526 41552 "lexer.mll" 63 41526 41558
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 63 41526 41541 "lexer.mll" 63 41526 41559
+type(
+  Range.t
+)
+"lexer.mll" 63 41526 41534 "lexer.mll" 63 41526 41561
+type(
+  Parser.token
+)
+"lexer.ml" 698 41580 41584 "lexer.ml" 698 41580 41586
+type(
+  int
+)
+"lexer.mll" 64 41607 41623 "lexer.mll" 64 41607 41632
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 64 41607 41633 "lexer.mll" 64 41607 41639
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 64 41607 41622 "lexer.mll" 64 41607 41640
+type(
+  Range.t
+)
+"lexer.mll" 64 41607 41615 "lexer.mll" 64 41607 41642
+type(
+  Parser.token
+)
+"lexer.ml" 703 41661 41665 "lexer.ml" 703 41661 41667
+type(
+  int
+)
+"lexer.mll" 65 41688 41704 "lexer.mll" 65 41688 41713
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 65 41688 41714 "lexer.mll" 65 41688 41720
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 65 41688 41703 "lexer.mll" 65 41688 41721
+type(
+  Range.t
+)
+"lexer.mll" 65 41688 41696 "lexer.mll" 65 41688 41723
+type(
+  Parser.token
+)
+"lexer.ml" 708 41742 41746 "lexer.ml" 708 41742 41748
+type(
+  int
+)
+"lexer.mll" 66 41769 41783 "lexer.mll" 66 41769 41792
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 66 41769 41793 "lexer.mll" 66 41769 41799
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 66 41769 41782 "lexer.mll" 66 41769 41800
+type(
+  Range.t
+)
+"lexer.mll" 66 41769 41777 "lexer.mll" 66 41769 41802
+type(
+  Parser.token
+)
+"lexer.ml" 713 41821 41825 "lexer.ml" 713 41821 41827
+type(
+  int
+)
+"lexer.mll" 67 41848 41865 "lexer.mll" 67 41848 41874
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 67 41848 41875 "lexer.mll" 67 41848 41881
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 67 41848 41864 "lexer.mll" 67 41848 41882
+type(
+  Range.t
+)
+"lexer.mll" 67 41848 41857 "lexer.mll" 67 41848 41884
+type(
+  Parser.token
+)
+"lexer.ml" 718 41903 41907 "lexer.ml" 718 41903 41909
+type(
+  int
+)
+"lexer.mll" 68 41930 41947 "lexer.mll" 68 41930 41956
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 68 41930 41957 "lexer.mll" 68 41930 41963
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 68 41930 41946 "lexer.mll" 68 41930 41964
+type(
+  Range.t
+)
+"lexer.mll" 68 41930 41939 "lexer.mll" 68 41930 41966
+type(
+  Parser.token
+)
+"lexer.ml" 723 41985 41989 "lexer.ml" 723 41985 41991
+type(
+  int
+)
+"lexer.mll" 69 42012 42029 "lexer.mll" 69 42012 42038
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 69 42012 42039 "lexer.mll" 69 42012 42045
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 69 42012 42028 "lexer.mll" 69 42012 42046
+type(
+  Range.t
+)
+"lexer.mll" 69 42012 42021 "lexer.mll" 69 42012 42048
+type(
+  Parser.token
+)
+"lexer.ml" 728 42067 42071 "lexer.ml" 728 42067 42073
+type(
+  int
+)
+"lexer.mll" 70 42094 42114 "lexer.mll" 70 42094 42123
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 70 42094 42124 "lexer.mll" 70 42094 42130
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 70 42094 42113 "lexer.mll" 70 42094 42131
+type(
+  Range.t
+)
+"lexer.mll" 70 42094 42104 "lexer.mll" 70 42094 42133
+type(
+  Parser.token
+)
+"lexer.ml" 733 42152 42156 "lexer.ml" 733 42152 42158
+type(
+  int
+)
+"lexer.mll" 71 42179 42198 "lexer.mll" 71 42179 42207
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 71 42179 42208 "lexer.mll" 71 42179 42214
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 71 42179 42197 "lexer.mll" 71 42179 42215
+type(
+  Range.t
+)
+"lexer.mll" 71 42179 42188 "lexer.mll" 71 42179 42217
+type(
+  Parser.token
+)
+"lexer.ml" 738 42236 42240 "lexer.ml" 738 42236 42242
+type(
+  int
+)
+"lexer.mll" 72 42263 42277 "lexer.mll" 72 42263 42286
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 72 42263 42287 "lexer.mll" 72 42263 42293
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 72 42263 42276 "lexer.mll" 72 42263 42294
+type(
+  Range.t
+)
+"lexer.mll" 72 42263 42271 "lexer.mll" 72 42263 42296
+type(
+  Parser.token
+)
+"lexer.ml" 743 42315 42319 "lexer.ml" 743 42315 42321
+type(
+  int
+)
+"lexer.mll" 73 42342 42359 "lexer.mll" 73 42342 42368
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 73 42342 42369 "lexer.mll" 73 42342 42375
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 73 42342 42358 "lexer.mll" 73 42342 42376
+type(
+  Range.t
+)
+"lexer.mll" 73 42342 42351 "lexer.mll" 73 42342 42378
+type(
+  Parser.token
+)
+"lexer.ml" 748 42397 42401 "lexer.ml" 748 42397 42403
+type(
+  int
+)
+"lexer.mll" 74 42424 42438 "lexer.mll" 74 42424 42447
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 74 42424 42448 "lexer.mll" 74 42424 42454
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 74 42424 42437 "lexer.mll" 74 42424 42455
+type(
+  Range.t
+)
+"lexer.mll" 74 42424 42432 "lexer.mll" 74 42424 42457
+type(
+  Parser.token
+)
+"lexer.ml" 753 42476 42480 "lexer.ml" 753 42476 42482
+type(
+  int
+)
+"lexer.mll" 75 42503 42520 "lexer.mll" 75 42503 42529
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 75 42503 42530 "lexer.mll" 75 42503 42536
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 75 42503 42519 "lexer.mll" 75 42503 42537
+type(
+  Range.t
+)
+"lexer.mll" 75 42503 42512 "lexer.mll" 75 42503 42539
+type(
+  Parser.token
+)
+"lexer.ml" 758 42558 42562 "lexer.ml" 758 42558 42564
+type(
+  int
+)
+"lexer.mll" 76 42585 42601 "lexer.mll" 76 42585 42610
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 76 42585 42611 "lexer.mll" 76 42585 42617
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 76 42585 42600 "lexer.mll" 76 42585 42618
+type(
+  Range.t
+)
+"lexer.mll" 76 42585 42593 "lexer.mll" 76 42585 42620
+type(
+  Parser.token
+)
+"lexer.ml" 763 42639 42643 "lexer.ml" 763 42639 42645
+type(
+  int
+)
+"lexer.mll" 77 42666 42683 "lexer.mll" 77 42666 42692
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 77 42666 42693 "lexer.mll" 77 42666 42699
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 77 42666 42682 "lexer.mll" 77 42666 42700
+type(
+  Range.t
+)
+"lexer.mll" 77 42666 42674 "lexer.mll" 77 42666 42702
+type(
+  Parser.token
+)
+"lexer.ml" 768 42721 42725 "lexer.ml" 768 42721 42727
+type(
+  int
+)
+"lexer.mll" 78 42748 42765 "lexer.mll" 78 42748 42774
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 78 42748 42775 "lexer.mll" 78 42748 42781
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 78 42748 42764 "lexer.mll" 78 42748 42782
+type(
+  Range.t
+)
+"lexer.mll" 78 42748 42756 "lexer.mll" 78 42748 42784
+type(
+  Parser.token
+)
+"lexer.ml" 773 42803 42807 "lexer.ml" 773 42803 42809
+type(
+  int
+)
+"lexer.mll" 79 42830 42845 "lexer.mll" 79 42830 42854
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 79 42830 42855 "lexer.mll" 79 42830 42861
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 79 42830 42844 "lexer.mll" 79 42830 42862
+type(
+  Range.t
+)
+"lexer.mll" 79 42830 42838 "lexer.mll" 79 42830 42864
+type(
+  Parser.token
+)
+"lexer.ml" 778 42883 42887 "lexer.ml" 778 42883 42889
+type(
+  int
+)
+"lexer.mll" 80 42910 42928 "lexer.mll" 80 42910 42937
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 80 42910 42938 "lexer.mll" 80 42910 42944
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 80 42910 42927 "lexer.mll" 80 42910 42945
+type(
+  Range.t
+)
+"lexer.mll" 80 42910 42918 "lexer.mll" 80 42910 42947
+type(
+  Parser.token
+)
+"lexer.ml" 783 42966 42970 "lexer.ml" 783 42966 42972
+type(
+  int
+)
+"lexer.mll" 81 42993 43011 "lexer.mll" 81 42993 43020
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  int_ref lex_range "lexer.mll" 14 347 353 "lexer.mll" 14 347 362
+)
+"lexer.mll" 81 42993 43021 "lexer.mll" 81 42993 43027
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 81 42993 43010 "lexer.mll" 81 42993 43028
+type(
+  Range.t
+)
+"lexer.mll" 81 42993 43001 "lexer.mll" 81 42993 43030
+type(
+  Parser.token
+)
+"lexer.ml" 788 43049 43053 "lexer.ml" 788 43049 43055
+type(
+  int
+)
+"lexer.mll" 82 43080 43089 "lexer.mll" 82 43080 43090
+type(
+  char
+)
+"lexer.ml" 793 43108 43110 "lexer.ml" 793 43108 43132
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"lexer.ml" 793 43108 43133 "lexer.ml" 793 43108 43139
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 793 43108 43140 "lexer.ml" 793 43108 43146
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 793 43108 43140 "lexer.ml" 793 43108 43167
+type(
+  int
+)
+"lexer.ml" 793 43108 43110 "lexer.ml" 793 43108 43167
+type(
+  char
+)
+"lexer.mll" 82 43188 43201 "lexer.mll" 82 43188 43216
+type(
+  Lexing.lexbuf -> char -> Parser.token
+)
+ident(
+  int_ref unexpected_char "lexer.mll" 31 857 863 "lexer.mll" 31 857 878
+)
+"lexer.mll" 82 43188 43217 "lexer.mll" 82 43188 43223
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.mll" 82 43188 43224 "lexer.mll" 82 43188 43225
+type(
+  char
+)
+ident(
+  int_ref c "lexer.mll" 82 43080 43089 "lexer.mll" 82 43080 43090
+)
+"lexer.mll" 82 43188 43199 "lexer.mll" 82 43188 43227
+type(
+  Parser.token
+)
+"lexer.ml" 789 43059 43059 "lexer.mll" 82 43188 43227
+type(
+  Parser.token
+)
+"lexer.ml" 798 43246 43250 "lexer.ml" 798 43246 43267
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43351
+)
+"lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43277
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43296
+type(
+  Lexing.lexbuf -> unit
+)
+"lexer.ml" 798 43246 43297 "lexer.ml" 798 43246 43303
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43303
+type(
+  unit
+)
+"lexer.ml" 798 43246 43305 "lexer.ml" 798 43246 43326
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "lexer.ml" 616 40055 40059 "lexer.ml" 616 40055 40080
+)
+"lexer.ml" 798 43246 43327 "lexer.ml" 798 43246 43333
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
+)
+"lexer.ml" 798 43246 43334 "lexer.ml" 798 43246 43351
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 798 43246 43250 "lexer.ml" 798 43246 43267
+)
+"lexer.ml" 798 43246 43305 "lexer.ml" 798 43246 43351
+type(
+  Parser.token
+)
+"lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43351
+type(
+  Parser.token
+)
+"lexer.ml" 617 40108 40110 "lexer.ml" 798 43246 43351
+type(
+  Parser.token
+)

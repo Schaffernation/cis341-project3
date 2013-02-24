@@ -1,0 +1,61 @@
+"phase2.ml" 7 33 37 "phase2.ml" 7 33 49
+type(
+  Ll.prog -> Cunit.cunit
+)
+ident(
+  def compile_prog "phase2.ml" 9 143 167 --
+)
+"phase2.ml" 7 33 51 "phase2.ml" 7 33 55
+type(
+  Ll.prog
+)
+ident(
+  def prog "phase2.ml" 7 33 67 "phase2.ml" 9 143 167
+)
+"phase2.ml" 8 83 91 "phase2.ml" 8 83 101
+type(
+  string
+)
+"phase2.ml" 8 83 105 "phase2.ml" 8 83 128
+type(
+  string -> string
+)
+ident(
+  ext_ref Platform.decorate_cdecl
+)
+"phase2.ml" 8 83 129 "phase2.ml" 8 83 138
+type(
+  string
+)
+"phase2.ml" 8 83 104 "phase2.ml" 8 83 139
+call(
+  stack
+)
+type(
+  string
+)
+"phase2.ml" 9 143 143 "phase2.ml" 9 143 151
+type(
+  string -> Cunit.cunit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"phase2.ml" 9 143 152 "phase2.ml" 9 143 167
+type(
+  string
+)
+"phase2.ml" 9 143 143 "phase2.ml" 9 143 167
+call(
+  tail
+)
+type(
+  Cunit.cunit
+)
+"phase2.ml" 8 83 87 "phase2.ml" 9 143 167
+type(
+  Cunit.cunit
+)
+type(
+  Cunit.cunit
+)

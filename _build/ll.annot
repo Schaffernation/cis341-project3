@@ -1,0 +1,1985 @@
+"ll.ml" 53 1174 1178 "ll.ml" 53 1174 1184
+type(
+  string -> uid
+)
+ident(
+  def mk_uid "ll.ml" 57 1256 1256 --
+)
+"ll.ml" 54 1203 1209 "ll.ml" 54 1203 1212
+type(
+  int ref
+)
+"ll.ml" 54 1203 1215 "ll.ml" 54 1203 1218
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ll.ml" 54 1203 1219 "ll.ml" 54 1203 1220
+type(
+  int
+)
+"ll.ml" 54 1203 1215 "ll.ml" 54 1203 1220
+type(
+  int ref
+)
+"ll.ml" 55 1224 1230 "ll.ml" 55 1224 1231
+type(
+  string
+)
+ident(
+  def h "ll.ml" 55 1224 1235 "ll.ml" 55 1224 1254
+)
+"ll.ml" 55 1224 1235 "ll.ml" 55 1224 1239
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ll.ml" 55 1224 1240 "ll.ml" 55 1224 1243
+type(
+  int ref
+)
+ident(
+  int_ref ctr "ll.ml" 54 1203 1209 "ll.ml" 54 1203 1212
+)
+"ll.ml" 55 1224 1235 "ll.ml" 55 1224 1243
+type(
+  unit
+)
+"ll.ml" 55 1224 1246 "ll.ml" 55 1224 1247
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ll.ml" 55 1224 1247 "ll.ml" 55 1224 1250
+type(
+  int ref
+)
+ident(
+  int_ref ctr "ll.ml" 54 1203 1209 "ll.ml" 54 1203 1212
+)
+"ll.ml" 55 1224 1246 "ll.ml" 55 1224 1250
+type(
+  int
+)
+"ll.ml" 55 1224 1252 "ll.ml" 55 1224 1253
+type(
+  string
+)
+ident(
+  int_ref h "ll.ml" 55 1224 1230 "ll.ml" 55 1224 1231
+)
+"ll.ml" 55 1224 1245 "ll.ml" 55 1224 1254
+type(
+  uid
+)
+"ll.ml" 55 1224 1235 "ll.ml" 55 1224 1254
+type(
+  uid
+)
+"ll.ml" 55 1224 1226 "ll.ml" 55 1224 1254
+type(
+  string -> uid
+)
+"ll.ml" 54 1203 1205 "ll.ml" 55 1224 1254
+type(
+  string -> uid
+)
+type(
+  string -> uid
+)
+"ll.ml" 57 1256 1260 "ll.ml" 57 1256 1267
+type(
+  unit -> uid
+)
+ident(
+  def gen_sym "ll.ml" 59 1291 1291 --
+)
+"ll.ml" 57 1256 1268 "ll.ml" 57 1256 1270
+type(
+  unit
+)
+"ll.ml" 57 1256 1279 "ll.ml" 57 1256 1285
+type(
+  string -> uid
+)
+ident(
+  int_ref mk_uid "ll.ml" 53 1174 1178 "ll.ml" 53 1174 1184
+)
+"ll.ml" 57 1256 1286 "ll.ml" 57 1256 1289
+type(
+  string
+)
+"ll.ml" 57 1256 1279 "ll.ml" 57 1256 1289
+call(
+  tail
+)
+type(
+  uid
+)
+type(
+  uid
+)
+"ll.ml" 59 1291 1295 "ll.ml" 59 1291 1301
+type(
+  unit -> lbl
+)
+ident(
+  def mk_lbl "ll.ml" 62 1333 1333 --
+)
+"ll.ml" 59 1291 1318 "ll.ml" 59 1291 1328
+type(
+  unit -> lbl
+)
+type(
+  unit -> lbl
+)
+ident(
+  ext_ref X86.mk_lbl
+)
+"ll.ml" 62 1333 1337 "ll.ml" 62 1333 1350
+type(
+  int * string -> string
+)
+ident(
+  def string_of_uid "ll.ml" 65 1401 1401 --
+)
+"ll.ml" 62 1333 1352 "ll.ml" 62 1333 1353
+type(
+  int
+)
+ident(
+  def i "ll.ml" 62 1333 1358 "ll.ml" 63 1369 1398
+)
+"ll.ml" 62 1333 1355 "ll.ml" 62 1333 1356
+type(
+  string
+)
+ident(
+  def s "ll.ml" 62 1333 1358 "ll.ml" 63 1369 1398
+)
+"ll.ml" 62 1333 1351 "ll.ml" 62 1333 1357
+type(
+  int * string
+)
+"ll.ml" 63 1369 1371 "ll.ml" 63 1369 1385
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ll.ml" 63 1369 1386 "ll.ml" 63 1369 1394
+type(
+  (string -> int -> string, unit, string) format
+)
+"ll.ml" 63 1369 1395 "ll.ml" 63 1369 1396
+type(
+  string
+)
+ident(
+  int_ref s "ll.ml" 62 1333 1355 "ll.ml" 62 1333 1356
+)
+"ll.ml" 63 1369 1397 "ll.ml" 63 1369 1398
+type(
+  int
+)
+ident(
+  int_ref i "ll.ml" 62 1333 1352 "ll.ml" 62 1333 1353
+)
+"ll.ml" 63 1369 1371 "ll.ml" 63 1369 1398
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+type(
+  int * string -> string
+)
+ident(
+  def pp_uid "ll.ml" 67 1429 1429 --
+)
+"ll.ml" 65 1401 1414 "ll.ml" 65 1401 1427
+type(
+  int * string -> string
+)
+ident(
+  int_ref string_of_uid "ll.ml" 62 1333 1337 "ll.ml" 62 1333 1350
+)
+"ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+type(
+  operand -> string
+)
+ident(
+  def pp_op "ll.ml" 71 1532 1532 --
+)
+"ll.ml" 68 1470 1482 "ll.ml" 68 1470 1483
+type(
+  uid
+)
+ident(
+  def u "ll.ml" 68 1470 1487 "ll.ml" 68 1470 1495
+)
+"ll.ml" 68 1470 1476 "ll.ml" 68 1470 1483
+type(
+  operand
+)
+"ll.ml" 68 1470 1487 "ll.ml" 68 1470 1493
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 68 1470 1494 "ll.ml" 68 1470 1495
+type(
+  uid
+)
+ident(
+  int_ref u "ll.ml" 68 1470 1482 "ll.ml" 68 1470 1483
+)
+"ll.ml" 68 1470 1487 "ll.ml" 68 1470 1495
+call(
+  tail
+)
+type(
+  string
+)
+"ll.ml" 69 1496 1508 "ll.ml" 69 1496 1509
+type(
+  int32
+)
+ident(
+  def i "ll.ml" 69 1496 1513 "ll.ml" 69 1496 1530
+)
+"ll.ml" 69 1496 1502 "ll.ml" 69 1496 1509
+type(
+  operand
+)
+"ll.ml" 69 1496 1513 "ll.ml" 69 1496 1528
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"ll.ml" 69 1496 1529 "ll.ml" 69 1496 1530
+type(
+  int32
+)
+ident(
+  int_ref i "ll.ml" 69 1496 1508 "ll.ml" 69 1496 1509
+)
+"ll.ml" 69 1496 1513 "ll.ml" 69 1496 1530
+call(
+  tail
+)
+type(
+  string
+)
+"ll.ml" 67 1429 1461 "ll.ml" 69 1496 1530
+type(
+  operand -> string
+)
+type(
+  operand -> string
+)
+"ll.ml" 71 1532 1536 "ll.ml" 71 1532 1542
+type(
+  bop -> string
+)
+ident(
+  def pp_bop "ll.ml" 76 1732 1732 --
+)
+"ll.ml" 72 1570 1576 "ll.ml" 72 1570 1579
+type(
+  bop
+)
+"ll.ml" 72 1570 1583 "ll.ml" 72 1570 1588
+type(
+  string
+)
+"ll.ml" 72 1570 1592 "ll.ml" 72 1570 1595
+type(
+  bop
+)
+"ll.ml" 72 1570 1600 "ll.ml" 72 1570 1605
+type(
+  string
+)
+"ll.ml" 72 1570 1609 "ll.ml" 72 1570 1612
+type(
+  bop
+)
+"ll.ml" 72 1570 1617 "ll.ml" 72 1570 1622
+type(
+  string
+)
+"ll.ml" 73 1624 1630 "ll.ml" 73 1624 1633
+type(
+  bop
+)
+"ll.ml" 73 1624 1637 "ll.ml" 73 1624 1642
+type(
+  string
+)
+"ll.ml" 73 1624 1646 "ll.ml" 73 1624 1650
+type(
+  bop
+)
+"ll.ml" 73 1624 1654 "ll.ml" 73 1624 1660
+type(
+  string
+)
+"ll.ml" 73 1624 1663 "ll.ml" 73 1624 1667
+type(
+  bop
+)
+"ll.ml" 73 1624 1671 "ll.ml" 73 1624 1677
+type(
+  string
+)
+"ll.ml" 74 1678 1684 "ll.ml" 74 1678 1687
+type(
+  bop
+)
+"ll.ml" 74 1678 1691 "ll.ml" 74 1678 1696
+type(
+  string
+)
+"ll.ml" 74 1678 1700 "ll.ml" 74 1678 1702
+type(
+  bop
+)
+"ll.ml" 74 1678 1708 "ll.ml" 74 1678 1712
+type(
+  string
+)
+"ll.ml" 74 1678 1717 "ll.ml" 74 1678 1720
+type(
+  bop
+)
+"ll.ml" 74 1678 1725 "ll.ml" 74 1678 1730
+type(
+  string
+)
+"ll.ml" 71 1532 1561 "ll.ml" 74 1678 1730
+type(
+  bop -> string
+)
+type(
+  bop -> string
+)
+"ll.ml" 76 1732 1736 "ll.ml" 76 1732 1744
+type(
+  cmpop -> string
+)
+ident(
+  def pp_cmpop "ll.ml" 80 1874 1874 --
+)
+"ll.ml" 77 1774 1780 "ll.ml" 77 1774 1782
+type(
+  cmpop
+)
+"ll.ml" 77 1774 1787 "ll.ml" 77 1774 1791
+type(
+  string
+)
+"ll.ml" 77 1774 1795 "ll.ml" 77 1774 1797
+type(
+  cmpop
+)
+"ll.ml" 77 1774 1802 "ll.ml" 77 1774 1806
+type(
+  string
+)
+"ll.ml" 77 1774 1810 "ll.ml" 77 1774 1813
+type(
+  cmpop
+)
+"ll.ml" 77 1774 1817 "ll.ml" 77 1774 1822
+type(
+  string
+)
+"ll.ml" 78 1824 1830 "ll.ml" 78 1824 1833
+type(
+  cmpop
+)
+"ll.ml" 78 1824 1837 "ll.ml" 78 1824 1842
+type(
+  string
+)
+"ll.ml" 78 1824 1845 "ll.ml" 78 1824 1848
+type(
+  cmpop
+)
+"ll.ml" 78 1824 1852 "ll.ml" 78 1824 1857
+type(
+  string
+)
+"ll.ml" 78 1824 1860 "ll.ml" 78 1824 1863
+type(
+  cmpop
+)
+"ll.ml" 78 1824 1867 "ll.ml" 78 1824 1872
+type(
+  string
+)
+"ll.ml" 76 1732 1765 "ll.ml" 78 1824 1872
+type(
+  cmpop -> string
+)
+type(
+  cmpop -> string
+)
+"ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+type(
+  ('a, unit, string, string, string, string) format6 -> 'a
+)
+ident(
+  def pp "ll.ml" 82 1925 1925 --
+)
+"ll.ml" 80 1874 1881 "ll.ml" 80 1874 1884
+type(
+  ('a, unit, string, string, string, string) format6
+)
+ident(
+  def pat "ll.ml" 80 1874 1887 "ll.ml" 80 1874 1923
+)
+"ll.ml" 80 1874 1887 "ll.ml" 80 1874 1901
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ll.ml" 80 1874 1903 "ll.ml" 80 1874 1907
+type(
+  ('a, unit, string, string, string, 'a) format6
+)
+"ll.ml" 80 1874 1908 "ll.ml" 80 1874 1910
+type(
+  ('a, unit, string, string, string, 'a) format6 ->
+  ('a, unit, string, string, string, string) format6 ->
+  ('a, unit, string) format
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"ll.ml" 80 1874 1911 "ll.ml" 80 1874 1914
+type(
+  ('a, unit, string, string, string, string) format6
+)
+ident(
+  int_ref pat "ll.ml" 80 1874 1881 "ll.ml" 80 1874 1884
+)
+"ll.ml" 80 1874 1915 "ll.ml" 80 1874 1917
+type(
+  ('a, unit, string, string, string, string) format6 ->
+  (string, unit, string, string, string, string) format6 ->
+  ('a, unit, string, string, string, string) format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"ll.ml" 80 1874 1918 "ll.ml" 80 1874 1922
+type(
+  (string, unit, string, string, string, string) format6
+)
+"ll.ml" 80 1874 1911 "ll.ml" 80 1874 1922
+call(
+  stack
+)
+type(
+  ('a, unit, string, string, string, string) format6
+)
+"ll.ml" 80 1874 1902 "ll.ml" 80 1874 1923
+call(
+  stack
+)
+type(
+  ('a, unit, string) format
+)
+"ll.ml" 80 1874 1887 "ll.ml" 80 1874 1923
+call(
+  tail
+)
+type(
+  'a
+)
+"ll.ml" 82 1925 1929 "ll.ml" 82 1925 1936
+type(
+  (string -> unit) -> insn -> unit
+)
+ident(
+  def pp_insn "ll.ml" 98 2527 2527 --
+)
+"ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+type(
+  string -> unit
+)
+ident(
+  def pf "ll.ml" 82 1925 1940 "ll.ml" 96 2465 2525
+)
+"ll.ml" 83 1966 1977 "ll.ml" 83 1966 1978
+type(
+  uid
+)
+ident(
+  def u "ll.ml" 84 1998 2002 "ll.ml" 85 2031 2088
+)
+"ll.ml" 83 1966 1980 "ll.ml" 83 1966 1982
+type(
+  bop
+)
+ident(
+  def bo "ll.ml" 84 1998 2002 "ll.ml" 85 2031 2088
+)
+"ll.ml" 83 1966 1984 "ll.ml" 83 1966 1987
+type(
+  operand
+)
+ident(
+  def op1 "ll.ml" 84 1998 2002 "ll.ml" 85 2031 2088
+)
+"ll.ml" 83 1966 1989 "ll.ml" 83 1966 1992
+type(
+  operand
+)
+ident(
+  def op2 "ll.ml" 84 1998 2002 "ll.ml" 85 2031 2088
+)
+"ll.ml" 83 1966 1970 "ll.ml" 83 1966 1993
+type(
+  insn
+)
+"ll.ml" 84 1998 2002 "ll.ml" 84 1998 2004
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 84 1998 2006 "ll.ml" 84 1998 2008
+type(
+  (string -> string -> string -> string -> string, unit, string, string,
+   string, string)
+  format6 -> string -> string -> string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 84 1998 2009 "ll.ml" 84 1998 2029
+type(
+  (string -> string -> string -> string -> string, unit, string, string,
+   string, string)
+  format6
+)
+"ll.ml" 85 2031 2042 "ll.ml" 85 2031 2048
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 85 2031 2049 "ll.ml" 85 2031 2050
+type(
+  uid
+)
+ident(
+  int_ref u "ll.ml" 83 1966 1977 "ll.ml" 83 1966 1978
+)
+"ll.ml" 85 2031 2041 "ll.ml" 85 2031 2051
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 85 2031 2053 "ll.ml" 85 2031 2059
+type(
+  bop -> string
+)
+ident(
+  int_ref pp_bop "ll.ml" 71 1532 1536 "ll.ml" 71 1532 1542
+)
+"ll.ml" 85 2031 2060 "ll.ml" 85 2031 2062
+type(
+  bop
+)
+ident(
+  int_ref bo "ll.ml" 83 1966 1980 "ll.ml" 83 1966 1982
+)
+"ll.ml" 85 2031 2052 "ll.ml" 85 2031 2063
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 85 2031 2065 "ll.ml" 85 2031 2070
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 85 2031 2071 "ll.ml" 85 2031 2074
+type(
+  operand
+)
+ident(
+  int_ref op1 "ll.ml" 83 1966 1984 "ll.ml" 83 1966 1987
+)
+"ll.ml" 85 2031 2064 "ll.ml" 85 2031 2075
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 85 2031 2077 "ll.ml" 85 2031 2082
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 85 2031 2083 "ll.ml" 85 2031 2086
+type(
+  operand
+)
+ident(
+  int_ref op2 "ll.ml" 83 1966 1989 "ll.ml" 83 1966 1992
+)
+"ll.ml" 85 2031 2076 "ll.ml" 85 2031 2087
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 84 1998 2005 "ll.ml" 85 2031 2088
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 84 1998 2002 "ll.ml" 85 2031 2088
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 86 2089 2100 "ll.ml" 86 2089 2101
+type(
+  uid
+)
+ident(
+  def u "ll.ml" 87 2106 2110 "ll.ml" 87 2106 2146
+)
+"ll.ml" 86 2089 2093 "ll.ml" 86 2089 2101
+type(
+  insn
+)
+"ll.ml" 87 2106 2110 "ll.ml" 87 2106 2112
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 87 2106 2114 "ll.ml" 87 2106 2116
+type(
+  (string -> string, unit, string, string, string, string) format6 ->
+  string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 87 2106 2117 "ll.ml" 87 2106 2134
+type(
+  (string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 87 2106 2136 "ll.ml" 87 2106 2142
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 87 2106 2143 "ll.ml" 87 2106 2144
+type(
+  uid
+)
+ident(
+  int_ref u "ll.ml" 86 2089 2100 "ll.ml" 86 2089 2101
+)
+"ll.ml" 87 2106 2135 "ll.ml" 87 2106 2145
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 87 2106 2113 "ll.ml" 87 2106 2146
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 87 2106 2110 "ll.ml" 87 2106 2146
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 88 2147 2157 "ll.ml" 88 2147 2158
+type(
+  uid
+)
+ident(
+  def u "ll.ml" 89 2167 2171 "ll.ml" 89 2167 2220
+)
+"ll.ml" 88 2147 2160 "ll.ml" 88 2147 2162
+type(
+  operand
+)
+ident(
+  def op "ll.ml" 89 2167 2171 "ll.ml" 89 2167 2220
+)
+"ll.ml" 88 2147 2151 "ll.ml" 88 2147 2163
+type(
+  insn
+)
+"ll.ml" 89 2167 2171 "ll.ml" 89 2167 2173
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 89 2167 2175 "ll.ml" 89 2167 2177
+type(
+  (string -> string -> string, unit, string, string, string, string) format6 ->
+  string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 89 2167 2178 "ll.ml" 89 2167 2197
+type(
+  (string -> string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 89 2167 2199 "ll.ml" 89 2167 2205
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 89 2167 2206 "ll.ml" 89 2167 2207
+type(
+  uid
+)
+ident(
+  int_ref u "ll.ml" 88 2147 2157 "ll.ml" 88 2147 2158
+)
+"ll.ml" 89 2167 2198 "ll.ml" 89 2167 2208
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 89 2167 2210 "ll.ml" 89 2167 2215
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 89 2167 2216 "ll.ml" 89 2167 2218
+type(
+  operand
+)
+ident(
+  int_ref op "ll.ml" 88 2147 2160 "ll.ml" 88 2147 2162
+)
+"ll.ml" 89 2167 2209 "ll.ml" 89 2167 2219
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 89 2167 2174 "ll.ml" 89 2167 2220
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 89 2167 2171 "ll.ml" 89 2167 2220
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 90 2221 2232 "ll.ml" 90 2221 2235
+type(
+  operand
+)
+ident(
+  def op1 "ll.ml" 91 2245 2249 "ll.ml" 91 2245 2304
+)
+"ll.ml" 90 2221 2237 "ll.ml" 90 2221 2240
+type(
+  operand
+)
+ident(
+  def op2 "ll.ml" 91 2245 2249 "ll.ml" 91 2245 2304
+)
+"ll.ml" 90 2221 2225 "ll.ml" 90 2221 2241
+type(
+  insn
+)
+"ll.ml" 91 2245 2249 "ll.ml" 91 2245 2251
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 91 2245 2253 "ll.ml" 91 2245 2255
+type(
+  (string -> string -> string, unit, string, string, string, string) format6 ->
+  string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 91 2245 2256 "ll.ml" 91 2245 2279
+type(
+  (string -> string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 91 2245 2281 "ll.ml" 91 2245 2286
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 91 2245 2287 "ll.ml" 91 2245 2290
+type(
+  operand
+)
+ident(
+  int_ref op1 "ll.ml" 90 2221 2232 "ll.ml" 90 2221 2235
+)
+"ll.ml" 91 2245 2280 "ll.ml" 91 2245 2291
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 91 2245 2293 "ll.ml" 91 2245 2298
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 91 2245 2299 "ll.ml" 91 2245 2302
+type(
+  operand
+)
+ident(
+  int_ref op2 "ll.ml" 90 2221 2237 "ll.ml" 90 2221 2240
+)
+"ll.ml" 91 2245 2292 "ll.ml" 91 2245 2303
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 91 2245 2252 "ll.ml" 91 2245 2304
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 91 2245 2249 "ll.ml" 91 2245 2304
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 92 2305 2315 "ll.ml" 92 2305 2316
+type(
+  uid
+)
+ident(
+  def u "ll.ml" 93 2336 2340 "ll.ml" 96 2465 2525
+)
+"ll.ml" 92 2305 2318 "ll.ml" 92 2305 2320
+type(
+  cmpop
+)
+ident(
+  def co "ll.ml" 93 2336 2340 "ll.ml" 96 2465 2525
+)
+"ll.ml" 92 2305 2322 "ll.ml" 92 2305 2325
+type(
+  operand
+)
+ident(
+  def op1 "ll.ml" 93 2336 2340 "ll.ml" 96 2465 2525
+)
+"ll.ml" 92 2305 2327 "ll.ml" 92 2305 2330
+type(
+  operand
+)
+ident(
+  def op2 "ll.ml" 93 2336 2340 "ll.ml" 96 2465 2525
+)
+"ll.ml" 92 2305 2309 "ll.ml" 92 2305 2331
+type(
+  insn
+)
+"ll.ml" 93 2336 2344 "ll.ml" 93 2336 2347
+type(
+  uid
+)
+"ll.ml" 93 2336 2350 "ll.ml" 93 2336 2357
+type(
+  unit -> uid
+)
+ident(
+  int_ref gen_sym "ll.ml" 57 1256 1260 "ll.ml" 57 1256 1267
+)
+"ll.ml" 93 2336 2358 "ll.ml" 93 2336 2360
+type(
+  unit
+)
+"ll.ml" 93 2336 2350 "ll.ml" 93 2336 2360
+call(
+  stack
+)
+type(
+  uid
+)
+"ll.ml" 94 2364 2368 "ll.ml" 94 2364 2370
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 94 2364 2372 "ll.ml" 94 2364 2374
+type(
+  (string -> string -> string -> string -> string, unit, string, string,
+   string, string)
+  format6 -> string -> string -> string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 94 2364 2375 "ll.ml" 94 2364 2400
+type(
+  (string -> string -> string -> string -> string, unit, string, string,
+   string, string)
+  format6
+)
+"ll.ml" 95 2402 2413 "ll.ml" 95 2402 2419
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 95 2402 2420 "ll.ml" 95 2402 2423
+type(
+  uid
+)
+ident(
+  int_ref tmp "ll.ml" 93 2336 2344 "ll.ml" 93 2336 2347
+)
+"ll.ml" 95 2402 2412 "ll.ml" 95 2402 2424
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 95 2402 2426 "ll.ml" 95 2402 2434
+type(
+  cmpop -> string
+)
+ident(
+  int_ref pp_cmpop "ll.ml" 76 1732 1736 "ll.ml" 76 1732 1744
+)
+"ll.ml" 95 2402 2435 "ll.ml" 95 2402 2437
+type(
+  cmpop
+)
+ident(
+  int_ref co "ll.ml" 92 2305 2318 "ll.ml" 92 2305 2320
+)
+"ll.ml" 95 2402 2425 "ll.ml" 95 2402 2438
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 95 2402 2440 "ll.ml" 95 2402 2445
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 95 2402 2446 "ll.ml" 95 2402 2449
+type(
+  operand
+)
+ident(
+  int_ref op1 "ll.ml" 92 2305 2322 "ll.ml" 92 2305 2325
+)
+"ll.ml" 95 2402 2439 "ll.ml" 95 2402 2450
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 95 2402 2452 "ll.ml" 95 2402 2457
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 95 2402 2458 "ll.ml" 95 2402 2461
+type(
+  operand
+)
+ident(
+  int_ref op2 "ll.ml" 92 2305 2327 "ll.ml" 92 2305 2330
+)
+"ll.ml" 95 2402 2451 "ll.ml" 95 2402 2462
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 94 2364 2371 "ll.ml" 95 2402 2463
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 94 2364 2368 "ll.ml" 95 2402 2463
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 96 2465 2469 "ll.ml" 96 2465 2471
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 82 1925 1937 "ll.ml" 82 1925 1939
+)
+"ll.ml" 96 2465 2473 "ll.ml" 96 2465 2475
+type(
+  (string -> string -> string, unit, string, string, string, string) format6 ->
+  string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 96 2465 2476 "ll.ml" 96 2465 2500
+type(
+  (string -> string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 96 2465 2502 "ll.ml" 96 2465 2508
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 96 2465 2509 "ll.ml" 96 2465 2510
+type(
+  uid
+)
+ident(
+  int_ref u "ll.ml" 92 2305 2315 "ll.ml" 92 2305 2316
+)
+"ll.ml" 96 2465 2501 "ll.ml" 96 2465 2511
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 96 2465 2513 "ll.ml" 96 2465 2519
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 96 2465 2520 "ll.ml" 96 2465 2523
+type(
+  uid
+)
+ident(
+  int_ref tmp "ll.ml" 93 2336 2344 "ll.ml" 93 2336 2347
+)
+"ll.ml" 96 2465 2512 "ll.ml" 96 2465 2524
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 96 2465 2472 "ll.ml" 96 2465 2525
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 96 2465 2469 "ll.ml" 96 2465 2525
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 94 2364 2368 "ll.ml" 96 2465 2525
+type(
+  unit
+)
+"ll.ml" 93 2336 2340 "ll.ml" 96 2465 2525
+type(
+  unit
+)
+"ll.ml" 82 1925 1957 "ll.ml" 96 2465 2525
+type(
+  insn -> unit
+)
+type(
+  insn -> unit
+)
+"ll.ml" 98 2527 2531 "ll.ml" 98 2527 2537
+type(
+  X86.lbl -> string
+)
+ident(
+  def pp_lbl "ll.ml" 100 2559 2559 --
+)
+"ll.ml" 98 2527 2540 "ll.ml" 98 2527 2557
+type(
+  X86.lbl -> string
+)
+ident(
+  ext_ref X86.string_of_lbl
+)
+"ll.ml" 100 2559 2563 "ll.ml" 100 2559 2570
+type(
+  (string -> unit) -> terminator -> unit
+)
+ident(
+  def pp_term "ll.ml" 107 2894 2894 --
+)
+"ll.ml" 100 2559 2571 "ll.ml" 100 2559 2573
+type(
+  string -> unit
+)
+ident(
+  def pf "ll.ml" 100 2559 2574 "ll.ml" 105 2809 2892
+)
+"ll.ml" 101 2606 2614 "ll.ml" 101 2606 2616
+type(
+  operand
+)
+ident(
+  def op "ll.ml" 101 2606 2620 "ll.ml" 101 2606 2651
+)
+"ll.ml" 101 2606 2610 "ll.ml" 101 2606 2616
+type(
+  terminator
+)
+"ll.ml" 101 2606 2620 "ll.ml" 101 2606 2622
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 100 2559 2571 "ll.ml" 100 2559 2573
+)
+"ll.ml" 101 2606 2624 "ll.ml" 101 2606 2626
+type(
+  (string -> string, unit, string, string, string, string) format6 ->
+  string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 101 2606 2627 "ll.ml" 101 2606 2639
+type(
+  (string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 101 2606 2641 "ll.ml" 101 2606 2646
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 101 2606 2647 "ll.ml" 101 2606 2649
+type(
+  operand
+)
+ident(
+  int_ref op "ll.ml" 101 2606 2614 "ll.ml" 101 2606 2616
+)
+"ll.ml" 101 2606 2640 "ll.ml" 101 2606 2650
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 101 2606 2623 "ll.ml" 101 2606 2651
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 101 2606 2620 "ll.ml" 101 2606 2651
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 102 2652 2659 "ll.ml" 102 2652 2660
+type(
+  lbl
+)
+ident(
+  def l "ll.ml" 102 2652 2664 "ll.ml" 102 2652 2698
+)
+"ll.ml" 102 2652 2656 "ll.ml" 102 2652 2660
+type(
+  terminator
+)
+"ll.ml" 102 2652 2664 "ll.ml" 102 2652 2666
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 100 2559 2571 "ll.ml" 100 2559 2573
+)
+"ll.ml" 102 2652 2668 "ll.ml" 102 2652 2670
+type(
+  (string -> string, unit, string, string, string, string) format6 ->
+  string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 102 2652 2671 "ll.ml" 102 2652 2686
+type(
+  (string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 102 2652 2688 "ll.ml" 102 2652 2694
+type(
+  lbl -> string
+)
+ident(
+  int_ref pp_lbl "ll.ml" 98 2527 2531 "ll.ml" 98 2527 2537
+)
+"ll.ml" 102 2652 2695 "ll.ml" 102 2652 2696
+type(
+  lbl
+)
+ident(
+  int_ref l "ll.ml" 102 2652 2659 "ll.ml" 102 2652 2660
+)
+"ll.ml" 102 2652 2687 "ll.ml" 102 2652 2697
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 102 2652 2667 "ll.ml" 102 2652 2698
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 102 2652 2664 "ll.ml" 102 2652 2698
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 103 2699 2708 "ll.ml" 103 2699 2710
+type(
+  operand
+)
+ident(
+  def op "ll.ml" 103 2699 2723 "ll.ml" 105 2809 2892
+)
+"ll.ml" 103 2699 2712 "ll.ml" 103 2699 2714
+type(
+  lbl
+)
+ident(
+  def l1 "ll.ml" 103 2699 2723 "ll.ml" 105 2809 2892
+)
+"ll.ml" 103 2699 2716 "ll.ml" 103 2699 2718
+type(
+  lbl
+)
+ident(
+  def l2 "ll.ml" 103 2699 2723 "ll.ml" 105 2809 2892
+)
+"ll.ml" 103 2699 2703 "ll.ml" 103 2699 2719
+type(
+  terminator
+)
+"ll.ml" 103 2699 2727 "ll.ml" 103 2699 2730
+type(
+  uid
+)
+"ll.ml" 103 2699 2733 "ll.ml" 103 2699 2740
+type(
+  unit -> uid
+)
+ident(
+  int_ref gen_sym "ll.ml" 57 1256 1260 "ll.ml" 57 1256 1267
+)
+"ll.ml" 103 2699 2741 "ll.ml" 103 2699 2743
+type(
+  unit
+)
+"ll.ml" 103 2699 2733 "ll.ml" 103 2699 2743
+call(
+  stack
+)
+type(
+  uid
+)
+"ll.ml" 104 2747 2751 "ll.ml" 104 2747 2753
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 100 2559 2571 "ll.ml" 100 2559 2573
+)
+"ll.ml" 104 2747 2755 "ll.ml" 104 2747 2757
+type(
+  (string -> string -> string, unit, string, string, string, string) format6 ->
+  string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 104 2747 2758 "ll.ml" 104 2747 2782
+type(
+  (string -> string -> string, unit, string, string, string, string) format6
+)
+"ll.ml" 104 2747 2784 "ll.ml" 104 2747 2790
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 104 2747 2791 "ll.ml" 104 2747 2794
+type(
+  uid
+)
+ident(
+  int_ref tmp "ll.ml" 103 2699 2727 "ll.ml" 103 2699 2730
+)
+"ll.ml" 104 2747 2783 "ll.ml" 104 2747 2795
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 104 2747 2797 "ll.ml" 104 2747 2802
+type(
+  operand -> string
+)
+ident(
+  int_ref pp_op "ll.ml" 67 1429 1433 "ll.ml" 67 1429 1438
+)
+"ll.ml" 104 2747 2803 "ll.ml" 104 2747 2805
+type(
+  operand
+)
+ident(
+  int_ref op "ll.ml" 103 2699 2708 "ll.ml" 103 2699 2710
+)
+"ll.ml" 104 2747 2796 "ll.ml" 104 2747 2806
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 104 2747 2754 "ll.ml" 104 2747 2807
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 104 2747 2751 "ll.ml" 104 2747 2807
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 105 2809 2813 "ll.ml" 105 2809 2815
+type(
+  string -> unit
+)
+ident(
+  int_ref pf "ll.ml" 100 2559 2571 "ll.ml" 100 2559 2573
+)
+"ll.ml" 105 2809 2817 "ll.ml" 105 2809 2819
+type(
+  (string -> string -> string -> string, unit, string, string, string,
+   string)
+  format6 -> string -> string -> string -> string
+)
+ident(
+  int_ref pp "ll.ml" 80 1874 1878 "ll.ml" 80 1874 1880
+)
+"ll.ml" 105 2809 2820 "ll.ml" 105 2809 2854
+type(
+  (string -> string -> string -> string, unit, string, string, string,
+   string)
+  format6
+)
+"ll.ml" 105 2809 2856 "ll.ml" 105 2809 2862
+type(
+  uid -> string
+)
+ident(
+  int_ref pp_uid "ll.ml" 65 1401 1405 "ll.ml" 65 1401 1411
+)
+"ll.ml" 105 2809 2863 "ll.ml" 105 2809 2866
+type(
+  uid
+)
+ident(
+  int_ref tmp "ll.ml" 103 2699 2727 "ll.ml" 103 2699 2730
+)
+"ll.ml" 105 2809 2855 "ll.ml" 105 2809 2867
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 105 2809 2869 "ll.ml" 105 2809 2875
+type(
+  lbl -> string
+)
+ident(
+  int_ref pp_lbl "ll.ml" 98 2527 2531 "ll.ml" 98 2527 2537
+)
+"ll.ml" 105 2809 2876 "ll.ml" 105 2809 2878
+type(
+  lbl
+)
+ident(
+  int_ref l1 "ll.ml" 103 2699 2712 "ll.ml" 103 2699 2714
+)
+"ll.ml" 105 2809 2868 "ll.ml" 105 2809 2879
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 105 2809 2881 "ll.ml" 105 2809 2887
+type(
+  lbl -> string
+)
+ident(
+  int_ref pp_lbl "ll.ml" 98 2527 2531 "ll.ml" 98 2527 2537
+)
+"ll.ml" 105 2809 2888 "ll.ml" 105 2809 2890
+type(
+  lbl
+)
+ident(
+  int_ref l2 "ll.ml" 103 2699 2716 "ll.ml" 103 2699 2718
+)
+"ll.ml" 105 2809 2880 "ll.ml" 105 2809 2891
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 105 2809 2816 "ll.ml" 105 2809 2892
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 105 2809 2813 "ll.ml" 105 2809 2892
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 104 2747 2751 "ll.ml" 105 2809 2892
+type(
+  unit
+)
+"ll.ml" 103 2699 2723 "ll.ml" 105 2809 2892
+type(
+  unit
+)
+"ll.ml" 100 2559 2597 "ll.ml" 105 2809 2892
+type(
+  terminator -> unit
+)
+type(
+  terminator -> unit
+)
+"ll.ml" 107 2894 2898 "ll.ml" 107 2894 2913
+type(
+  (string -> unit) -> bblock -> unit
+)
+ident(
+  def serialize_block "ll.ml" 112 3087 3087 --
+)
+"ll.ml" 107 2894 2915 "ll.ml" 107 2894 2922
+type(
+  string -> unit
+)
+ident(
+  def printfn "ll.ml" 107 2894 2941 "ll.ml" 110 3066 3085
+)
+"ll.ml" 107 2894 2949 "ll.ml" 107 2894 2950
+type(
+  lbl
+)
+ident(
+  def l "ll.ml" 108 2985 2987 "ll.ml" 110 3066 3085
+)
+"ll.ml" 107 2894 2957 "ll.ml" 107 2894 2959
+type(
+  insn list
+)
+ident(
+  def is "ll.ml" 108 2985 2987 "ll.ml" 110 3066 3085
+)
+"ll.ml" 107 2894 2971 "ll.ml" 107 2894 2972
+type(
+  terminator
+)
+ident(
+  def t "ll.ml" 108 2985 2987 "ll.ml" 110 3066 3085
+)
+"ll.ml" 107 2894 2942 "ll.ml" 107 2894 2973
+type(
+  bblock
+)
+"ll.ml" 108 2985 2987 "ll.ml" 108 2985 2994
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 107 2894 2915 "ll.ml" 107 2894 2922
+)
+"ll.ml" 108 2985 2996 "ll.ml" 108 2985 3010
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ll.ml" 108 2985 3011 "ll.ml" 108 2985 3018
+type(
+  (string -> string, unit, string) format
+)
+"ll.ml" 108 2985 3020 "ll.ml" 108 2985 3026
+type(
+  lbl -> string
+)
+ident(
+  int_ref pp_lbl "ll.ml" 98 2527 2531 "ll.ml" 98 2527 2537
+)
+"ll.ml" 108 2985 3027 "ll.ml" 108 2985 3028
+type(
+  lbl
+)
+ident(
+  int_ref l "ll.ml" 107 2894 2949 "ll.ml" 107 2894 2950
+)
+"ll.ml" 108 2985 3019 "ll.ml" 108 2985 3029
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 108 2985 2995 "ll.ml" 108 2985 3030
+call(
+  stack
+)
+type(
+  string
+)
+"ll.ml" 108 2985 2987 "ll.ml" 108 2985 3030
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 109 3032 3034 "ll.ml" 109 3032 3043
+type(
+  (insn -> unit) -> insn list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ll.ml" 109 3032 3045 "ll.ml" 109 3032 3052
+type(
+  (string -> unit) -> insn -> unit
+)
+ident(
+  int_ref pp_insn "ll.ml" 82 1925 1929 "ll.ml" 82 1925 1936
+)
+"ll.ml" 109 3032 3053 "ll.ml" 109 3032 3060
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 107 2894 2915 "ll.ml" 107 2894 2922
+)
+"ll.ml" 109 3032 3044 "ll.ml" 109 3032 3061
+call(
+  stack
+)
+type(
+  insn -> unit
+)
+"ll.ml" 109 3032 3062 "ll.ml" 109 3032 3064
+type(
+  insn list
+)
+ident(
+  int_ref is "ll.ml" 107 2894 2957 "ll.ml" 107 2894 2959
+)
+"ll.ml" 109 3032 3034 "ll.ml" 109 3032 3064
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 110 3066 3068 "ll.ml" 110 3066 3075
+type(
+  (string -> unit) -> terminator -> unit
+)
+ident(
+  int_ref pp_term "ll.ml" 100 2559 2563 "ll.ml" 100 2559 2570
+)
+"ll.ml" 110 3066 3076 "ll.ml" 110 3066 3083
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 107 2894 2915 "ll.ml" 107 2894 2922
+)
+"ll.ml" 110 3066 3084 "ll.ml" 110 3066 3085
+type(
+  terminator
+)
+ident(
+  int_ref t "ll.ml" 107 2894 2971 "ll.ml" 107 2894 2972
+)
+"ll.ml" 110 3066 3068 "ll.ml" 110 3066 3085
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 109 3032 3034 "ll.ml" 110 3066 3085
+type(
+  unit
+)
+"ll.ml" 108 2985 2987 "ll.ml" 110 3066 3085
+type(
+  unit
+)
+"ll.ml" 112 3087 3091 "ll.ml" 112 3087 3105
+type(
+  prog -> (string -> unit) -> unit
+)
+ident(
+  def serialize_prog "ll.ml" 117 3251 3251 --
+)
+"ll.ml" 112 3087 3114 "ll.ml" 112 3087 3117
+type(
+  bblock list
+)
+ident(
+  def cfg "ll.ml" 112 3087 3121 "ll.ml" 115 3232 3249
+)
+"ll.ml" 112 3087 3106 "ll.ml" 112 3087 3120
+type(
+  prog
+)
+"ll.ml" 112 3087 3122 "ll.ml" 112 3087 3129
+type(
+  string -> unit
+)
+ident(
+  def printfn "ll.ml" 113 3150 3152 "ll.ml" 115 3232 3249
+)
+"ll.ml" 113 3150 3152 "ll.ml" 113 3150 3159
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 112 3087 3122 "ll.ml" 112 3087 3129
+)
+"ll.ml" 113 3150 3160 "ll.ml" 113 3150 3187
+type(
+  string
+)
+"ll.ml" 113 3150 3152 "ll.ml" 113 3150 3187
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 114 3189 3191 "ll.ml" 114 3189 3200
+type(
+  (bblock -> unit) -> bblock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ll.ml" 114 3189 3202 "ll.ml" 114 3189 3217
+type(
+  (string -> unit) -> bblock -> unit
+)
+ident(
+  int_ref serialize_block "ll.ml" 107 2894 2898 "ll.ml" 107 2894 2913
+)
+"ll.ml" 114 3189 3218 "ll.ml" 114 3189 3225
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 112 3087 3122 "ll.ml" 112 3087 3129
+)
+"ll.ml" 114 3189 3201 "ll.ml" 114 3189 3226
+call(
+  stack
+)
+type(
+  bblock -> unit
+)
+"ll.ml" 114 3189 3227 "ll.ml" 114 3189 3230
+type(
+  bblock list
+)
+ident(
+  int_ref cfg "ll.ml" 112 3087 3114 "ll.ml" 112 3087 3117
+)
+"ll.ml" 114 3189 3191 "ll.ml" 114 3189 3230
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 115 3232 3234 "ll.ml" 115 3232 3241
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "ll.ml" 112 3087 3122 "ll.ml" 112 3087 3129
+)
+"ll.ml" 115 3232 3242 "ll.ml" 115 3232 3249
+type(
+  string
+)
+"ll.ml" 115 3232 3234 "ll.ml" 115 3232 3249
+call(
+  tail
+)
+type(
+  unit
+)
+"ll.ml" 114 3189 3191 "ll.ml" 115 3232 3249
+type(
+  unit
+)
+"ll.ml" 113 3150 3152 "ll.ml" 115 3232 3249
+type(
+  unit
+)
+"ll.ml" 117 3251 3255 "ll.ml" 117 3251 3269
+type(
+  prog -> string
+)
+ident(
+  def string_of_prog "ll.ml" 120 3367 3386 --
+)
+"ll.ml" 117 3251 3271 "ll.ml" 117 3251 3272
+type(
+  prog
+)
+ident(
+  def p "ll.ml" 117 3251 3281 "ll.ml" 120 3367 3386
+)
+"ll.ml" 118 3292 3298 "ll.ml" 118 3292 3299
+type(
+  Buffer.t
+)
+"ll.ml" 118 3292 3302 "ll.ml" 118 3292 3315
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"ll.ml" 118 3292 3316 "ll.ml" 118 3292 3319
+type(
+  int
+)
+"ll.ml" 118 3292 3302 "ll.ml" 118 3292 3319
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"ll.ml" 119 3323 3326 "ll.ml" 119 3323 3340
+type(
+  prog -> (string -> unit) -> unit
+)
+ident(
+  int_ref serialize_prog "ll.ml" 112 3087 3091 "ll.ml" 112 3087 3105
+)
+"ll.ml" 119 3323 3341 "ll.ml" 119 3323 3342
+type(
+  prog
+)
+ident(
+  int_ref p "ll.ml" 117 3251 3271 "ll.ml" 117 3251 3272
+)
+"ll.ml" 119 3323 3344 "ll.ml" 119 3323 3361
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"ll.ml" 119 3323 3362 "ll.ml" 119 3323 3363
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "ll.ml" 118 3292 3298 "ll.ml" 118 3292 3299
+)
+"ll.ml" 119 3323 3343 "ll.ml" 119 3323 3364
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ll.ml" 119 3323 3325 "ll.ml" 119 3323 3365
+call(
+  stack
+)
+type(
+  unit
+)
+"ll.ml" 120 3367 3369 "ll.ml" 120 3367 3384
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"ll.ml" 120 3367 3385 "ll.ml" 120 3367 3386
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "ll.ml" 118 3292 3298 "ll.ml" 118 3292 3299
+)
+"ll.ml" 120 3367 3369 "ll.ml" 120 3367 3386
+call(
+  tail
+)
+type(
+  string
+)
+"ll.ml" 119 3323 3325 "ll.ml" 120 3367 3386
+type(
+  string
+)
+"ll.ml" 118 3292 3294 "ll.ml" 120 3367 3386
+type(
+  string
+)
+type(
+  string
+)
