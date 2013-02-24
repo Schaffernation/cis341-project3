@@ -64,6 +64,9 @@ type(
   int
 )
 "lexer.mll" 9 155 159 "lexer.mll" 9 155 203
+call(
+  tail
+)
 type(
   Range.pos
 )
@@ -124,6 +127,9 @@ ident(
   int_ref p1 "lexer.mll" 11 209 229 "lexer.mll" 11 209 231
 )
 "lexer.mll" 12 282 308 "lexer.mll" 12 282 326
+call(
+  stack
+)
 type(
   Range.pos
 )
@@ -142,10 +148,16 @@ ident(
   int_ref p2 "lexer.mll" 11 209 250 "lexer.mll" 11 209 252
 )
 "lexer.mll" 12 282 327 "lexer.mll" 12 282 345
+call(
+  stack
+)
 type(
   Range.pos
 )
 "lexer.mll" 12 282 286 "lexer.mll" 12 282 345
+call(
+  tail
+)
 type(
   Range.t
 )
@@ -188,6 +200,9 @@ ident(
   int_ref lexbuf "lexer.mll" 14 347 363 "lexer.mll" 14 347 369
 )
 "lexer.mll" 14 347 395 "lexer.mll" 14 347 418
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -206,10 +221,16 @@ ident(
   int_ref lexbuf "lexer.mll" 14 347 363 "lexer.mll" 14 347 369
 )
 "lexer.mll" 15 419 425 "lexer.mll" 15 419 446
+call(
+  stack
+)
 type(
   Lexing.position
 )
 "lexer.mll" 14 347 382 "lexer.mll" 15 419 446
+call(
+  tail
+)
 type(
   Range.t
 )
@@ -310,6 +331,9 @@ ident(
   int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
 )
 "lexer.mll" 26 645 672 "lexer.mll" 26 645 693
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -328,6 +352,9 @@ ident(
   int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
 )
 "lexer.mll" 27 699 716 "lexer.mll" 27 699 737
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -365,6 +392,9 @@ ident(
   int_ref lexbuf "lexer.mll" 25 622 636 "lexer.mll" 25 622 642
 )
 "lexer.mll" 28 752 768 "lexer.mll" 28 752 787
+call(
+  stack
+)
 type(
   int
 )
@@ -419,6 +449,9 @@ ident(
   int_ref lexbuf "lexer.mll" 31 857 879 "lexer.mll" 31 857 885
 )
 "lexer.mll" 32 902 926 "lexer.mll" 32 902 942
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -441,6 +474,9 @@ ident(
   int_ref c "lexer.mll" 31 857 887 "lexer.mll" 31 857 888
 )
 "lexer.mll" 33 944 952 "lexer.mll" 33 944 997
+call(
+  stack
+)
 type(
   string
 )
@@ -543,6 +579,9 @@ type(
   int
 )
 "lexer.ml" 615 40022 40024 "lexer.ml" 615 40022 40054
+call(
+  tail
+)
 type(
   Parser.token
 )
@@ -596,6 +635,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.ml" 617 40108 40116 "lexer.ml" 617 40108 40173
+call(
+  stack
+)
 type(
   int
 )
@@ -626,6 +668,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 48 40269 40283 "lexer.mll" 48 40269 40301
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -652,6 +697,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 49 40348 40365 "lexer.mll" 49 40348 40383
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -678,6 +726,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 50 40430 40448 "lexer.mll" 50 40430 40466
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -704,6 +755,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 51 40513 40533 "lexer.mll" 51 40513 40551
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -730,6 +784,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 52 40598 40614 "lexer.mll" 52 40598 40632
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -756,6 +813,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 53 40679 40701 "lexer.mll" 53 40679 40719
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -782,6 +842,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 54 40766 40816 "lexer.mll" 54 40766 40832
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -800,6 +863,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 54 40766 40834 "lexer.mll" 54 40766 40847
+call(
+  stack
+)
 type(
   string
 )
@@ -830,6 +896,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 55 40895 40930 "lexer.mll" 55 40895 40946
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -855,6 +924,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 55 40895 40965 "lexer.mll" 55 40895 40980
+call(
+  stack
+)
 type(
   string
 )
@@ -889,6 +961,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 56 41029 41045 "lexer.mll" 56 41029 41061
+call(
+  tail
+)
 type(
   Parser.token
 )
@@ -911,6 +986,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 57 41107 41121 "lexer.mll" 57 41107 41135
+call(
+  stack
+)
 type(
   unit
 )
@@ -929,6 +1007,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 57 41107 41137 "lexer.mll" 57 41107 41149
+call(
+  tail
+)
 type(
   Parser.token
 )
@@ -955,6 +1036,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 59 41197 41212 "lexer.mll" 59 41197 41230
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -981,6 +1065,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 60 41278 41294 "lexer.mll" 60 41278 41312
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1007,6 +1094,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 61 41360 41377 "lexer.mll" 61 41360 41395
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1033,6 +1123,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 62 41443 41460 "lexer.mll" 62 41443 41478
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1059,6 +1152,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 63 41526 41541 "lexer.mll" 63 41526 41559
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1085,6 +1181,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 64 41607 41622 "lexer.mll" 64 41607 41640
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1111,6 +1210,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 65 41688 41703 "lexer.mll" 65 41688 41721
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1137,6 +1239,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 66 41769 41782 "lexer.mll" 66 41769 41800
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1163,6 +1268,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 67 41848 41864 "lexer.mll" 67 41848 41882
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1189,6 +1297,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 68 41930 41946 "lexer.mll" 68 41930 41964
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1215,6 +1326,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 69 42012 42028 "lexer.mll" 69 42012 42046
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1241,6 +1355,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 70 42094 42113 "lexer.mll" 70 42094 42131
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1267,6 +1384,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 71 42179 42197 "lexer.mll" 71 42179 42215
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1293,6 +1413,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 72 42263 42276 "lexer.mll" 72 42263 42294
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1319,6 +1442,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 73 42342 42358 "lexer.mll" 73 42342 42376
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1345,6 +1471,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 74 42424 42437 "lexer.mll" 74 42424 42455
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1371,6 +1500,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 75 42503 42519 "lexer.mll" 75 42503 42537
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1397,6 +1529,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 76 42585 42600 "lexer.mll" 76 42585 42618
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1423,6 +1558,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 77 42666 42682 "lexer.mll" 77 42666 42700
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1449,6 +1587,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 78 42748 42764 "lexer.mll" 78 42748 42782
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1475,6 +1616,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 79 42830 42844 "lexer.mll" 79 42830 42862
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1501,6 +1645,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 80 42910 42927 "lexer.mll" 80 42910 42945
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1527,6 +1674,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.mll" 81 42993 43010 "lexer.mll" 81 42993 43028
+call(
+  stack
+)
 type(
   Range.t
 )
@@ -1568,6 +1718,9 @@ type(
   int
 )
 "lexer.ml" 793 43108 43110 "lexer.ml" 793 43108 43167
+call(
+  stack
+)
 type(
   char
 )
@@ -1593,6 +1746,9 @@ ident(
   int_ref c "lexer.mll" 82 43080 43089 "lexer.mll" 82 43080 43090
 )
 "lexer.mll" 82 43188 43199 "lexer.mll" 82 43188 43227
+call(
+  tail
+)
 type(
   Parser.token
 )
@@ -1626,6 +1782,9 @@ ident(
   int_ref lexbuf "lexer.ml" 616 40055 40081 "lexer.ml" 616 40055 40087
 )
 "lexer.ml" 798 43246 43271 "lexer.ml" 798 43246 43303
+call(
+  stack
+)
 type(
   unit
 )
@@ -1651,6 +1810,9 @@ ident(
   int_ref __ocaml_lex_state "lexer.ml" 798 43246 43250 "lexer.ml" 798 43246 43267
 )
 "lexer.ml" 798 43246 43305 "lexer.ml" 798 43246 43351
+call(
+  tail
+)
 type(
   Parser.token
 )

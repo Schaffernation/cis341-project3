@@ -123,16 +123,10 @@ ident(
   int_ref ctr "x86.ml" 84 2063 2069 "x86.ml" 84 2063 2072
 )
 "x86.ml" 86 2119 2130 "x86.ml" 86 2119 2149
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 86 2119 2123 "x86.ml" 86 2119 2149
-call(
-  tail
-)
 type(
   lbl
 )
@@ -267,23 +261,14 @@ ident(
   int_ref ctr "x86.ml" 91 2245 2251 "x86.ml" 91 2245 2254
 )
 "x86.ml" 93 2301 2316 "x86.ml" 93 2301 2335
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 93 2301 2312 "x86.ml" 93 2301 2335
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 93 2301 2305 "x86.ml" 93 2301 2335
-call(
-  tail
-)
 type(
   lbl
 )
@@ -447,9 +432,6 @@ type(
   string
 )
 "x86.ml" 103 2538 2540 "x86.ml" 105 2630 2701
-call(
-  tail
-)
 type(
   string
 )
@@ -865,9 +847,6 @@ ident(
   int_ref x "x86.ml" 142 3492 3511 "x86.ml" 142 3492 3512
 )
 "x86.ml" 142 3492 3517 "x86.ml" 142 3492 3534
-call(
-  stack
-)
 type(
   lbl
 )
@@ -901,9 +880,6 @@ ident(
   int_ref l "x86.ml" 143 3535 3554 "x86.ml" 143 3535 3555
 )
 "x86.ml" 143 3535 3560 "x86.ml" 143 3535 3575
-call(
-  stack
-)
 type(
   lbl
 )
@@ -1004,9 +980,6 @@ ident(
   int_ref r "x86.ml" 149 3695 3708 "x86.ml" 149 3695 3709
 )
 "x86.ml" 149 3695 3713 "x86.ml" 149 3695 3728
-call(
-  stack
-)
 type(
   string
 )
@@ -1080,9 +1053,6 @@ ident(
   int_ref r "x86.ml" 152 3761 3775 "x86.ml" 152 3761 3776
 )
 "x86.ml" 152 3761 3792 "x86.ml" 152 3761 3809
-call(
-  stack
-)
 type(
   string
 )
@@ -1119,30 +1089,18 @@ ident(
   int_ref scl "x86.ml" 152 3761 3778 "x86.ml" 152 3761 3781
 )
 "x86.ml" 153 3818 3821 "x86.ml" 153 3818 3842
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 152 3761 3812 "x86.ml" 153 3818 3842
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 152 3761 3792 "x86.ml" 153 3818 3842
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 152 3761 3786 "x86.ml" 153 3818 3842
-call(
-  stack
-)
 type(
   string
 )
@@ -1170,23 +1128,14 @@ type(
   string
 )
 "x86.ml" 150 3729 3735 "x86.ml" 155 3862 3871
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 146 3642 3650 "x86.ml" 155 3862 3871
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 146 3642 3644 "x86.ml" 155 3862 3871
-call(
-  stack
-)
 type(
   string
 )
@@ -1195,9 +1144,6 @@ type(
   string
 )
 "x86.ml" 141 3467 3471 "x86.ml" 156 3872 3879
-call(
-  tail
-)
 type(
   string
 )
@@ -1266,16 +1212,10 @@ ident(
   int_ref x "x86.ml" 161 3950 3960 "x86.ml" 161 3950 3961
 )
 "x86.ml" 161 3950 3971 "x86.ml" 161 3950 3990
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 161 3950 3965 "x86.ml" 161 3950 3990
-call(
-  tail
-)
 type(
   string
 )
@@ -1316,16 +1256,10 @@ ident(
   int_ref l "x86.ml" 162 3991 4001 "x86.ml" 162 3991 4002
 )
 "x86.ml" 162 3991 4012 "x86.ml" 162 3991 4029
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 162 3991 4006 "x86.ml" 162 3991 4029
-call(
-  tail
-)
 type(
   string
 )
@@ -1355,9 +1289,6 @@ ident(
   int_ref r "x86.ml" 163 4030 4040 "x86.ml" 163 4030 4041
 )
 "x86.ml" 163 4030 4046 "x86.ml" 163 4030 4061
-call(
-  tail
-)
 type(
   string
 )
@@ -1387,9 +1318,6 @@ ident(
   int_ref i "x86.ml" 164 4062 4072 "x86.ml" 164 4062 4073
 )
 "x86.ml" 164 4062 4078 "x86.ml" 164 4062 4093
-call(
-  tail
-)
 type(
   string
 )
@@ -1441,9 +1369,6 @@ type(
   string
 )
 "x86.ml" 171 4172 4173 "x86.ml" 171 4172 4234
-call(
-  tail
-)
 type(
   lbl
 )
@@ -1473,9 +1398,6 @@ ident(
   int_ref l "x86.ml" 172 4235 4245 "x86.ml" 172 4235 4246
 )
 "x86.ml" 172 4235 4250 "x86.ml" 172 4235 4265
-call(
-  tail
-)
 type(
   lbl
 )
@@ -1516,16 +1438,10 @@ ident(
   int_ref r "x86.ml" 173 4266 4276 "x86.ml" 173 4266 4277
 )
 "x86.ml" 173 4266 4287 "x86.ml" 173 4266 4304
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 173 4266 4281 "x86.ml" 173 4266 4304
-call(
-  tail
-)
 type(
   lbl
 )
@@ -1566,16 +1482,10 @@ ident(
   int_ref i "x86.ml" 174 4305 4315 "x86.ml" 174 4305 4316
 )
 "x86.ml" 174 4305 4326 "x86.ml" 174 4305 4343
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 174 4305 4320 "x86.ml" 174 4305 4343
-call(
-  tail
-)
 type(
   lbl
 )
@@ -1733,9 +1643,6 @@ ident(
   int_ref src "x86.ml" 188 4543 4577 "x86.ml" 188 4543 4580
 )
 "x86.ml" 189 4584 4602 "x86.ml" 189 4584 4622
-call(
-  stack
-)
 type(
   string
 )
@@ -1772,37 +1679,22 @@ ident(
   int_ref dest "x86.ml" 188 4543 4571 "x86.ml" 188 4543 4575
 )
 "x86.ml" 189 4584 4632 "x86.ml" 189 4584 4653
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 189 4584 4625 "x86.ml" 189 4584 4653
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 189 4584 4602 "x86.ml" 189 4584 4653
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 189 4584 4595 "x86.ml" 189 4584 4653
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 189 4584 4588 "x86.ml" 189 4584 4653
-call(
-  tail
-)
 type(
   string
 )
@@ -1893,9 +1785,6 @@ ident(
   int_ref src "x86.ml" 191 4655 4687 "x86.ml" 191 4655 4690
 )
 "x86.ml" 193 4711 4741 "x86.ml" 193 4711 4761
-call(
-  stack
-)
 type(
   string
 )
@@ -1932,37 +1821,22 @@ ident(
   int_ref dest "x86.ml" 191 4655 4681 "x86.ml" 191 4655 4685
 )
 "x86.ml" 193 4711 4771 "x86.ml" 193 4711 4792
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 193 4711 4764 "x86.ml" 193 4711 4792
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 193 4711 4741 "x86.ml" 193 4711 4792
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 193 4711 4734 "x86.ml" 193 4711 4792
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 193 4711 4727 "x86.ml" 193 4711 4792
-call(
-  tail
-)
 type(
   string
 )
@@ -2036,37 +1910,22 @@ ident(
   int_ref dest "x86.ml" 191 4655 4681 "x86.ml" 191 4655 4685
 )
 "x86.ml" 194 4793 4839 "x86.ml" 194 4793 4860
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 194 4793 4832 "x86.ml" 194 4793 4860
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 194 4793 4824 "x86.ml" 194 4793 4860
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 194 4793 4817 "x86.ml" 194 4793 4860
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 194 4793 4810 "x86.ml" 194 4793 4860
-call(
-  tail
-)
 type(
   string
 )
@@ -2086,9 +1945,6 @@ type(
   string
 )
 "x86.ml" 195 4861 4872 "x86.ml" 195 4861 4916
-call(
-  tail
-)
 type(
   string
 )
@@ -2157,23 +2013,14 @@ ident(
   int_ref op "x86.ml" 197 4924 4949 "x86.ml" 197 4924 4951
 )
 "x86.ml" 198 4954 4972 "x86.ml" 198 4954 4991
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 198 4954 4965 "x86.ml" 198 4954 4991
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 198 4954 4958 "x86.ml" 198 4954 4991
-call(
-  tail
-)
 type(
   string
 )
@@ -2239,9 +2086,6 @@ ident(
   int_ref src "x86.ml" 200 4995 5019 "x86.ml" 200 4995 5022
 )
 "x86.ml" 201 5026 5045 "x86.ml" 201 5026 5064
-call(
-  stack
-)
 type(
   string
 )
@@ -2278,37 +2122,22 @@ ident(
   int_ref dest "x86.ml" 200 4995 5014 "x86.ml" 200 4995 5018
 )
 "x86.ml" 202 5074 5082 "x86.ml" 202 5074 5102
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 201 5026 5067 "x86.ml" 202 5074 5102
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 201 5026 5045 "x86.ml" 202 5074 5102
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 201 5026 5039 "x86.ml" 202 5074 5102
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 201 5026 5030 "x86.ml" 202 5074 5102
-call(
-  tail
-)
 type(
   string
 )
@@ -2373,23 +2202,14 @@ ident(
   int_ref op "x86.ml" 204 5104 5128 "x86.ml" 204 5104 5130
 )
 "x86.ml" 205 5133 5150 "x86.ml" 205 5133 5171
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 205 5133 5144 "x86.ml" 205 5133 5171
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 205 5133 5137 "x86.ml" 205 5133 5171
-call(
-  tail
-)
 type(
   string
 )
@@ -2465,9 +2285,6 @@ ident(
   int_ref src "x86.ml" 209 5175 5209 "x86.ml" 209 5175 5212
 )
 "x86.ml" 210 5216 5234 "x86.ml" 210 5216 5254
-call(
-  stack
-)
 type(
   string
 )
@@ -2504,37 +2321,22 @@ ident(
   int_ref dest "x86.ml" 209 5175 5203 "x86.ml" 209 5175 5207
 )
 "x86.ml" 210 5216 5264 "x86.ml" 210 5216 5284
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 210 5216 5257 "x86.ml" 210 5216 5284
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 210 5216 5234 "x86.ml" 210 5216 5284
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 210 5216 5227 "x86.ml" 210 5216 5284
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 210 5216 5220 "x86.ml" 210 5216 5284
-call(
-  tail
-)
 type(
   string
 )
@@ -2593,9 +2395,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 213 5319 5336 "x86.ml" 213 5319 5365
-call(
-  tail
-)
 type(
   string
 )
@@ -2629,9 +2428,6 @@ ident(
   int_ref o "x86.ml" 214 5366 5374 "x86.ml" 214 5366 5375
 )
 "x86.ml" 214 5366 5383 "x86.ml" 214 5366 5406
-call(
-  tail
-)
 type(
   string
 )
@@ -2683,9 +2479,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 215 5408 5425 "x86.ml" 215 5408 5454
-call(
-  tail
-)
 type(
   string
 )
@@ -2733,9 +2526,6 @@ type(
   reg * ind
 )
 "x86.ml" 216 5455 5472 "x86.ml" 216 5455 5491
-call(
-  tail
-)
 type(
   string
 )
@@ -2787,9 +2577,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 217 5492 5509 "x86.ml" 217 5492 5538
-call(
-  tail
-)
 type(
   string
 )
@@ -2841,9 +2628,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 218 5539 5556 "x86.ml" 218 5539 5583
-call(
-  tail
-)
 type(
   string
 )
@@ -2895,9 +2679,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 219 5584 5601 "x86.ml" 219 5584 5628
-call(
-  tail
-)
 type(
   string
 )
@@ -2949,9 +2730,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 220 5629 5646 "x86.ml" 220 5629 5673
-call(
-  tail
-)
 type(
   string
 )
@@ -2985,9 +2763,6 @@ ident(
   int_ref o "x86.ml" 221 5674 5682 "x86.ml" 221 5674 5683
 )
 "x86.ml" 221 5674 5691 "x86.ml" 221 5674 5714
-call(
-  tail
-)
 type(
   string
 )
@@ -3039,9 +2814,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 222 5716 5733 "x86.ml" 222 5716 5762
-call(
-  tail
-)
 type(
   string
 )
@@ -3093,9 +2865,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 223 5763 5780 "x86.ml" 223 5763 5808
-call(
-  tail
-)
 type(
   string
 )
@@ -3147,9 +2916,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 224 5809 5826 "x86.ml" 224 5809 5855
-call(
-  tail
-)
 type(
   string
 )
@@ -3183,9 +2949,6 @@ ident(
   int_ref o "x86.ml" 225 5856 5865 "x86.ml" 225 5856 5866
 )
 "x86.ml" 225 5856 5873 "x86.ml" 225 5856 5897
-call(
-  tail
-)
 type(
   string
 )
@@ -3219,9 +2982,6 @@ ident(
   int_ref o "x86.ml" 226 5899 5907 "x86.ml" 226 5899 5908
 )
 "x86.ml" 226 5899 5916 "x86.ml" 226 5899 5939
-call(
-  tail
-)
 type(
   string
 )
@@ -3273,9 +3033,6 @@ type(
   opnd * opnd
 )
 "x86.ml" 227 5941 5963 "x86.ml" 227 5941 5994
-call(
-  tail
-)
 type(
   string
 )
@@ -3374,9 +3131,6 @@ type(
   string
 )
 "x86.ml" 232 6156 6171 "x86.ml" 232 6156 6225
-call(
-  stack
-)
 type(
   string
 )
@@ -3385,9 +3139,6 @@ type(
   string
 )
 "x86.ml" 230 6065 6073 "x86.ml" 232 6156 6226
-call(
-  tail
-)
 type(
   string
 )
@@ -3418,9 +3169,6 @@ type(
   string
 )
 "x86.ml" 234 6275 6294 "x86.ml" 234 6275 6340
-call(
-  tail
-)
 type(
   string
 )
@@ -3473,9 +3221,6 @@ ident(
   int_ref r "x86.ml" 236 6407 6421 "x86.ml" 236 6407 6422
 )
 "x86.ml" 236 6407 6426 "x86.ml" 236 6407 6446
-call(
-  tail
-)
 type(
   string
 )
@@ -3505,9 +3250,6 @@ ident(
   int_ref i "x86.ml" 237 6447 6461 "x86.ml" 237 6447 6462
 )
 "x86.ml" 237 6447 6466 "x86.ml" 237 6447 6481
-call(
-  tail
-)
 type(
   string
 )
@@ -3563,9 +3305,6 @@ ident(
   int_ref cc "x86.ml" 238 6485 6517 "x86.ml" 238 6485 6519
 )
 "x86.ml" 239 6523 6539 "x86.ml" 239 6523 6555
-call(
-  stack
-)
 type(
   string
 )
@@ -3602,30 +3341,18 @@ ident(
   int_ref dest "x86.ml" 238 6485 6511 "x86.ml" 238 6485 6515
 )
 "x86.ml" 239 6523 6564 "x86.ml" 239 6523 6592
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 239 6523 6558 "x86.ml" 239 6523 6592
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 239 6523 6539 "x86.ml" 239 6523 6592
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 239 6523 6531 "x86.ml" 239 6523 6592
-call(
-  tail
-)
 type(
   string
 )
@@ -3655,9 +3382,6 @@ type(
   opnd * cnd
 )
 "x86.ml" 240 6596 6602 "x86.ml" 240 6596 6626
-call(
-  tail
-)
 type(
   string
 )
@@ -3703,9 +3427,6 @@ ident(
   int_ref o "x86.ml" 241 6627 6635 "x86.ml" 241 6627 6636
 )
 "x86.ml" 241 6627 6644 "x86.ml" 241 6627 6666
-call(
-  tail
-)
 type(
   string
 )
@@ -3739,9 +3460,6 @@ ident(
   int_ref o "x86.ml" 242 6667 6676 "x86.ml" 242 6667 6677
 )
 "x86.ml" 242 6667 6684 "x86.ml" 242 6667 6707
-call(
-  tail
-)
 type(
   string
 )
@@ -3819,9 +3537,6 @@ ident(
   int_ref cc "x86.ml" 245 6751 6774 "x86.ml" 245 6751 6776
 )
 "x86.ml" 246 6784 6798 "x86.ml" 246 6784 6816
-call(
-  stack
-)
 type(
   string
 )
@@ -3858,30 +3573,18 @@ ident(
   int_ref lbl "x86.ml" 245 6751 6777 "x86.ml" 245 6751 6780
 )
 "x86.ml" 246 6784 6825 "x86.ml" 246 6784 6844
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 246 6784 6819 "x86.ml" 246 6784 6844
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 246 6784 6798 "x86.ml" 246 6784 6844
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 246 6784 6792 "x86.ml" 246 6784 6844
-call(
-  tail
-)
 type(
   string
 )
@@ -3911,9 +3614,6 @@ type(
   cnd * lbl
 )
 "x86.ml" 246 6784 6848 "x86.ml" 246 6784 6870
-call(
-  tail
-)
 type(
   string
 )
@@ -3969,9 +3669,6 @@ type(
   reg * opnd
 )
 "x86.ml" 247 6871 6891 "x86.ml" 247 6871 6921
-call(
-  tail
-)
 type(
   string
 )
@@ -4055,9 +3752,6 @@ type(
   unit
 )
 "x86.ml" 258 7232 7242 "x86.ml" 258 7232 7251
-call(
-  stack
-)
 type(
   lbl
 )
@@ -4090,9 +3784,6 @@ ident(
   int_ref body "x86.ml" 257 7173 7193 "x86.ml" 257 7173 7197
 )
 "x86.ml" 259 7255 7263 "x86.ml" 259 7255 7283
-call(
-  stack
-)
 type(
   insn_block
 )
@@ -4150,9 +3841,6 @@ ident(
   int_ref s "x86.ml" 262 7340 7354 "x86.ml" 262 7340 7355
 )
 "x86.ml" 263 7384 7400 "x86.ml" 263 7384 7416
-call(
-  stack
-)
 type(
   lbl
 )
@@ -4164,9 +3852,6 @@ ident(
   int_ref insns "x86.ml" 262 7340 7365 "x86.ml" 262 7340 7370
 )
 "x86.ml" 263 7384 7386 "x86.ml" 263 7384 7422
-call(
-  tail
-)
 type(
   insn_block
 )
@@ -4239,23 +3924,14 @@ type(
   lbl
 )
 "x86.ml" 268 7589 7622 "x86.ml" 268 7589 7647
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 268 7589 7599 "x86.ml" 268 7589 7648
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 267 7566 7587 "x86.ml" 269 7649 7652
-call(
-  stack
-)
 type(
   unit
 )
@@ -4304,23 +3980,14 @@ type(
   lbl
 )
 "x86.ml" 270 7662 7687 "x86.ml" 270 7662 7712
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 270 7662 7670 "x86.ml" 270 7662 7713
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 270 7662 7664 "x86.ml" 270 7662 7713
-call(
-  stack
-)
 type(
   unit
 )
@@ -4371,23 +4038,14 @@ ident(
   int_ref insn "x86.ml" 271 7715 7732 "x86.ml" 271 7715 7736
 )
 "x86.ml" 271 7715 7764 "x86.ml" 271 7715 7785
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 271 7715 7746 "x86.ml" 271 7715 7786
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 271 7715 7740 "x86.ml" 271 7715 7786
-call(
-  tail
-)
 type(
   unit
 )
@@ -4407,9 +4065,6 @@ type(
   insn list
 )
 "x86.ml" 271 7715 7717 "x86.ml" 272 7788 7801
-call(
-  tail
-)
 type(
   unit
 )
@@ -4488,16 +4143,10 @@ ident(
   int_ref i "x86.ml" 275 7859 7883 "x86.ml" 275 7859 7884
 )
 "x86.ml" 275 7859 7892 "x86.ml" 275 7859 7908
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 275 7859 7888 "x86.ml" 275 7859 7908
-call(
-  tail
-)
 type(
   string
 )
@@ -4546,16 +4195,10 @@ type(
   lbl
 )
 "x86.ml" 277 7931 7964 "x86.ml" 277 7931 7989
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 277 7931 7941 "x86.ml" 277 7931 7989
-call(
-  stack
-)
 type(
   string
 )
@@ -4589,16 +4232,10 @@ type(
   lbl
 )
 "x86.ml" 278 7990 8015 "x86.ml" 278 7990 8040
-call(
-  stack
-)
 type(
   lbl
 )
 "x86.ml" 278 7990 8000 "x86.ml" 278 7990 8040
-call(
-  stack
-)
 type(
   string
 )
@@ -4618,9 +4255,6 @@ type(
   insn list
 )
 "x86.ml" 275 7859 7861 "x86.ml" 279 8042 8055
-call(
-  tail
-)
 type(
   string
 )
@@ -4682,16 +4316,10 @@ ident(
   int_ref i "x86.ml" 281 8061 8075 "x86.ml" 281 8061 8076
 )
 "x86.ml" 282 8079 8096 "x86.ml" 282 8079 8114
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 282 8079 8081 "x86.ml" 282 8079 8114
-call(
-  tail
-)
 type(
   unit
 )
@@ -4750,16 +4378,10 @@ ident(
   int_ref blk "x86.ml" 284 8116 8137 "x86.ml" 284 8116 8140
 )
 "x86.ml" 285 8155 8172 "x86.ml" 285 8155 8198
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 285 8155 8157 "x86.ml" 285 8155 8198
-call(
-  tail
-)
 type(
   unit
 )
@@ -4818,16 +4440,10 @@ ident(
   int_ref i "x86.ml" 287 8200 8214 "x86.ml" 287 8200 8215
 )
 "x86.ml" 288 8218 8235 "x86.ml" 288 8218 8253
-call(
-  stack
-)
 type(
   string
 )
 "x86.ml" 288 8218 8220 "x86.ml" 288 8218 8253
-call(
-  tail
-)
 type(
   unit
 )

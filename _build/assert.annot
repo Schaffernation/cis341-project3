@@ -60,9 +60,6 @@ type(
   string
 )
 "assert.ml" 24 607 636 "assert.ml" 24 607 656
-call(
-  tail
-)
 type(
   unit
 )
@@ -118,9 +115,6 @@ type(
   unit
 )
 "assert.ml" 27 700 715 "assert.ml" 27 700 721
-call(
-  stack
-)
 type(
   'a
 )
@@ -154,9 +148,6 @@ type(
   string
 )
 "assert.ml" 27 700 733 "assert.ml" 27 700 753
-call(
-  tail
-)
 type(
   unit
 )
@@ -198,9 +189,6 @@ type(
   string
 )
 "assert.ml" 29 763 803 "assert.ml" 29 763 825
-call(
-  tail
-)
 type(
   unit
 )
@@ -237,9 +225,6 @@ type(
   unit
 )
 "assert.ml" 44 1020 1024 "assert.ml" 44 1020 1028
-call(
-  stack
-)
 type(
   unit
 )
@@ -306,16 +291,10 @@ ident(
   int_ref e "assert.ml" 48 1072 1078 "assert.ml" 48 1072 1079
 )
 "assert.ml" 48 1072 1116 "assert.ml" 48 1072 1138
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 48 1072 1088 "assert.ml" 48 1072 1139
-call(
-  stack
-)
 type(
   string
 )
@@ -388,9 +367,6 @@ ident(
   int_ref f "assert.ml" 51 1189 1209 "assert.ml" 51 1189 1210
 )
 "assert.ml" 51 1189 1219 "assert.ml" 51 1189 1234
-call(
-  stack
-)
 type(
   result
 )
@@ -467,9 +443,6 @@ ident(
   int_ref cases "assert.ml" 53 1260 1282 "assert.ml" 53 1260 1287
 )
 "assert.ml" 53 1260 1307 "assert.ml" 53 1260 1330
-call(
-  stack
-)
 type(
   (string * result) list
 )
@@ -525,9 +498,6 @@ ident(
   int_ref cases "assert.ml" 54 1332 1347 "assert.ml" 54 1332 1352
 )
 "assert.ml" 54 1332 1365 "assert.ml" 54 1332 1388
-call(
-  stack
-)
 type(
   (string * result) list
 )
@@ -582,9 +552,6 @@ ident(
   int_ref s "assert.ml" 57 1399 1414 "assert.ml" 57 1399 1415
 )
 "assert.ml" 58 1433 1435 "assert.ml" 58 1433 1454
-call(
-  tail
-)
 type(
   outcome
 )
@@ -715,9 +682,6 @@ ident(
   int_ref msg "assert.ml" 72 1700 1713 "assert.ml" 72 1700 1716
 )
 "assert.ml" 72 1700 1720 "assert.ml" 72 1700 1737
-call(
-  stack
-)
 type(
   string
 )
@@ -726,23 +690,14 @@ type(
   string
 )
 "assert.ml" 69 1619 1637 "assert.ml" 74 1746 1751
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 69 1619 1630 "assert.ml" 74 1746 1751
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 69 1619 1623 "assert.ml" 74 1746 1751
-call(
-  tail
-)
 type(
   string
 )
@@ -848,23 +803,14 @@ ident(
   int_ref case "assert.ml" 78 1827 1866 "assert.ml" 78 1827 1870
 )
 "assert.ml" 78 1827 1888 "assert.ml" 78 1827 1909
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 78 1827 1881 "assert.ml" 78 1827 1909
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 78 1827 1874 "assert.ml" 78 1827 1909
-call(
-  tail
-)
 type(
   string
 )
@@ -888,16 +834,10 @@ ident(
   int_ref cases "assert.ml" 76 1776 1800 "assert.ml" 76 1776 1805
 )
 "assert.ml" 78 1827 1833 "assert.ml" 78 1827 1920
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 77 1810 1816 "assert.ml" 78 1827 1920
-call(
-  tail
-)
 type(
   string
 )
@@ -1003,23 +943,14 @@ ident(
   int_ref case "assert.ml" 81 1970 2009 "assert.ml" 81 1970 2013
 )
 "assert.ml" 81 1970 2031 "assert.ml" 81 1970 2052
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 81 1970 2024 "assert.ml" 81 1970 2052
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 81 1970 2017 "assert.ml" 81 1970 2052
-call(
-  tail
-)
 type(
   string
 )
@@ -1043,23 +974,14 @@ ident(
   int_ref cases "assert.ml" 79 1921 1936 "assert.ml" 79 1921 1941
 )
 "assert.ml" 81 1970 1976 "assert.ml" 81 1970 2063
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 80 1946 1963 "assert.ml" 81 1970 2063
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 80 1946 1952 "assert.ml" 81 1970 2063
-call(
-  tail
-)
 type(
   string
 )
@@ -1192,9 +1114,6 @@ ident(
   int_ref cases "assert.ml" 86 2191 2208 "assert.ml" 86 2191 2213
 )
 "assert.ml" 87 2217 2221 "assert.ml" 87 2217 2302
-call(
-  tail
-)
 type(
   int
 )
@@ -1306,9 +1225,6 @@ ident(
   int_ref cases "assert.ml" 88 2306 2323 "assert.ml" 88 2306 2328
 )
 "assert.ml" 89 2332 2336 "assert.ml" 89 2332 2419
-call(
-  tail
-)
 type(
   int
 )
@@ -1363,9 +1279,6 @@ ident(
   int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
 )
 "assert.ml" 92 2481 2500 "assert.ml" 92 2481 2516
-call(
-  stack
-)
 type(
   int
 )
@@ -1388,9 +1301,6 @@ ident(
   int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
 )
 "assert.ml" 93 2520 2539 "assert.ml" 93 2520 2555
-call(
-  stack
-)
 type(
   int
 )
@@ -1413,9 +1323,6 @@ ident(
   int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
 )
 "assert.ml" 94 2559 2577 "assert.ml" 94 2559 2594
-call(
-  stack
-)
 type(
   int
 )
@@ -1565,9 +1472,6 @@ ident(
   int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
 )
 "assert.ml" 97 2725 2750 "assert.ml" 97 2725 2809
-call(
-  stack
-)
 type(
   string
 )
@@ -1659,9 +1563,6 @@ ident(
   int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
 )
 "assert.ml" 100 2893 2918 "assert.ml" 100 2893 2961
-call(
-  stack
-)
 type(
   string
 )
@@ -1769,9 +1670,6 @@ ident(
   int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
 )
 "assert.ml" 103 3049 3067 "assert.ml" 103 3049 3084
-call(
-  stack
-)
 type(
   int
 )
@@ -1794,9 +1692,6 @@ ident(
   int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
 )
 "assert.ml" 104 3088 3107 "assert.ml" 104 3088 3123
-call(
-  stack
-)
 type(
   int
 )
@@ -1819,9 +1714,6 @@ ident(
   int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
 )
 "assert.ml" 105 3127 3146 "assert.ml" 105 3127 3162
-call(
-  stack
-)
 type(
   int
 )
@@ -2027,9 +1919,6 @@ ident(
   int_ref t "assert.ml" 111 3336 3397 "assert.ml" 111 3336 3398
 )
 "assert.ml" 112 3414 3457 "assert.ml" 112 3414 3470
-call(
-  stack
-)
 type(
   string * int * int * int * float * int * int
 )
@@ -2252,9 +2141,6 @@ ident(
   int_ref t "assert.ml" 111 3336 3397 "assert.ml" 111 3336 3398
 )
 "assert.ml" 115 3568 3588 "assert.ml" 115 3568 3622
-call(
-  stack
-)
 type(
   string
 )
@@ -2299,9 +2185,6 @@ type(
   string
 )
 "assert.ml" 116 3629 3651 "assert.ml" 116 3629 3673
-call(
-  stack
-)
 type(
   string
 )
@@ -2324,9 +2207,6 @@ type(
   string
 )
 "assert.ml" 117 3679 3687 "assert.ml" 117 3679 3713
-call(
-  stack
-)
 type(
   string
 )
@@ -2339,16 +2219,10 @@ type(
   string
 )
 "assert.ml" 114 3549 3559 "assert.ml" 118 3715 3722
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 114 3549 3553 "assert.ml" 118 3715 3722
-call(
-  stack
-)
 type(
   string
 )
@@ -2450,9 +2324,6 @@ ident(
   int_ref o "assert.ml" 109 3220 3243 "assert.ml" 109 3220 3244
 )
 "assert.ml" 120 3732 3769 "assert.ml" 120 3732 3811
-call(
-  stack
-)
 type(
   int * int * int * float * int * int * string
 )
@@ -2547,23 +2418,14 @@ ident(
   int_ref maxh "assert.ml" 120 3732 3757 "assert.ml" 120 3732 3761
 )
 "assert.ml" 121 3815 3829 "assert.ml" 121 3815 3949
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 121 3815 3823 "assert.ml" 121 3815 3949
-call(
-  stack
-)
 type(
   string
 )
 "assert.ml" 121 3815 3817 "assert.ml" 121 3815 3949
-call(
-  tail
-)
 type(
   string
 )

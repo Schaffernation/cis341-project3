@@ -77,6 +77,9 @@ ident(
   int_ref oc "occ.ml" 13 270 282 "occ.ml" 13 270 284
 )
 "occ.ml" 13 270 291 "occ.ml" 13 270 315
+call(
+  tail
+)
 type(
   unit
 )
@@ -140,6 +143,9 @@ ident(
   int_ref cmd "occ.ml" 23 408 416 "occ.ml" 23 408 419
 )
 "occ.ml" 25 489 504 "occ.ml" 25 489 525
+call(
+  stack
+)
 type(
   in_channel * out_channel
 )
@@ -176,10 +182,16 @@ ident(
   int_ref o "occ.ml" 25 489 500 "occ.ml" 25 489 501
 )
 "occ.ml" 26 529 565 "occ.ml" 26 529 582
+call(
+  stack
+)
 type(
   string -> unit
 )
 "occ.ml" 26 529 542 "occ.ml" 26 529 582
+call(
+  stack
+)
 type(
   unit
 )
@@ -202,6 +214,9 @@ ident(
   int_ref o "occ.ml" 25 489 500 "occ.ml" 25 489 501
 )
 "occ.ml" 27 586 599 "occ.ml" 27 586 610
+call(
+  stack
+)
 type(
   unit
 )
@@ -224,6 +239,9 @@ ident(
   int_ref i "occ.ml" 25 489 497 "occ.ml" 25 489 498
 )
 "occ.ml" 28 614 628 "occ.ml" 28 614 647
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -253,6 +271,9 @@ type(
   in_channel * out_channel
 )
 "occ.ml" 29 651 662 "occ.ml" 29 651 687
+call(
+  stack
+)
 type(
   LibUtil.Unix.process_status
 )
@@ -322,6 +343,9 @@ ident(
   int_ref i "occ.ml" 30 693 714 "occ.ml" 30 693 715
 )
 "occ.ml" 31 731 774 "occ.ml" 31 731 802
+call(
+  stack
+)
 type(
   string
 )
@@ -381,6 +405,9 @@ ident(
   int_ref i "occ.ml" 32 805 828 "occ.ml" 32 805 829
 )
 "occ.ml" 33 834 877 "occ.ml" 33 834 906
+call(
+  stack
+)
 type(
   string
 )
@@ -436,6 +463,9 @@ ident(
   int_ref i "occ.ml" 34 909 931 "occ.ml" 34 909 932
 )
 "occ.ml" 35 937 980 "occ.ml" 35 937 1008
+call(
+  stack
+)
 type(
   string
 )
@@ -558,14 +588,23 @@ ident(
   int_ref buf "occ.ml" 47 1291 1306 "occ.ml" 47 1291 1309
 )
 "occ.ml" 49 1354 1397 "occ.ml" 49 1354 1430
+call(
+  stack
+)
 type(
   Ast.prog
 )
 "occ.ml" 49 1354 1376 "occ.ml" 49 1354 1431
+call(
+  stack
+)
 type(
   Ll.prog
 )
 "occ.ml" 49 1354 1360 "occ.ml" 49 1354 1431
+call(
+  stack
+)
 type(
   Backend.cunit
 )
@@ -613,18 +652,30 @@ ident(
   int_ref buf "occ.ml" 47 1291 1306 "occ.ml" 47 1291 1309
 )
 "occ.ml" 52 1516 1557 "occ.ml" 52 1516 1578
+call(
+  stack
+)
 type(
   Range.t
 )
 "occ.ml" 52 1516 1534 "occ.ml" 52 1516 1579
+call(
+  stack
+)
 type(
   string
 )
 "occ.ml" 51 1464 1479 "occ.ml" 52 1516 1580
+call(
+  stack
+)
 type(
   string
 )
 "occ.ml" 51 1464 1470 "occ.ml" 52 1516 1580
+call(
+  tail
+)
 type(
   Backend.cunit
 )
@@ -689,6 +740,9 @@ ident(
   int_ref ifile "occ.ml" 56 1619 1638 "occ.ml" 56 1619 1643
 )
 "occ.ml" 57 1652 1666 "occ.ml" 57 1652 1679
+call(
+  stack
+)
 type(
   in_channel
 )
@@ -711,6 +765,9 @@ ident(
   int_ref ofile "occ.ml" 56 1619 1644 "occ.ml" 56 1619 1649
 )
 "occ.ml" 58 1683 1697 "occ.ml" 58 1683 1711
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -733,6 +790,9 @@ ident(
   int_ref ich "occ.ml" 57 1652 1660 "occ.ml" 57 1652 1663
 )
 "occ.ml" 59 1715 1729 "occ.ml" 59 1715 1752
+call(
+  stack
+)
 type(
   Lexing.lexbuf
 )
@@ -758,6 +818,9 @@ ident(
   int_ref buf "occ.ml" 59 1715 1723 "occ.ml" 59 1715 1726
 )
 "occ.ml" 60 1756 1760 "occ.ml" 60 1756 1788
+call(
+  stack
+)
 type(
   unit
 )
@@ -790,10 +853,16 @@ ident(
   int_ref buf "occ.ml" 59 1715 1723 "occ.ml" 59 1715 1726
 )
 "occ.ml" 61 1790 1812 "occ.ml" 61 1790 1825
+call(
+  stack
+)
 type(
   Backend.cunit
 )
 "occ.ml" 61 1790 1794 "occ.ml" 61 1790 1825
+call(
+  stack
+)
 type(
   unit
 )
@@ -812,6 +881,9 @@ ident(
   int_ref ich "occ.ml" 57 1652 1660 "occ.ml" 57 1652 1663
 )
 "occ.ml" 62 1827 1831 "occ.ml" 62 1827 1843
+call(
+  stack
+)
 type(
   unit
 )
@@ -830,6 +902,9 @@ ident(
   int_ref och "occ.ml" 58 1683 1691 "occ.ml" 58 1683 1694
 )
 "occ.ml" 63 1845 1849 "occ.ml" 63 1845 1862
+call(
+  tail
+)
 type(
   unit
 )

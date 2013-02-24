@@ -221,9 +221,6 @@ ident(
   int_ref o "ast.ml" 88 1910 1919 "ast.ml" 88 1910 1920
 )
 "ast.ml" 88 1910 1929 "ast.ml" 88 1910 1944
-call(
-  tail
-)
 type(
   int
 )
@@ -257,9 +254,6 @@ ident(
   int_ref o "ast.ml" 89 1945 1953 "ast.ml" 89 1945 1954
 )
 "ast.ml" 89 1945 1961 "ast.ml" 89 1945 1975
-call(
-  tail
-)
 type(
   int
 )
@@ -472,9 +466,6 @@ ident(
   int_ref e "ast.ml" 113 2301 2333 "ast.ml" 113 2301 2334
 )
 "ast.ml" 114 2337 2356 "ast.ml" 114 2337 2369
-call(
-  stack
-)
 type(
   int
 )
@@ -522,9 +513,6 @@ type(
   (unit, Format.formatter, unit) format
 )
 "ast.ml" 115 2373 2403 "ast.ml" 115 2373 2418
-call(
-  stack
-)
 type(
   unit
 )
@@ -583,16 +571,10 @@ ident(
   int_ref i "ast.ml" 117 2445 2454 "ast.ml" 117 2445 2455
 )
 "ast.ml" 117 2445 2479 "ast.ml" 117 2445 2498
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 117 2445 2459 "ast.ml" 117 2445 2498
-call(
-  stack
-)
 type(
   unit
 )
@@ -629,9 +611,6 @@ ident(
   int_ref s "ast.ml" 118 2499 2506 "ast.ml" 118 2499 2507
 )
 "ast.ml" 118 2499 2511 "ast.ml" 118 2499 2532
-call(
-  stack
-)
 type(
   unit
 )
@@ -679,9 +658,6 @@ type(
   int
 )
 "ast.ml" 120 2554 2558 "ast.ml" 120 2554 2575
-call(
-  stack
-)
 type(
   unit
 )
@@ -714,9 +690,6 @@ ident(
   int_ref l "ast.ml" 119 2533 2546 "ast.ml" 119 2533 2547
 )
 "ast.ml" 121 2577 2581 "ast.ml" 121 2577 2611
-call(
-  stack
-)
 type(
   unit
 )
@@ -739,9 +712,6 @@ type(
   unit
 )
 "ast.ml" 122 2613 2617 "ast.ml" 122 2613 2638
-call(
-  stack
-)
 type(
   unit
 )
@@ -774,16 +744,10 @@ ident(
   int_ref o "ast.ml" 119 2533 2544 "ast.ml" 119 2533 2545
 )
 "ast.ml" 123 2640 2664 "ast.ml" 123 2640 2683
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 123 2640 2644 "ast.ml" 123 2640 2683
-call(
-  stack
-)
 type(
   unit
 )
@@ -806,9 +770,6 @@ type(
   unit
 )
 "ast.ml" 124 2685 2689 "ast.ml" 124 2685 2710
-call(
-  stack
-)
 type(
   unit
 )
@@ -920,9 +881,6 @@ ident(
   int_ref r "ast.ml" 119 2533 2548 "ast.ml" 119 2533 2549
 )
 "ast.ml" 129 2839 2846 "ast.ml" 129 2839 2873
-call(
-  stack
-)
 type(
   unit
 )
@@ -949,9 +907,6 @@ type(
   unit
 )
 "ast.ml" 130 2876 2880 "ast.ml" 130 2876 2899
-call(
-  stack
-)
 type(
   unit
 )
@@ -1016,9 +971,6 @@ type(
   int
 )
 "ast.ml" 132 2918 2922 "ast.ml" 132 2918 2939
-call(
-  stack
-)
 type(
   unit
 )
@@ -1051,16 +1003,10 @@ ident(
   int_ref o "ast.ml" 131 2900 2910 "ast.ml" 131 2900 2911
 )
 "ast.ml" 133 2941 2965 "ast.ml" 133 2941 2983
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 133 2941 2945 "ast.ml" 133 2941 2983
-call(
-  stack
-)
 type(
   unit
 )
@@ -1093,9 +1039,6 @@ ident(
   int_ref v "ast.ml" 131 2900 2912 "ast.ml" 131 2900 2913
 )
 "ast.ml" 134 2985 2989 "ast.ml" 134 2985 3019
-call(
-  stack
-)
 type(
   unit
 )
@@ -1118,9 +1061,6 @@ type(
   unit
 )
 "ast.ml" 135 3021 3025 "ast.ml" 135 3021 3044
-call(
-  stack
-)
 type(
   unit
 )
@@ -1184,9 +1124,6 @@ type(
   (unit, Format.formatter, unit) format
 )
 "ast.ml" 136 3047 3077 "ast.ml" 136 3047 3092
-call(
-  tail
-)
 type(
   unit
 )
@@ -1261,9 +1198,6 @@ type(
   string
 )
 "ast.ml" 141 3146 3158 "ast.ml" 141 3146 3183
-call(
-  tail
-)
 type(
   unit
 )
@@ -1329,9 +1263,6 @@ type(
   unit
 )
 "ast.ml" 145 3247 3249 "ast.ml" 145 3247 3268
-call(
-  stack
-)
 type(
   unit
 )
@@ -1357,9 +1288,6 @@ ident(
   int_ref t "ast.ml" 144 3188 3219 "ast.ml" 144 3188 3220
 )
 "ast.ml" 146 3270 3272 "ast.ml" 146 3270 3291
-call(
-  stack
-)
 type(
   unit
 )
@@ -1382,9 +1310,6 @@ type(
   unit
 )
 "ast.ml" 147 3293 3295 "ast.ml" 147 3293 3316
-call(
-  stack
-)
 type(
   unit
 )
@@ -1410,9 +1335,6 @@ ident(
   int_ref id "ast.ml" 144 3188 3229 "ast.ml" 144 3188 3231
 )
 "ast.ml" 148 3318 3320 "ast.ml" 148 3318 3342
-call(
-  stack
-)
 type(
   unit
 )
@@ -1435,9 +1357,6 @@ type(
   string
 )
 "ast.ml" 149 3344 3346 "ast.ml" 149 3344 3370
-call(
-  stack
-)
 type(
   unit
 )
@@ -1460,9 +1379,6 @@ type(
   unit
 )
 "ast.ml" 150 3372 3374 "ast.ml" 150 3372 3395
-call(
-  stack
-)
 type(
   unit
 )
@@ -1492,9 +1408,6 @@ ident(
   int_ref e "ast.ml" 144 3188 3242 "ast.ml" 144 3188 3243
 )
 "ast.ml" 151 3397 3399 "ast.ml" 151 3397 3420
-call(
-  stack
-)
 type(
   unit
 )
@@ -1517,9 +1430,6 @@ type(
   unit
 )
 "ast.ml" 152 3422 3424 "ast.ml" 152 3422 3443
-call(
-  tail
-)
 type(
   unit
 )
@@ -1612,9 +1522,6 @@ ident(
   int_ref s "ast.ml" 156 3487 3496 "ast.ml" 156 3487 3497
 )
 "ast.ml" 156 3487 3501 "ast.ml" 156 3487 3522
-call(
-  tail
-)
 type(
   unit
 )
@@ -1709,9 +1616,6 @@ ident(
   int_ref h "ast.ml" 162 3599 3605 "ast.ml" 162 3599 3606
 )
 "ast.ml" 162 3599 3614 "ast.ml" 162 3599 3622
-call(
-  tail
-)
 type(
   unit
 )
@@ -1755,9 +1659,6 @@ ident(
   int_ref h "ast.ml" 163 3623 3629 "ast.ml" 163 3623 3630
 )
 "ast.ml" 164 3639 3640 "ast.ml" 164 3639 3648
-call(
-  stack
-)
 type(
   unit
 )
@@ -1773,9 +1674,6 @@ type(
   unit
 )
 "ast.ml" 165 3650 3651 "ast.ml" 165 3650 3657
-call(
-  stack
-)
 type(
   'b
 )
@@ -1815,9 +1713,6 @@ ident(
   int_ref tl "ast.ml" 163 3623 3632 "ast.ml" 163 3623 3634
 )
 "ast.ml" 166 3659 3660 "ast.ml" 166 3659 3688
-call(
-  tail
-)
 type(
   unit
 )
@@ -1880,9 +1775,6 @@ ident(
   int_ref stmts "ast.ml" 169 3696 3732 "ast.ml" 169 3696 3737
 )
 "ast.ml" 170 3741 3747 "ast.ml" 170 3741 3766
-call(
-  stack
-)
 type(
   int
 )
@@ -1920,9 +1812,6 @@ type(
   int
 )
 "ast.ml" 171 3783 3787 "ast.ml" 171 3783 3805
-call(
-  stack
-)
 type(
   unit
 )
@@ -1962,9 +1851,6 @@ ident(
   int_ref d "ast.ml" 172 3807 3826 "ast.ml" 172 3807 3827
 )
 "ast.ml" 172 3807 3831 "ast.ml" 172 3807 3851
-call(
-  stack
-)
 type(
   unit
 )
@@ -1987,9 +1873,6 @@ type(
   string
 )
 "ast.ml" 172 3807 3853 "ast.ml" 172 3807 3876
-call(
-  stack
-)
 type(
   unit
 )
@@ -2012,9 +1895,6 @@ type(
   unit
 )
 "ast.ml" 172 3807 3878 "ast.ml" 172 3807 3898
-call(
-  tail
-)
 type(
   unit
 )
@@ -2038,9 +1918,6 @@ ident(
   int_ref decls "ast.ml" 169 3696 3725 "ast.ml" 169 3696 3730
 )
 "ast.ml" 172 3807 3811 "ast.ml" 172 3807 3905
-call(
-  stack
-)
 type(
   unit
 )
@@ -2063,9 +1940,6 @@ type(
   unit
 )
 "ast.ml" 173 3907 3911 "ast.ml" 173 3907 3930
-call(
-  stack
-)
 type(
   unit
 )
@@ -2107,9 +1981,6 @@ type(
   unit
 )
 "ast.ml" 174 3932 3966 "ast.ml" 174 3932 3987
-call(
-  tail
-)
 type(
   unit
 )
@@ -2132,9 +2003,6 @@ ident(
   int_ref stmts "ast.ml" 169 3696 3732 "ast.ml" 169 3696 3737
 )
 "ast.ml" 174 3932 3936 "ast.ml" 174 3932 4009
-call(
-  tail
-)
 type(
   unit
 )
@@ -2165,9 +2033,6 @@ ident(
   int_ref decls "ast.ml" 169 3696 3725 "ast.ml" 169 3696 3730
 )
 "ast.ml" 176 4027 4033 "ast.ml" 176 4027 4052
-call(
-  stack
-)
 type(
   int
 )
@@ -2205,9 +2070,6 @@ type(
   int
 )
 "ast.ml" 177 4069 4073 "ast.ml" 177 4069 4091
-call(
-  stack
-)
 type(
   unit
 )
@@ -2250,9 +2112,6 @@ type(
   string
 )
 "ast.ml" 178 4093 4127 "ast.ml" 178 4093 4150
-call(
-  stack
-)
 type(
   unit
 )
@@ -2275,9 +2134,6 @@ type(
   unit
 )
 "ast.ml" 178 4093 4152 "ast.ml" 178 4093 4172
-call(
-  tail
-)
 type(
   unit
 )
@@ -2304,9 +2160,6 @@ ident(
   int_ref decls "ast.ml" 169 3696 3725 "ast.ml" 169 3696 3730
 )
 "ast.ml" 178 4093 4097 "ast.ml" 178 4093 4194
-call(
-  stack
-)
 type(
   unit
 )
@@ -2329,9 +2182,6 @@ type(
   string
 )
 "ast.ml" 179 4196 4200 "ast.ml" 179 4196 4223
-call(
-  stack
-)
 type(
   unit
 )
@@ -2354,9 +2204,6 @@ type(
   unit
 )
 "ast.ml" 180 4225 4229 "ast.ml" 180 4225 4248
-call(
-  tail
-)
 type(
   unit
 )
@@ -2424,9 +2271,6 @@ ident(
   int_ref fmt "ast.ml" 184 4270 4289 "ast.ml" 184 4270 4292
 )
 "ast.ml" 185 4297 4309 "ast.ml" 185 4297 4328
-call(
-  stack
-)
 type(
   string -> unit
 )
@@ -2449,9 +2293,6 @@ ident(
   int_ref fmt "ast.ml" 184 4270 4289 "ast.ml" 184 4270 4292
 )
 "ast.ml" 186 4332 4345 "ast.ml" 186 4332 4363
-call(
-  stack
-)
 type(
   unit -> unit
 )
@@ -2499,9 +2340,6 @@ type(
   int
 )
 "ast.ml" 189 4409 4410 "ast.ml" 189 4409 4427
-call(
-  stack
-)
 type(
   unit
 )
@@ -2527,9 +2365,6 @@ ident(
   int_ref l "ast.ml" 188 4388 4401 "ast.ml" 188 4388 4402
 )
 "ast.ml" 190 4429 4430 "ast.ml" 190 4429 4449
-call(
-  stack
-)
 type(
   unit
 )
@@ -2545,9 +2380,6 @@ type(
   string
 )
 "ast.ml" 191 4451 4452 "ast.ml" 191 4451 4460
-call(
-  stack
-)
 type(
   unit
 )
@@ -2563,9 +2395,6 @@ type(
   unit
 )
 "ast.ml" 192 4462 4463 "ast.ml" 192 4462 4470
-call(
-  stack
-)
 type(
   unit
 )
@@ -2595,9 +2424,6 @@ ident(
   int_ref e "ast.ml" 188 4388 4403 "ast.ml" 188 4388 4404
 )
 "ast.ml" 193 4472 4473 "ast.ml" 193 4472 4494
-call(
-  stack
-)
 type(
   unit
 )
@@ -2613,9 +2439,6 @@ type(
   string
 )
 "ast.ml" 194 4496 4497 "ast.ml" 194 4496 4504
-call(
-  stack
-)
 type(
   unit
 )
@@ -2638,9 +2461,6 @@ type(
   unit
 )
 "ast.ml" 195 4506 4507 "ast.ml" 195 4506 4526
-call(
-  tail
-)
 type(
   unit
 )
@@ -2705,9 +2525,6 @@ type(
   string
 )
 "ast.ml" 197 4551 4552 "ast.ml" 197 4551 4562
-call(
-  stack
-)
 type(
   unit
 )
@@ -2737,9 +2554,6 @@ ident(
   int_ref e "ast.ml" 196 4527 4536 "ast.ml" 196 4527 4537
 )
 "ast.ml" 197 4551 4564 "ast.ml" 197 4551 4585
-call(
-  stack
-)
 type(
   unit
 )
@@ -2755,9 +2569,6 @@ type(
   string
 )
 "ast.ml" 197 4551 4587 "ast.ml" 197 4551 4595
-call(
-  stack
-)
 type(
   unit
 )
@@ -2783,9 +2594,6 @@ ident(
   int_ref s1 "ast.ml" 196 4527 4539 "ast.ml" 196 4527 4541
 )
 "ast.ml" 198 4597 4598 "ast.ml" 198 4597 4619
-call(
-  stack
-)
 type(
   unit
 )
@@ -2827,9 +2635,6 @@ type(
   string
 )
 "ast.ml" 202 4676 4683 "ast.ml" 202 4676 4695
-call(
-  stack
-)
 type(
   unit
 )
@@ -2855,9 +2660,6 @@ ident(
   int_ref s2 "ast.ml" 201 4659 4669 "ast.ml" 201 4659 4671
 )
 "ast.ml" 203 4697 4704 "ast.ml" 203 4697 4725
-call(
-  tail
-)
 type(
   unit
 )
@@ -2915,9 +2717,6 @@ type(
   string
 )
 "ast.ml" 206 4752 4753 "ast.ml" 206 4752 4766
-call(
-  stack
-)
 type(
   unit
 )
@@ -2947,9 +2746,6 @@ ident(
   int_ref e "ast.ml" 205 4731 4743 "ast.ml" 205 4731 4744
 )
 "ast.ml" 206 4752 4768 "ast.ml" 206 4752 4789
-call(
-  stack
-)
 type(
   unit
 )
@@ -2965,9 +2761,6 @@ type(
   string
 )
 "ast.ml" 206 4752 4791 "ast.ml" 206 4752 4799
-call(
-  stack
-)
 type(
   unit
 )
@@ -2993,9 +2786,6 @@ ident(
   int_ref s "ast.ml" 205 4731 4746 "ast.ml" 205 4731 4747
 )
 "ast.ml" 207 4801 4802 "ast.ml" 207 4801 4822
-call(
-  tail
-)
 type(
   unit
 )
@@ -3055,9 +2845,6 @@ type(
   string
 )
 "ast.ml" 209 4857 4858 "ast.ml" 209 4857 4869
-call(
-  stack
-)
 type(
   unit
 )
@@ -3093,9 +2880,6 @@ type(
   string
 )
 "ast.ml" 210 4871 4906 "ast.ml" 210 4871 4913
-call(
-  stack
-)
 type(
   unit
 )
@@ -3111,9 +2895,6 @@ type(
   unit
 )
 "ast.ml" 210 4871 4915 "ast.ml" 210 4871 4922
-call(
-  tail
-)
 type(
   unit
 )
@@ -3140,9 +2921,6 @@ ident(
   int_ref decls "ast.ml" 208 4823 4833 "ast.ml" 208 4823 4838
 )
 "ast.ml" 210 4871 4876 "ast.ml" 210 4871 4944
-call(
-  stack
-)
 type(
   unit
 )
@@ -3158,9 +2936,6 @@ type(
   string
 )
 "ast.ml" 211 4947 4950 "ast.ml" 211 4947 4957
-call(
-  stack
-)
 type(
   unit
 )
@@ -3176,9 +2951,6 @@ type(
   unit
 )
 "ast.ml" 211 4947 4959 "ast.ml" 211 4947 4966
-call(
-  stack
-)
 type(
   unit
 )
@@ -3234,9 +3006,6 @@ ident(
   int_ref e "ast.ml" 214 5010 5022 "ast.ml" 214 5010 5023
 )
 "ast.ml" 214 5010 5027 "ast.ml" 214 5010 5049
-call(
-  stack
-)
 type(
   unit
 )
@@ -3256,9 +3025,6 @@ type(
   string
 )
 "ast.ml" 216 5058 5061 "ast.ml" 216 5058 5068
-call(
-  stack
-)
 type(
   unit
 )
@@ -3274,9 +3040,6 @@ type(
   unit
 )
 "ast.ml" 216 5058 5070 "ast.ml" 216 5058 5077
-call(
-  stack
-)
 type(
   unit
 )
@@ -3328,9 +3091,6 @@ ident(
   int_ref s "ast.ml" 219 5120 5132 "ast.ml" 219 5120 5133
 )
 "ast.ml" 219 5120 5137 "ast.ml" 219 5120 5157
-call(
-  stack
-)
 type(
   unit
 )
@@ -3350,9 +3110,6 @@ type(
   string
 )
 "ast.ml" 221 5166 5167 "ast.ml" 221 5166 5175
-call(
-  stack
-)
 type(
   unit
 )
@@ -3378,9 +3135,6 @@ ident(
   int_ref body "ast.ml" 208 4823 4848 "ast.ml" 208 4823 4852
 )
 "ast.ml" 222 5177 5178 "ast.ml" 222 5177 5201
-call(
-  tail
-)
 type(
   unit
 )
@@ -3443,9 +3197,6 @@ type(
   string
 )
 "ast.ml" 224 5219 5222 "ast.ml" 224 5219 5229
-call(
-  stack
-)
 type(
   unit
 )
@@ -3468,9 +3219,6 @@ type(
   unit
 )
 "ast.ml" 224 5219 5231 "ast.ml" 224 5219 5254
-call(
-  stack
-)
 type(
   unit
 )
@@ -3486,9 +3234,6 @@ type(
   string
 )
 "ast.ml" 225 5256 5259 "ast.ml" 225 5256 5267
-call(
-  stack
-)
 type(
   unit
 )
@@ -3511,9 +3256,6 @@ type(
   int
 )
 "ast.ml" 225 5256 5269 "ast.ml" 225 5256 5287
-call(
-  stack
-)
 type(
   unit
 )
@@ -3539,9 +3281,6 @@ ident(
   int_ref b "ast.ml" 223 5202 5214 "ast.ml" 223 5202 5215
 )
 "ast.ml" 226 5289 5292 "ast.ml" 226 5289 5313
-call(
-  stack
-)
 type(
   unit
 )
@@ -3564,9 +3303,6 @@ type(
   unit
 )
 "ast.ml" 227 5315 5318 "ast.ml" 227 5315 5337
-call(
-  stack
-)
 type(
   unit
 )
@@ -3589,9 +3325,6 @@ type(
   unit
 )
 "ast.ml" 227 5315 5339 "ast.ml" 227 5315 5362
-call(
-  stack
-)
 type(
   unit
 )
@@ -3607,9 +3340,6 @@ type(
   string
 )
 "ast.ml" 228 5364 5367 "ast.ml" 228 5364 5374
-call(
-  tail
-)
 type(
   unit
 )
@@ -3707,9 +3437,6 @@ ident(
   int_ref b "ast.ml" 231 5382 5406 "ast.ml" 231 5382 5407
 )
 "ast.ml" 232 5413 5415 "ast.ml" 232 5413 5436
-call(
-  stack
-)
 type(
   unit
 )
@@ -3732,9 +3459,6 @@ type(
   unit
 )
 "ast.ml" 233 5438 5440 "ast.ml" 233 5438 5463
-call(
-  stack
-)
 type(
   unit
 )
@@ -3757,9 +3481,6 @@ type(
   string
 )
 "ast.ml" 234 5465 5467 "ast.ml" 234 5465 5496
-call(
-  stack
-)
 type(
   unit
 )
@@ -3789,9 +3510,6 @@ ident(
   int_ref e "ast.ml" 231 5382 5408 "ast.ml" 231 5382 5409
 )
 "ast.ml" 235 5499 5501 "ast.ml" 235 5499 5522
-call(
-  stack
-)
 type(
   unit
 )
@@ -3814,9 +3532,6 @@ type(
   string
 )
 "ast.ml" 236 5524 5526 "ast.ml" 236 5524 5549
-call(
-  tail
-)
 type(
   unit
 )
@@ -3869,9 +3584,6 @@ type(
   int
 )
 "ast.ml" 239 5584 5586 "ast.ml" 239 5584 5615
-call(
-  stack
-)
 type(
   unit
 )
@@ -3897,9 +3609,6 @@ ident(
   int_ref p "ast.ml" 238 5551 5567 "ast.ml" 238 5551 5568
 )
 "ast.ml" 240 5617 5619 "ast.ml" 240 5617 5649
-call(
-  stack
-)
 type(
   unit
 )
@@ -3922,9 +3631,6 @@ type(
   unit
 )
 "ast.ml" 241 5651 5653 "ast.ml" 241 5651 5682
-call(
-  stack
-)
 type(
   unit
 )
@@ -3947,9 +3653,6 @@ type(
   unit
 )
 "ast.ml" 242 5684 5686 "ast.ml" 242 5684 5719
-call(
-  tail
-)
 type(
   unit
 )
@@ -4001,9 +3704,6 @@ type(
   int
 )
 "ast.ml" 245 5760 5762 "ast.ml" 245 5760 5791
-call(
-  stack
-)
 type(
   unit
 )
@@ -4029,9 +3729,6 @@ ident(
   int_ref p "ast.ml" 244 5721 5741 "ast.ml" 244 5721 5742
 )
 "ast.ml" 246 5793 5795 "ast.ml" 246 5793 5825
-call(
-  stack
-)
 type(
   unit
 )
@@ -4054,9 +3751,6 @@ type(
   unit
 )
 "ast.ml" 247 5827 5829 "ast.ml" 247 5827 5858
-call(
-  stack
-)
 type(
   unit
 )
@@ -4072,9 +3766,6 @@ type(
   unit
 )
 "ast.ml" 248 5860 5862 "ast.ml" 248 5860 5884
-call(
-  tail
-)
 type(
   string
 )
@@ -4126,9 +3817,6 @@ type(
   int
 )
 "ast.ml" 251 5919 5921 "ast.ml" 251 5919 5950
-call(
-  stack
-)
 type(
   unit
 )
@@ -4154,9 +3842,6 @@ ident(
   int_ref s "ast.ml" 250 5886 5902 "ast.ml" 250 5886 5903
 )
 "ast.ml" 252 5952 5954 "ast.ml" 252 5952 5984
-call(
-  stack
-)
 type(
   unit
 )
@@ -4179,9 +3864,6 @@ type(
   unit
 )
 "ast.ml" 253 5986 5988 "ast.ml" 253 5986 6017
-call(
-  stack
-)
 type(
   unit
 )
@@ -4204,9 +3886,6 @@ type(
   unit
 )
 "ast.ml" 254 6019 6021 "ast.ml" 254 6019 6054
-call(
-  tail
-)
 type(
   unit
 )
@@ -4258,9 +3937,6 @@ type(
   int
 )
 "ast.ml" 257 6095 6097 "ast.ml" 257 6095 6126
-call(
-  stack
-)
 type(
   unit
 )
@@ -4286,9 +3962,6 @@ ident(
   int_ref s "ast.ml" 256 6056 6076 "ast.ml" 256 6056 6077
 )
 "ast.ml" 258 6128 6130 "ast.ml" 258 6128 6160
-call(
-  stack
-)
 type(
   unit
 )
@@ -4311,9 +3984,6 @@ type(
   unit
 )
 "ast.ml" 259 6162 6164 "ast.ml" 259 6162 6193
-call(
-  stack
-)
 type(
   unit
 )
@@ -4329,9 +3999,6 @@ type(
   unit
 )
 "ast.ml" 260 6195 6197 "ast.ml" 260 6195 6219
-call(
-  tail
-)
 type(
   string
 )
@@ -4383,9 +4050,6 @@ type(
   int
 )
 "ast.ml" 263 6256 6258 "ast.ml" 263 6256 6287
-call(
-  stack
-)
 type(
   unit
 )
@@ -4411,9 +4075,6 @@ ident(
   int_ref b "ast.ml" 262 6221 6238 "ast.ml" 262 6221 6239
 )
 "ast.ml" 264 6289 6291 "ast.ml" 264 6289 6322
-call(
-  stack
-)
 type(
   unit
 )
@@ -4436,9 +4097,6 @@ type(
   unit
 )
 "ast.ml" 265 6324 6326 "ast.ml" 265 6324 6355
-call(
-  stack
-)
 type(
   unit
 )
@@ -4461,9 +4119,6 @@ type(
   unit
 )
 "ast.ml" 266 6357 6359 "ast.ml" 266 6357 6392
-call(
-  tail
-)
 type(
   unit
 )
@@ -4515,9 +4170,6 @@ type(
   int
 )
 "ast.ml" 269 6437 6439 "ast.ml" 269 6437 6468
-call(
-  stack
-)
 type(
   unit
 )
@@ -4543,9 +4195,6 @@ ident(
   int_ref b "ast.ml" 268 6396 6417 "ast.ml" 268 6396 6418
 )
 "ast.ml" 270 6470 6472 "ast.ml" 270 6470 6503
-call(
-  stack
-)
 type(
   unit
 )
@@ -4568,9 +4217,6 @@ type(
   unit
 )
 "ast.ml" 271 6505 6507 "ast.ml" 271 6505 6536
-call(
-  stack
-)
 type(
   unit
 )
@@ -4586,9 +4232,6 @@ type(
   unit
 )
 "ast.ml" 272 6538 6540 "ast.ml" 272 6538 6562
-call(
-  tail
-)
 type(
   string
 )
@@ -4640,9 +4283,6 @@ type(
   int
 )
 "ast.ml" 275 6595 6597 "ast.ml" 275 6595 6626
-call(
-  stack
-)
 type(
   unit
 )
@@ -4672,9 +4312,6 @@ ident(
   int_ref e "ast.ml" 274 6564 6579 "ast.ml" 274 6564 6580
 )
 "ast.ml" 276 6628 6630 "ast.ml" 276 6628 6661
-call(
-  stack
-)
 type(
   unit
 )
@@ -4697,9 +4334,6 @@ type(
   unit
 )
 "ast.ml" 277 6663 6665 "ast.ml" 277 6663 6694
-call(
-  stack
-)
 type(
   unit
 )
@@ -4722,9 +4356,6 @@ type(
   unit
 )
 "ast.ml" 278 6696 6698 "ast.ml" 278 6696 6731
-call(
-  tail
-)
 type(
   unit
 )
@@ -4776,9 +4407,6 @@ type(
   int
 )
 "ast.ml" 281 6770 6772 "ast.ml" 281 6770 6801
-call(
-  stack
-)
 type(
   unit
 )
@@ -4808,9 +4436,6 @@ ident(
   int_ref e "ast.ml" 280 6733 6752 "ast.ml" 280 6733 6753
 )
 "ast.ml" 282 6803 6805 "ast.ml" 282 6803 6836
-call(
-  stack
-)
 type(
   unit
 )
@@ -4833,9 +4458,6 @@ type(
   unit
 )
 "ast.ml" 283 6838 6840 "ast.ml" 283 6838 6869
-call(
-  stack
-)
 type(
   unit
 )
@@ -4851,9 +4473,6 @@ type(
   unit
 )
 "ast.ml" 284 6871 6873 "ast.ml" 284 6871 6895
-call(
-  tail
-)
 type(
   string
 )
@@ -4905,9 +4524,6 @@ type(
   int
 )
 "ast.ml" 287 6928 6930 "ast.ml" 287 6928 6959
-call(
-  stack
-)
 type(
   unit
 )
@@ -4933,9 +4549,6 @@ ident(
   int_ref t "ast.ml" 286 6897 6912 "ast.ml" 286 6897 6913
 )
 "ast.ml" 288 6961 6963 "ast.ml" 288 6961 6992
-call(
-  stack
-)
 type(
   unit
 )
@@ -4958,9 +4571,6 @@ type(
   unit
 )
 "ast.ml" 289 6994 6996 "ast.ml" 289 6994 7025
-call(
-  stack
-)
 type(
   unit
 )
@@ -4983,9 +4593,6 @@ type(
   unit
 )
 "ast.ml" 290 7027 7029 "ast.ml" 290 7027 7062
-call(
-  tail
-)
 type(
   unit
 )
@@ -5037,9 +4644,6 @@ type(
   int
 )
 "ast.ml" 293 7101 7103 "ast.ml" 293 7101 7132
-call(
-  stack
-)
 type(
   unit
 )
@@ -5065,9 +4669,6 @@ ident(
   int_ref t "ast.ml" 292 7064 7083 "ast.ml" 292 7064 7084
 )
 "ast.ml" 294 7134 7136 "ast.ml" 294 7134 7165
-call(
-  stack
-)
 type(
   unit
 )
@@ -5090,9 +4691,6 @@ type(
   unit
 )
 "ast.ml" 295 7167 7169 "ast.ml" 295 7167 7198
-call(
-  stack
-)
 type(
   unit
 )
@@ -5108,9 +4706,6 @@ type(
   unit
 )
 "ast.ml" 296 7200 7202 "ast.ml" 296 7200 7224
-call(
-  tail
-)
 type(
   string
 )
@@ -5180,9 +4775,6 @@ ident(
   int_ref i "ast.ml" 301 7294 7305 "ast.ml" 301 7294 7306
 )
 "ast.ml" 301 7294 7310 "ast.ml" 301 7294 7340
-call(
-  tail
-)
 type(
   string
 )
@@ -5216,9 +4808,6 @@ ident(
   int_ref s "ast.ml" 302 7341 7350 "ast.ml" 302 7341 7351
 )
 "ast.ml" 302 7341 7355 "ast.ml" 302 7341 7385
-call(
-  tail
-)
 type(
   string
 )
@@ -5408,9 +4997,6 @@ ident(
   int_ref l "ast.ml" 303 7386 7401 "ast.ml" 303 7386 7402
 )
 "ast.ml" 310 7717 7722 "ast.ml" 310 7717 7742
-call(
-  stack
-)
 type(
   string
 )
@@ -5429,16 +5015,10 @@ ident(
   int_ref r "ast.ml" 303 7386 7403 "ast.ml" 303 7386 7404
 )
 "ast.ml" 310 7717 7743 "ast.ml" 310 7717 7763
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 309 7668 7671 "ast.ml" 310 7717 7763
-call(
-  tail
-)
 type(
   string
 )
@@ -5537,16 +5117,10 @@ ident(
   int_ref l "ast.ml" 312 7772 7786 "ast.ml" 312 7772 7787
 )
 "ast.ml" 315 7880 7924 "ast.ml" 315 7880 7944
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 315 7880 7883 "ast.ml" 315 7880 7944
-call(
-  tail
-)
 type(
   string
 )
@@ -5656,9 +5230,6 @@ ident(
   int_ref vt "ast.ml" 324 8053 8087 "ast.ml" 324 8053 8089
 )
 "ast.ml" 326 8169 8173 "ast.ml" 326 8169 8194
-call(
-  stack
-)
 type(
   string
 )
@@ -5684,16 +5255,10 @@ ident(
   int_ref vini "ast.ml" 324 8053 8107 "ast.ml" 324 8053 8111
 )
 "ast.ml" 326 8169 8198 "ast.ml" 326 8169 8221
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 325 8115 8117 "ast.ml" 326 8169 8221
-call(
-  tail
-)
 type(
   string
 )
@@ -5745,16 +5310,10 @@ type(
   string
 )
 "ast.ml" 328 8223 8275 "ast.ml" 328 8223 8284
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 328 8223 8263 "ast.ml" 328 8223 8284
-call(
-  tail
-)
 type(
   string
 )
@@ -5834,9 +5393,6 @@ ident(
   int_ref s "ast.ml" 333 8397 8408 "ast.ml" 333 8397 8409
 )
 "ast.ml" 333 8397 8426 "ast.ml" 333 8397 8433
-call(
-  stack
-)
 type(
   string
 )
@@ -5852,16 +5408,10 @@ type(
   string
 )
 "ast.ml" 333 8397 8426 "ast.ml" 333 8397 8440
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 333 8397 8413 "ast.ml" 333 8397 8441
-call(
-  tail
-)
 type(
   string
 )
@@ -5959,9 +5509,6 @@ ident(
   int_ref d "ast.ml" 338 8524 8551 "ast.ml" 338 8524 8552
 )
 "ast.ml" 338 8524 8560 "ast.ml" 338 8524 8585
-call(
-  stack
-)
 type(
   string
 )
@@ -5977,16 +5524,10 @@ type(
   string
 )
 "ast.ml" 338 8524 8560 "ast.ml" 338 8524 8593
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 338 8524 8556 "ast.ml" 338 8524 8593
-call(
-  tail
-)
 type(
   string
 )
@@ -6006,9 +5547,6 @@ ident(
   int_ref vdls "ast.ml" 336 8449 8477 "ast.ml" 336 8449 8481
 )
 "ast.ml" 338 8524 8528 "ast.ml" 338 8524 8603
-call(
-  stack
-)
 type(
   string
 )
@@ -6062,9 +5600,6 @@ ident(
   int_ref d "ast.ml" 339 8604 8631 "ast.ml" 339 8604 8632
 )
 "ast.ml" 339 8604 8640 "ast.ml" 339 8604 8661
-call(
-  stack
-)
 type(
   string
 )
@@ -6080,16 +5615,10 @@ type(
   string
 )
 "ast.ml" 339 8604 8640 "ast.ml" 339 8604 8669
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 339 8604 8636 "ast.ml" 339 8604 8669
-call(
-  tail
-)
 type(
   string
 )
@@ -6109,16 +5638,10 @@ ident(
   int_ref stmts "ast.ml" 336 8449 8483 "ast.ml" 336 8449 8488
 )
 "ast.ml" 339 8604 8608 "ast.ml" 339 8604 8680
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 337 8492 8494 "ast.ml" 339 8604 8680
-call(
-  tail
-)
 type(
   string
 )
@@ -6188,9 +5711,6 @@ ident(
   int_ref l "ast.ml" 343 8745 8759 "ast.ml" 343 8745 8760
 )
 "ast.ml" 343 8745 8800 "ast.ml" 343 8745 8820
-call(
-  stack
-)
 type(
   string
 )
@@ -6209,16 +5729,10 @@ ident(
   int_ref e "ast.ml" 343 8745 8762 "ast.ml" 343 8745 8763
 )
 "ast.ml" 344 8821 8822 "ast.ml" 344 8821 8842
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 343 8745 8768 "ast.ml" 344 8821 8842
-call(
-  tail
-)
 type(
   string
 )
@@ -6274,9 +5788,6 @@ ident(
   int_ref e "ast.ml" 345 8843 8852 "ast.ml" 345 8843 8853
 )
 "ast.ml" 347 8900 8903 "ast.ml" 347 8900 8923
-call(
-  stack
-)
 type(
   string
 )
@@ -6295,9 +5806,6 @@ ident(
   int_ref s "ast.ml" 345 8843 8855 "ast.ml" 345 8843 8856
 )
 "ast.ml" 348 8924 8927 "ast.ml" 348 8924 8948
-call(
-  stack
-)
 type(
   string
 )
@@ -6323,16 +5831,10 @@ ident(
   int_ref sopt "ast.ml" 345 8843 8858 "ast.ml" 345 8843 8862
 )
 "ast.ml" 349 8949 8952 "ast.ml" 349 8949 8996
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 346 8867 8868 "ast.ml" 349 8949 8996
-call(
-  tail
-)
 type(
   string
 )
@@ -6381,9 +5883,6 @@ ident(
   int_ref e "ast.ml" 350 8997 9009 "ast.ml" 350 8997 9010
 )
 "ast.ml" 352 9050 9053 "ast.ml" 352 9050 9073
-call(
-  stack
-)
 type(
   string
 )
@@ -6402,16 +5901,10 @@ ident(
   int_ref s "ast.ml" 350 8997 9012 "ast.ml" 350 8997 9013
 )
 "ast.ml" 353 9074 9077 "ast.ml" 353 9074 9098
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 351 9018 9019 "ast.ml" 353 9074 9098
-call(
-  tail
-)
 type(
   string
 )
@@ -6509,9 +6002,6 @@ ident(
   int_ref d "ast.ml" 356 9172 9198 "ast.ml" 356 9172 9199
 )
 "ast.ml" 356 9172 9207 "ast.ml" 356 9172 9232
-call(
-  stack
-)
 type(
   string
 )
@@ -6527,16 +6017,10 @@ type(
   string
 )
 "ast.ml" 356 9172 9207 "ast.ml" 356 9172 9240
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 356 9172 9203 "ast.ml" 356 9172 9240
-call(
-  tail
-)
 type(
   string
 )
@@ -6556,9 +6040,6 @@ ident(
   int_ref vdl "ast.ml" 354 9099 9109 "ast.ml" 354 9099 9112
 )
 "ast.ml" 356 9172 9175 "ast.ml" 356 9172 9249
-call(
-  stack
-)
 type(
   string
 )
@@ -6584,9 +6065,6 @@ ident(
   int_ref eopt "ast.ml" 354 9099 9114 "ast.ml" 354 9099 9118
 )
 "ast.ml" 357 9250 9253 "ast.ml" 357 9250 9296
-call(
-  stack
-)
 type(
   string
 )
@@ -6612,9 +6090,6 @@ ident(
   int_ref sopt "ast.ml" 354 9099 9120 "ast.ml" 354 9099 9124
 )
 "ast.ml" 358 9297 9300 "ast.ml" 358 9297 9344
-call(
-  stack
-)
 type(
   string
 )
@@ -6633,16 +6108,10 @@ ident(
   int_ref s "ast.ml" 354 9099 9126 "ast.ml" 354 9099 9127
 )
 "ast.ml" 359 9345 9348 "ast.ml" 359 9345 9369
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 355 9132 9133 "ast.ml" 359 9345 9369
-call(
-  tail
-)
 type(
   string
 )
@@ -6683,16 +6152,10 @@ ident(
   int_ref b "ast.ml" 360 9370 9382 "ast.ml" 360 9370 9383
 )
 "ast.ml" 361 9387 9413 "ast.ml" 361 9387 9435
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 361 9387 9388 "ast.ml" 361 9387 9435
-call(
-  tail
-)
 type(
   string
 )
@@ -6755,9 +6218,6 @@ ident(
   int_ref b "ast.ml" 364 9444 9468 "ast.ml" 364 9444 9469
 )
 "ast.ml" 365 9490 9517 "ast.ml" 365 9490 9539
-call(
-  stack
-)
 type(
   string
 )
@@ -6776,16 +6236,10 @@ ident(
   int_ref e "ast.ml" 364 9444 9470 "ast.ml" 364 9444 9471
 )
 "ast.ml" 365 9490 9540 "ast.ml" 365 9490 9560
-call(
-  stack
-)
 type(
   string
 )
 "ast.ml" 365 9490 9492 "ast.ml" 365 9490 9560
-call(
-  tail
-)
 type(
   string
 )
@@ -6853,9 +6307,6 @@ ident(
   int_ref b "ast.ml" 368 9628 9641 "ast.ml" 368 9628 9642
 )
 "ast.ml" 368 9628 9645 "ast.ml" 368 9628 9664
-call(
-  stack
-)
 type(
   int
 )
@@ -6914,9 +6365,6 @@ ident(
   int_ref b "ast.ml" 369 9672 9685 "ast.ml" 369 9672 9686
 )
 "ast.ml" 369 9672 9689 "ast.ml" 369 9672 9708
-call(
-  stack
-)
 type(
   int
 )
@@ -6975,9 +6423,6 @@ ident(
   int_ref b "ast.ml" 370 9716 9730 "ast.ml" 370 9716 9731
 )
 "ast.ml" 370 9716 9734 "ast.ml" 370 9716 9753
-call(
-  stack
-)
 type(
   int
 )
@@ -7036,9 +6481,6 @@ ident(
   int_ref b "ast.ml" 371 9762 9776 "ast.ml" 371 9762 9777
 )
 "ast.ml" 371 9762 9780 "ast.ml" 371 9762 9799
-call(
-  stack
-)
 type(
   int
 )
@@ -7126,9 +6568,6 @@ ident(
   int_ref env "ast.ml" 367 9562 9590 "ast.ml" 367 9562 9593
 )
 "ast.ml" 375 9878 9896 "ast.ml" 375 9878 9912
-call(
-  tail
-)
 type(
   Int32.t
 )
@@ -7169,9 +6608,6 @@ ident(
   int_ref e "ast.ml" 376 9913 9932 "ast.ml" 376 9913 9933
 )
 "ast.ml" 376 9913 9951 "ast.ml" 376 9913 9959
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7209,9 +6645,6 @@ ident(
   int_ref e "ast.ml" 377 9960 9982 "ast.ml" 377 9960 9983
 )
 "ast.ml" 377 9960 9991 "ast.ml" 377 9960 9999
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7279,16 +6712,10 @@ ident(
   int_ref e "ast.ml" 378 10021 10040 "ast.ml" 378 10021 10041
 )
 "ast.ml" 378 10021 10062 "ast.ml" 378 10021 10070
-call(
-  stack
-)
 type(
   Int32.t
 )
 "ast.ml" 378 10021 10049 "ast.ml" 378 10021 10070
-call(
-  tail
-)
 type(
   Int32.t
 )
@@ -7336,9 +6763,6 @@ ident(
   int_ref l "ast.ml" 379 10071 10092 "ast.ml" 379 10071 10093
 )
 "ast.ml" 379 10071 10112 "ast.ml" 379 10071 10120
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7357,9 +6781,6 @@ ident(
   int_ref r "ast.ml" 379 10071 10095 "ast.ml" 379 10071 10096
 )
 "ast.ml" 379 10071 10121 "ast.ml" 379 10071 10129
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7411,9 +6832,6 @@ ident(
   int_ref l "ast.ml" 380 10130 10152 "ast.ml" 380 10130 10153
 )
 "ast.ml" 380 10130 10171 "ast.ml" 380 10130 10179
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7432,9 +6850,6 @@ ident(
   int_ref r "ast.ml" 380 10130 10155 "ast.ml" 380 10130 10156
 )
 "ast.ml" 380 10130 10180 "ast.ml" 380 10130 10188
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7486,9 +6901,6 @@ ident(
   int_ref l "ast.ml" 381 10189 10211 "ast.ml" 381 10189 10212
 )
 "ast.ml" 381 10189 10230 "ast.ml" 381 10189 10238
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7507,9 +6919,6 @@ ident(
   int_ref r "ast.ml" 381 10189 10214 "ast.ml" 381 10189 10215
 )
 "ast.ml" 381 10189 10239 "ast.ml" 381 10189 10247
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7561,9 +6970,6 @@ ident(
   int_ref l "ast.ml" 382 10248 10267 "ast.ml" 382 10248 10268
 )
 "ast.ml" 382 10248 10289 "ast.ml" 382 10248 10297
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7582,9 +6988,6 @@ ident(
   int_ref r "ast.ml" 382 10248 10270 "ast.ml" 382 10248 10271
 )
 "ast.ml" 382 10248 10298 "ast.ml" 382 10248 10306
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7636,9 +7039,6 @@ ident(
   int_ref l "ast.ml" 383 10307 10327 "ast.ml" 383 10307 10328
 )
 "ast.ml" 383 10307 10349 "ast.ml" 383 10307 10357
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7657,9 +7057,6 @@ ident(
   int_ref r "ast.ml" 383 10307 10330 "ast.ml" 383 10307 10331
 )
 "ast.ml" 383 10307 10358 "ast.ml" 383 10307 10366
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7711,9 +7108,6 @@ ident(
   int_ref l "ast.ml" 384 10367 10387 "ast.ml" 384 10367 10388
 )
 "ast.ml" 384 10367 10422 "ast.ml" 384 10367 10430
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7739,9 +7133,6 @@ ident(
   int_ref r "ast.ml" 384 10367 10390 "ast.ml" 384 10367 10391
 )
 "ast.ml" 385 10431 10448 "ast.ml" 385 10431 10456
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7797,9 +7188,6 @@ ident(
   int_ref l "ast.ml" 386 10458 10478 "ast.ml" 386 10458 10479
 )
 "ast.ml" 386 10458 10505 "ast.ml" 386 10458 10513
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7825,9 +7213,6 @@ ident(
   int_ref r "ast.ml" 386 10458 10481 "ast.ml" 386 10458 10482
 )
 "ast.ml" 387 10514 10531 "ast.ml" 387 10514 10539
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7883,9 +7268,6 @@ ident(
   int_ref l "ast.ml" 388 10541 10561 "ast.ml" 388 10541 10562
 )
 "ast.ml" 388 10541 10587 "ast.ml" 388 10541 10595
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7911,9 +7293,6 @@ ident(
   int_ref r "ast.ml" 388 10541 10564 "ast.ml" 388 10541 10565
 )
 "ast.ml" 389 10596 10613 "ast.ml" 389 10596 10621
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7962,9 +7341,6 @@ ident(
   int_ref l "ast.ml" 390 10623 10642 "ast.ml" 390 10623 10643
 )
 "ast.ml" 390 10623 10655 "ast.ml" 390 10623 10663
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -7990,9 +7366,6 @@ ident(
   int_ref r "ast.ml" 390 10623 10645 "ast.ml" 390 10623 10646
 )
 "ast.ml" 390 10623 10666 "ast.ml" 390 10623 10674
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8049,9 +7422,6 @@ ident(
   int_ref l "ast.ml" 391 10691 10711 "ast.ml" 391 10691 10712
 )
 "ast.ml" 391 10691 10723 "ast.ml" 391 10691 10731
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8077,9 +7447,6 @@ ident(
   int_ref r "ast.ml" 391 10691 10714 "ast.ml" 391 10691 10715
 )
 "ast.ml" 391 10691 10735 "ast.ml" 391 10691 10743
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8136,9 +7503,6 @@ ident(
   int_ref l "ast.ml" 392 10760 10779 "ast.ml" 392 10760 10780
 )
 "ast.ml" 392 10760 10792 "ast.ml" 392 10760 10800
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8164,16 +7528,10 @@ ident(
   int_ref r "ast.ml" 392 10760 10782 "ast.ml" 392 10760 10783
 )
 "ast.ml" 392 10760 10804 "ast.ml" 392 10760 10812
-call(
-  stack
-)
 type(
   Int32.t
 )
 "ast.ml" 392 10760 10792 "ast.ml" 392 10760 10812
-call(
-  stack
-)
 type(
   bool
 )
@@ -8226,9 +7584,6 @@ ident(
   int_ref l "ast.ml" 393 10829 10849 "ast.ml" 393 10829 10850
 )
 "ast.ml" 393 10829 10861 "ast.ml" 393 10829 10869
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8254,16 +7609,10 @@ ident(
   int_ref r "ast.ml" 393 10829 10852 "ast.ml" 393 10829 10853
 )
 "ast.ml" 393 10829 10874 "ast.ml" 393 10829 10882
-call(
-  stack
-)
 type(
   Int32.t
 )
 "ast.ml" 393 10829 10861 "ast.ml" 393 10829 10882
-call(
-  stack
-)
 type(
   bool
 )
@@ -8316,9 +7665,6 @@ ident(
   int_ref l "ast.ml" 394 10899 10918 "ast.ml" 394 10899 10919
 )
 "ast.ml" 394 10899 10931 "ast.ml" 394 10899 10939
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8344,16 +7690,10 @@ ident(
   int_ref r "ast.ml" 394 10899 10921 "ast.ml" 394 10899 10922
 )
 "ast.ml" 394 10899 10943 "ast.ml" 394 10899 10951
-call(
-  stack
-)
 type(
   Int32.t
 )
 "ast.ml" 394 10899 10931 "ast.ml" 394 10899 10951
-call(
-  stack
-)
 type(
   bool
 )
@@ -8406,9 +7746,6 @@ ident(
   int_ref l "ast.ml" 395 10968 10988 "ast.ml" 395 10968 10989
 )
 "ast.ml" 395 10968 11000 "ast.ml" 395 10968 11008
-call(
-  stack
-)
 type(
   Int32.t
 )
@@ -8434,16 +7771,10 @@ ident(
   int_ref r "ast.ml" 395 10968 10991 "ast.ml" 395 10968 10992
 )
 "ast.ml" 395 10968 11013 "ast.ml" 395 10968 11021
-call(
-  stack
-)
 type(
   Int32.t
 )
 "ast.ml" 395 10968 11000 "ast.ml" 395 10968 11021
-call(
-  stack
-)
 type(
   bool
 )
@@ -8478,9 +7809,6 @@ ident(
   int_ref e "ast.ml" 367 9562 9581 "ast.ml" 367 9562 9582
 )
 "ast.ml" 398 11051 11055 "ast.ml" 398 11051 11061
-call(
-  tail
-)
 type(
   Int32.t
 )
