@@ -1,0 +1,30 @@
+K 10
+svn:ignore
+V 153
+*.cmx
+*.cmo
+*.cmi
+*.cma
+*.cmxa
+*.byte
+*.native
+*.cmi
+_build
+*.o
+*~
+.*
+c_bin
+c_obj
+TAGS
+*.out
+stub
+c_bin
+c_obj
+feedback.txt
+c_obj/
+c_bin/
+*.s
+osoln
+ostub
+
+END
