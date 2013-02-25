@@ -140,27 +140,21 @@ E12:
   | LPAREN exp RPAREN { $2 }
   | IDENT   { Id (snd $1) }
 
-
 stmt:
-	| stmt_noIF { $1 }
-	| stmt_mIF 	{ $1 } 
-	| stmt_uIF	{ $1 }
-	
-stmt_noIF:
-	| lhs EQ exp SEMI { Assign (Var(snd($1)), $3) }
-	| WHILE LPAREN exp RPAREN stmt { While ($3, $5) }
-	| FOR LPAREN vdecllist SEMI expOPT SEMI stmtOPT RPAREN stmt { For ($3,$5,$7,$9) }
-	
-/* Unmatched If*/
+  | stmt_mIF { $1 }
+	| stmt_uIF { $1 }
+
 stmt_uIF:
-	| IF LPAREN exp RPAREN stmt { If ($3, $5, None) }
-	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_uIF { If ($3, $5, Some ($7)) }
+	| IF LPAREN exp RPAREN stmt 								    { If ($3, $5, None) }
+	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_uIF 	{ If ($3, $5, Some ($7)) }
 
 /*Matched If*/
 stmt_mIF:
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_mIF { If ($3, $5, Some ($7)) }
-	| stmt_noIF { $1 }
-
+	| lhs EQ exp SEMI 													{ Assign (Var(snd($1)), $3) }
+	| LBRACE block RBRACE 											{ Block ($2) }
+	| WHILE LPAREN exp RPAREN stmt 							{ While ($3, $5) }
+	| FOR LPAREN vdecllist SEMI expOPT SEMI stmtOPT RPAREN stmt { For ($3,$5,$7,$9) }
 
 
  
