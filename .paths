@@ -74,4 +74,9 @@
 .git/hooks
 .git/branches
 /usr/local/lib/ocaml
+<<<<<<< HEAD
+=======
+_build/c_bin
+_build/c_obj
+>>>>>>> d1b8529eecaa81ee4abec6154a63a64ffacc90f7
 tests
