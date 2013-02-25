@@ -100,39 +100,33 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t) : Ll.in
 		(up_insns, up_ctxt)
 	in List.fold_right folder vars ([], old_ctxt)
 
-	and compile_stmt (s : Ast.stmt) (c : Ctxt.t) (lop : Ll.lbl option) : Ll.lbl * Ll.bblock list =
-		let final_branch (exit : Ll.operand) : Ll.terminator =
-			begin match lop with
-    	| None -> Ret exit
-			| Some l -> Br l
-			end in
-		 
+	and compile_stmt (s : Ast.stmt) (c : Ctxt.t) (next_l : Ll.lbl) : Ll.lbl * Ll.bblock list =		 
 		begin match s with
-  	| Assign (l, e) ->
+  	| Ast.Assign (l, e) ->
 			let l_uid =
 				begin match l with
-				| Var str -> (Ctxt.lookup str c)
+				| Ast.Var str -> (Ctxt.lookup str c)
 				end in
 			let (op1, insn1) = decode_op e c in
-			let b_ilist = insn1 @ [Store (op1, Ll.Local l_uid)] in
-			let b_lbl = mk_lbl () in
-			let b_term = final_branch (Ll.Local l_uid) in
+			let b_ilist = insn1 @ [Ll.Store (op1, Ll.Local l_uid)] in
+			let b_lbl = Ll.mk_lbl () in
+			let b_term = Ll.Br next_l in
 			(b_lbl, [{ Ll.label = b_lbl; Ll.insns = b_ilist; Ll.terminator = b_term }])
 			
-  	| If (e, s1, s2op) ->
+  	| Ast.If (e, s1, s2op) ->
 			let bool_uid, cmp_insns = compile_exp e c in
-			let s1_lbl, s1_bl_list = compile_stmt s1 c lop in
+			let s1_lbl, s1_bl_list = compile_stmt s1 c next_l in
 			let s2_lbl, s2_bl_list = 
 				begin match s2op with
 				| None -> 
 					let new_lbl = Ll.mk_lbl () in
 					let new_bl = {Ll.label = new_lbl; 
 												Ll.insns = []; 
-												Ll.terminator = final_branch Local (bool_uid)} in
-					(new_lbl, new_bl)
-				| Some s2 -> compile_stmt s2 c lop
+												Ll.terminator = Ll.Br next_l } in
+					(new_lbl, [new_bl])
+				| Some s2 -> compile_stmt s2 c next_l
 				end in
-			let b_term = Ll.CBr (bool_uid, s1_lbl, s2_lbl) in
+			let b_term = Ll.Cbr (Ll.Local (bool_uid), s1_lbl, s2_lbl) in
 			let b_lbl = Ll.mk_lbl () in
 			let if_block = 
 				{ Ll.label = b_lbl; 
@@ -140,45 +134,49 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t) : Ll.in
 					Ll.terminator = b_term } in
 			(b_lbl, [if_block] @ s1_bl_list @ s2_bl_list)
 			
-  	| While (e, s1) ->
-  	| For (vs, eop, s1op, s2) ->
-  	| Block b -> compile_block b c
+  	(* | Ast.While (e, s1) ->           *)
+  	(* | Ast.For (vs, eop, s1op, s2) -> *)
+  	| Ast.Block b -> 
+			let b_lbl, b_bl, b_ctxt = compile_block b c next_l in
+			(b_lbl,b_bl)
+		| _ -> failwith "workin on it"
   	end
 	
 	(* Returns a tuple with the a bblock list and its topmost label *)
-	and compile_stmts (s : Ast.stmt list) (c : Ctxt.t) : Ll.lbl * Ll.bblock list =
-		let block_list, lbl_opt = 
+	and compile_stmts (s : Ast.stmt list) (c : Ctxt.t) (next : Ll.lbl) : Ll.lbl * Ll.bblock list =
+		let block_list, next_l = 
   		List.fold_right (
-  			fun (st : Ast.stmt) ((bblist, lblopt) : Ll.bblock list * Ll.lbl option) ->
-  				let s_lbl, s_blk = compile_stmt st c lblopt in
-  				(s_blk @ bblist, Some (s_lbl))
-  				) s ([], None) in
-		let top_lbl =
-			begin match lbl_opt with
-			| None -> failwith "given empty stmt list"
-			| Some l -> l
-			end in
-			(top_lbl, block_list)
+  			fun (st : Ast.stmt) ((bblist, next_lbl) : Ll.bblock list * Ll.lbl) ->
+  				let s_lbl, s_blk = compile_stmt st c next_lbl in
+  				(s_blk @ bblist, s_lbl)
+  				) s ([], next) in
+		(next_l, block_list)
 		
 	(* Takes an Ast.Block and its context and returns a block list of its compiled innards, *)
-	(* and a label pointing to the top of the block list *)
-	and compile_block (b : Ast.block) (outer_ctxt : Ctxt.t) : Ll.lbl * Ll.bblock list =
+	(* and a label pointing to the top of the block list and the outer context it generates *)
+	and compile_block (b : Ast.block) (outer_ctxt : Ctxt.t) (next : Ll.lbl) : Ll.lbl * Ll.bblock list * Ctxt.t =
 		let vars, stmts = b in
 		let entry_insns, inner_ctxt = compile_var_decls vars outer_ctxt in
-		let top_lbl, bblist = compile_stmts stmts inner_ctxt in
+		let top_lbl, bblist = compile_stmts stmts inner_ctxt next in
 		let b_lbl = Ll.mk_lbl () in
 		let entry_block =
 			{Ll.label = b_lbl;
 			 Ll.insns = entry_insns;
 			 Ll.terminator = Ll.Br top_lbl } in
-		(b_lbl, entry_block::bblist)
-			 
-		
-		
+		(b_lbl, entry_block::bblist, outer_ctxt)
 
 let compile_prog ((block, ret):Ast.prog) : Ll.prog =
-	(* let vdecls, stmts = block in *)
-	failwith "blah"
+	let finish_lbl = Ll.mk_lbl () in
+	let strt_lbl, block_list, block_ctxt = compile_block block Ctxt.empty finish_lbl in
+	let finish_uid, finish_insns =  compile_exp ret block_ctxt in
+	let finish_block = 
+	{ Ll.label = finish_lbl;
+		Ll.insns = finish_insns;
+		Ll.terminator = Ll.Ret (Ll.Local (finish_uid)) } in
+	{ Ll.ll_cfg = block_list @ [finish_block] ;
+	  Ll.ll_entry = strt_lbl }
+		
+	
 				
 				
 				
