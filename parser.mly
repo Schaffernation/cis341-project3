@@ -144,11 +144,12 @@ stmt:
   | stmt_mIF { $1 }
 	| stmt_uIF { $1 }
 
+/* Unmatched If*/
 stmt_uIF:
-	| IF LPAREN exp RPAREN stmt 								    { If ($3, $5, None) }
+	| IF LPAREN exp RPAREN stmt     								{ If ($3, $5, None) }
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_uIF 	{ If ($3, $5, Some ($7)) }
 
-/*Matched If*/
+/* Matched If*/
 stmt_mIF:
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_mIF { If ($3, $5, Some ($7)) }
 	| lhs EQ exp SEMI 													{ Assign (Var(snd($1)), $3) }
