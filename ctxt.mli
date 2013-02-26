@@ -21,7 +21,6 @@ val empty : t
  *)
 val alloc : string -> t -> t * Ll.uid
 
-
 (* Look up the most recent binding for the given identifier.
    @raise Symbol_error - if not found
 *)

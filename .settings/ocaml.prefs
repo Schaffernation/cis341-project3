@@ -1,5 +1,7 @@
 compil_mode//_build/main.byte=byte-code
+compil_mode//_build/main.d.byte=byte-code
 compil_mode//_build/main.native=native
 compil_mode/main.byte=byte-code
+compil_mode/main.d.byte=byte-code
 compil_mode/main.native=native
 eclipse.preferences.version=1

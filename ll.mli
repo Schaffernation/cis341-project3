@@ -41,6 +41,7 @@ type bblock =
 (* Programs - with an entry point label *)
 type prog = {ll_cfg: bblock list; ll_entry: lbl}
 
+val pp_uid : uid -> string
 
 val serialize_prog : prog -> (string -> unit) -> unit
 val string_of_prog : prog -> string

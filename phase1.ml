@@ -96,15 +96,18 @@ let rec compile_exp (e : Ast.exp) (c : Ctxt.t) : Ll.uid * Ll.insn list =
 let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t) 
 																											: Ll.insn list * Ctxt.t =
 																												
-	let fold_vds (var : Ast.var_decl) ((insns, ctxt) : Ll.insn list * Ctxt.t ) =
+	let fold_vds ((insns, ctxt) : Ll.insn list * Ctxt.t ) (var : Ast.var_decl) =
 		let up_ctxt, new_uid = Ctxt.alloc var.Ast.v_id ctxt in
+		let x = fst(Ctxt.peek up_ctxt) in
+		let y = Ll.pp_uid new_uid in
 		let exp_op, exp_insn = decode_op var.Ast.v_init ctxt in
 		
 		let vd_insns = Ll.Alloca(new_uid)::Ll.Store(exp_op, Ll.Local(new_uid))::[] in
-		let up_insns = exp_insn @ vd_insns @ insns in
+		let up_insns = insns @ exp_insn @ vd_insns in
 		
 		(up_insns, up_ctxt)
-	in List.fold_right fold_vds vars ([], old_ctxt)
+		
+	in List.fold_left fold_vds ([], old_ctxt) vars
 
 	and compile_stmt (s : Ast.stmt) (c : Ctxt.t) (next_l : Ll.lbl) 
 																										: Ll.lbl * Ll.bblock list =
@@ -172,19 +175,25 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 				  Ll.insns = vs_insns;
 					Ll.terminator = Ll.Br strt_lbl } in
 					
-			let then_lbl, then_blks = 
-  			begin match s1op with
-  			| None -> compile_stmt s2 vs_ctxt strt_lbl
-  			| Some s1 -> compile_stmts (s2::s1::[]) vs_ctxt strt_lbl
-  			end in
+			let cont_lbl =
+				begin match eop with
+				| None -> else_lbl   (* continue case *)
+				| Some _ -> strt_lbl (* loop case *)
+				end in
+				
+			let then_lbl, then_blks =
+				begin match s1op with
+				| None ->    compile_stmt s2 vs_ctxt cont_lbl
+				| Some s1 -> compile_stmts (s2::s1::[]) vs_ctxt cont_lbl
+				end in
 				
 			let strt_blk = 
   			begin match eop with
-  			| None -> 
+  			| None ->
 					{ Ll.label = strt_lbl; 
 					  Ll.insns = []; 
 						Ll.terminator = Ll.Br then_lbl }
-  			| Some e ->
+				| Some e ->
 					let bool_uid, cmp_insns = compile_exp e vs_ctxt in
 					{ Ll.label = strt_lbl; 
 					  Ll.insns = cmp_insns; 
@@ -228,7 +237,7 @@ let compile_prog ((block, ret):Ast.prog) : Ll.prog =
 	let end_lbl = Ll.mk_lbl () in
 	
 	let strt_lbl, blk_list, blk_ctxt = compile_block block Ctxt.empty end_lbl in
-	
+
 	let end_uid, end_insns =  compile_exp ret blk_ctxt in
 	let end_blk = 
 	{ Ll.label = end_lbl;

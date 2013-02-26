@@ -8,23 +8,27 @@ type t = (string * Ll.uid) list
 exception Scope_error of string 
 
 let dump (c : t) : unit =
-	List.fold_right (
-		fun (var : string * Ll.uid) (a : unit) ->
-			let (name, id) = var in
-			Printf.sprintf "%s -> \n" name;
+	List.iter (
+		fun ((name, id) : string * Ll.uid) ->
+			let _ = Printf.sprintf "%s -> \n" name in
 			()
-     ) c ()
+     ) c
 		
 let empty : t = [] 
+
+let peek (c : t) : string * Ll.uid =
+	List.hd c
 
 (* try to reuse freed, otherwise create new *)
 let alloc (sym : string) (c : t) : (t * Ll.uid) =
 	let new_uid = Ll.mk_uid (sym) in
 	let new_t = (sym, new_uid) :: c in
+	let _ = print_endline (Ll.pp_uid new_uid) in
 	(new_t, new_uid)
 
 let lookup (sym : string) (c : t) : Ll.uid =
 	try
+		let _ = print_endline sym in
 		List.assoc sym c
 	with
-	| _ -> raise (Scope_error ("sym not in scope"))
+	| _ -> raise (Scope_error sym)
