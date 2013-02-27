@@ -60,7 +60,7 @@ let rec compile_exp (e : Ast.exp) (c : Ctxt.t) : Ll.uid * Ll.insn list =
   		| Some o -> o
   		end in
 		let new_uid = Ll.gen_sym () in
-		(new_uid, [Ll.Store (op, Ll.Local new_uid)])
+		(new_uid, [Ll.Binop (new_uid,Ll.Add,op,(Ll.Const 0l)) ])
 		
 	| Ast.Binop (b, e1, e2) -> 
 		(* Compile e1 and e2 *)		
@@ -98,11 +98,9 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 																												
 	let fold_vds ((insns, ctxt) : Ll.insn list * Ctxt.t ) (var : Ast.var_decl) =
 		let up_ctxt, new_uid = Ctxt.alloc var.Ast.v_id ctxt in
-		let x = fst(Ctxt.peek up_ctxt) in
-		let y = Ll.pp_uid new_uid in
 		let exp_op, exp_insn = decode_op var.Ast.v_init ctxt in
 		
-		let vd_insns = Ll.Alloca(new_uid)::Ll.Store(exp_op, Ll.Local(new_uid))::[] in
+		let vd_insns = Ll.Alloca(new_uid)::Ll.Store(Ll.Local(new_uid), exp_op)::[] in
 		let up_insns = insns @ exp_insn @ vd_insns in
 		
 		(up_insns, up_ctxt)
@@ -119,7 +117,7 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 				end in
 			let (op1, insn1) = decode_op e c in
 			
-			let a_insns = insn1 @ [Ll.Store (op1, Ll.Local l_uid)] in
+			let a_insns = insn1 @ [Ll.Store (Ll.Local l_uid, op1)] in
 			let a_lbl = Ll.mk_lbl () in
 			let a_blk = 
 				{ Ll.label = a_lbl; 
@@ -231,7 +229,7 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 			{Ll.label = b_lbl;
 			 Ll.insns = entry_insns;
 			 Ll.terminator = Ll.Br top_lbl } in
-		(b_lbl, entry_block::bblist, outer_ctxt)
+		(b_lbl, entry_block::bblist, inner_ctxt)
 
 let compile_prog ((block, ret):Ast.prog) : Ll.prog =
 	let end_lbl = Ll.mk_lbl () in
@@ -243,10 +241,5 @@ let compile_prog ((block, ret):Ast.prog) : Ll.prog =
 	{ Ll.label = end_lbl;
 		Ll.insns = end_insns;
 		Ll.terminator = Ll.Ret (Ll.Local (end_uid)) } in
-		
-	{ Ll.ll_cfg = blk_list @ [end_blk] ; Ll.ll_entry = strt_lbl }
-		
 	
-				
-				
-				
+	{ Ll.ll_cfg = blk_list @ [end_blk] ; Ll.ll_entry = strt_lbl }
