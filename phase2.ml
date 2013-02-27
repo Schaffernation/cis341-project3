@@ -114,12 +114,11 @@ let compile_prog (prog : Ll.prog) : Cunit.cunit =
         [] in
         
       let b_end =
-        prologue @ 
+				epilogue @
         begin match b.terminator with
-        | Ll.Ret op  -> Mov (eax, emit_opnd op uid_l) :: epilogue @ [Ret]
-        | Ll.Br l   -> epilogue @ [Jmp (Lbl l)]
+        | Ll.Ret op  -> Mov (eax, emit_opnd op uid_l) :: [Ret]
+        | Ll.Br l   ->  [Jmp (Lbl l)]
         | Cbr (op, l1, l2) ->
-          epilogue @
 					[Cmp (emit_opnd op uid_l, Imm 0l)] @
           [J (Eq, l1)] @
           [J (NotEq, l2)]
@@ -128,7 +127,7 @@ let compile_prog (prog : Ll.prog) : Cunit.cunit =
       let new_blk = {
         global = true;
         label = b.Ll.label;
-        insns = b_insns @ b_end
+        insns = prologue @ b_insns @ b_end
       } in
       
       (new_blk :: bl_accum) in
