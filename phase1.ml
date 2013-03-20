@@ -53,14 +53,17 @@ let compile_opnd (e : Ast.exp) (c : Ctxt.t) : Ll.operand option =
 (* Simplifies exp in a given context to an instruction and its exiting uid *)
 let rec compile_exp (e : Ast.exp) (c : Ctxt.t) : Ll.uid * Ll.insn list =
 	begin match e with
-	| Ast.Cint _ | Ast.Id _ -> 
+	| Ast.Cint i ->
+		let new_uid = Ll.gen_sym () in
+		(new_uid, [Ll.Binop (new_uid,Ll.Add,Ll.Const 0l, Ll.Const i)])
+	| Ast.Id _ -> 
 		let op = 
   		begin match compile_opnd e c with
   		| None -> failwith "wtf"
   		| Some o -> o
   		end in
 		let new_uid = Ll.gen_sym () in
-		(new_uid, [Ll.Binop (new_uid,Ll.Add,op,(Ll.Const 0l)) ])
+		(new_uid, [Ll.Load (new_uid,op)])
 		
 	| Ast.Binop (b, e1, e2) -> 
 		(* Compile e1 and e2 *)		
@@ -82,13 +85,15 @@ let rec compile_exp (e : Ast.exp) (c : Ctxt.t) : Ll.uid * Ll.insn list =
 	(* Simplifies input exp to Some (Local or an Const) *)
 	(* or None if exp is anything else *)
   and decode_op (e : Ast.exp) (c : Ctxt.t) : Ll.operand * Ll.insn list =
-  	let op = compile_opnd e c in
-  	begin match op with
-  	| None -> 
-  			let (uid1, insn1) = compile_exp e c in
+  	(* let op = compile_opnd e c in *)
+  	(* begin match op with                        *)
+  	(* | None ->                                  *)
+  	(* 		let (uid1, insn1) = compile_exp e c in *)
+  	(* 		(Ll.Local uid1, insn1)                 *)
+  	(* | Some o -> (o, [])                        *)
+  	(* end                                        *)
+		let (uid1, insn1) = compile_exp e c in
   			(Ll.Local uid1, insn1)
-  	| Some o -> (o, [])
-  	end 
 
 (** Mutating context - Recursion Block **)
 (* Returns a list of instructions and the context *)
@@ -100,7 +105,8 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 		let up_ctxt, new_uid = Ctxt.alloc var.Ast.v_id ctxt in
 		let exp_op, exp_insn = decode_op var.Ast.v_init ctxt in
 		
-		let vd_insns = Ll.Alloca(new_uid)::Ll.Store(Ll.Local(new_uid), exp_op)::[] in
+		let vd_insns = Ll.Alloca(new_uid)::Ll.Store(exp_op, Ll.Local(new_uid))::[] in
+		(* let vd_insns = [Ll.Binop (new_uid,Ll.Add,exp_op,(Ll.Const 0l))] in *)
 		let up_insns = insns @ exp_insn @ vd_insns in
 		
 		(up_insns, up_ctxt)
@@ -117,7 +123,8 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 				end in
 			let (op1, insn1) = decode_op e c in
 			
-			let a_insns = insn1 @ [Ll.Store (Ll.Local l_uid, op1)] in
+			let a_insns = insn1 @ [Ll.Store (op1,Ll.Local l_uid)] in
+			(* let a_insns = insn1 @ [Ll.Binop (l_uid,Ll.Add,op1,(Ll.Const 0l))] in *)
 			let a_lbl = Ll.mk_lbl () in
 			let a_blk = 
 				{ Ll.label = a_lbl; 
@@ -172,17 +179,11 @@ let rec compile_var_decls (vars : Ast.var_decl list) (old_ctxt : Ctxt.t)
 				{ Ll.label = pre_lbl; 
 				  Ll.insns = vs_insns;
 					Ll.terminator = Ll.Br strt_lbl } in
-					
-			let cont_lbl =
-				begin match eop with
-				| None -> else_lbl   (* continue case *)
-				| Some _ -> strt_lbl (* loop case *)
-				end in
 				
 			let then_lbl, then_blks =
 				begin match s1op with
-				| None ->    compile_stmt s2 vs_ctxt cont_lbl
-				| Some s1 -> compile_stmts (s2::s1::[]) vs_ctxt cont_lbl
+				| None ->    compile_stmt s2 vs_ctxt strt_lbl
+				| Some s1 -> compile_stmts (s2::s1::[]) vs_ctxt strt_lbl
 				end in
 				
 			let strt_blk = 

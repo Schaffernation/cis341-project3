@@ -38,6 +38,7 @@ open Ast;;
 %token <Range.t> GTGT     /* >> */
 %token <Range.t> GTGTGT   /* >>> */
 
+
 /* ---------------------------------------------------------------------- */
 %start toplevel
 %type <Ast.prog> toplevel
@@ -148,14 +149,16 @@ stmt:
 stmt_uIF:
 	| IF LPAREN exp RPAREN stmt     								{ If ($3, $5, None) }
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_uIF 	{ If ($3, $5, Some ($7)) }
+	| WHILE LPAREN exp RPAREN stmt_uIF 							{ While ($3, $5) }
+	| FOR LPAREN vdecllist SEMI expOPT SEMI stmtOPT RPAREN stmt_uIF { For ($3,$5,$7,$9) }
 
 /* Matched If*/
 stmt_mIF:
 	| IF LPAREN exp RPAREN stmt_mIF ELSE stmt_mIF { If ($3, $5, Some ($7)) }
 	| lhs EQ exp SEMI 													{ Assign (Var(snd($1)), $3) }
 	| LBRACE block RBRACE 											{ Block ($2) }
-	| WHILE LPAREN exp RPAREN stmt 							{ While ($3, $5) }
-	| FOR LPAREN vdecllist SEMI expOPT SEMI stmtOPT RPAREN stmt { For ($3,$5,$7,$9) }
+	| WHILE LPAREN exp RPAREN stmt_mIF 							{ While ($3, $5) }
+	| FOR LPAREN vdecllist SEMI expOPT SEMI stmtOPT RPAREN stmt_mIF { For ($3,$5,$7,$9) }
 
 
  

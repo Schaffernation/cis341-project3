@@ -27,7 +27,6 @@ let alloc (sym : string) (c : t) : (t * Ll.uid) =
 
 let lookup (sym : string) (c : t) : Ll.uid =
 	try
-		let _ = print_endline sym in
 		List.assoc sym c
 	with
 	| _ -> raise (Scope_error sym)
